@@ -1,0 +1,15 @@
+content.layout.xml.[0]=<project-layout><tab_container selected_index="1"><tab node_name="diagrams/default.txvClassDiagram20"/><tab node_name="diagrams/Klassendiagramm_Test1.txvClassDiagram20"/></tab_container></project-layout>
+history.files.active[0]=diagrams/Klassendiagramm_Test1.txvClassDiagram20
+history.files.open.1[0]=diagrams/default.txvClassDiagram20
+history.files.open.2[0]=diagrams/Klassendiagramm_Test1.txvClassDiagram20
+team.ActiveVCS[0]=CVS
+team.CvsAccessMethod[0]=ext
+team.CvsAutosaveEnabled[0]=1
+team.CvsModule[0]=keiler
+team.CvsPruneEmptyDirs[0]=1
+team.CvsRemoteShell[0]=cvs.exe
+team.CvsRepository[0]=cvsroot/keiler
+team.CvsServer[0]=cvs.berlios.de
+team.CvsShowConsole[0]=0
+team.CvsUsername[0]=siegfriedm
+team.lastScanned[0]=1129214437512
