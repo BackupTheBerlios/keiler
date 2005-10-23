@@ -3,19 +3,12 @@
     <view uin="V1hexuhef5iktrx9nqn1">
         <property name="$metaclass" value="ClassDiagram20"/>
         <property name="$description" value="Just a test!"/>
-        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true
-&#xA;toolbar.buttonRunCount = 2
-&#xA;toolbar.group.pattern.expanded = true
-&#xA;toolbar.group.ocl.expanded = true
-&#xA;toolbar.group.note.expanded = true
-&#xA;scrollX = 0
-&#xA;scrollY = 0
-&#xA;zoomFactor = 1.0
-&#xA;"/>
-        <reference referencedUin="design:node:::-tdsqjuef5ikxx1-g0dewc">
+        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;toolbar.group.pattern.expanded = true &#xA;toolbar.group.ocl.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
+        <reference referencedUin="design:view:::V1hexuhef5nl9e0-lgfkfa">
+            <property name="@__fqn" value="uml:package:fund-raiser:src:package1"/>
             <property name="$shortcutReference" value=""/>
             <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="140,120,81,87"/>
+            <property name="bounds" value="60,60,85,100"/>
         </reference>
     </view>
 </nodeSet>
