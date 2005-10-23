@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <node uin="-tdsqjuef5nm24ukxemtk">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="Spendenorganistion"/>
+        <link uin="L-4dc66ef5nnysq-8kybwu">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="composition" value=""/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="0..*"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nm24ukxemtk" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nndm8-y10j3y" role="Supplier"/>
+        </link>
+        <link uin="L-4dc66ef5qy9wzua5hhj">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="clientCardinality" value="0..*"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nm24ukxemtk" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5qxblv-1u8h0r" role="Supplier"/>
+        </link>
+        <link uin="L-4dc66ef5rd7trgmiq5y">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="composition" value=""/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="0..1"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nm24ukxemtk" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5rilnl-hzccy2" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-tdsqjuef5nmi0i18ewe0">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="Spender"/>
+        <link uin="L-4dc66ef5nu7xpqmvdhy">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="composition" value=""/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="0..*"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nmi0i18ewe0" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nmt5c9osslw" role="Supplier"/>
+        </link>
+        <link uin="L-4dc66ef5ofuka-vshyl">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="clientCardinality" value="0..*"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nmi0i18ewe0" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5odv033c0i79" role="Supplier"/>
+        </link>
+        <link uin="Lb1rvu1ef5r97ox-n80dvk">
+            <property name="$metaclass" value="Dependency20"/>
+            <property name="label" value="aboniert"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nmi0i18ewe0" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5r3dtmv7ocfe" role="Supplier"/>
+        </link>
+        <link uin="L-4dc66ef5rc2t7-21p1mc">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="composition" value=""/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="0..1"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nmi0i18ewe0" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5rbu9jyh4804" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-tdsqjuef5nmt5c9osslw">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="Spende"/>
+        <link uin="L-4dc66ef5o1af8c53xz2">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="clientCardinality" value="1"/>
+            <property name="supplierCardinality" value="0..*"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nmt5c9osslw" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nxok61ctg9j" role="Supplier"/>
+        </link>
+        <link uin="L-4dc66ef5qzj05-yrbozf">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="clientCardinality" value="0..1"/>
+            <property name="supplierCardinality" value="0..*"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nmt5c9osslw" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5qxblv-1u8h0r" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-tdsqjuef5nndm8-y10j3y">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="SpendenAktion"/>
+        <link uin="L-4dc66ef5nve36380bt4">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="0..*"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nndm8-y10j3y" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nmt5c9osslw" role="Supplier"/>
+        </link>
+        <link uin="L-4dc66ef5nzv125kj0gf">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="clientCardinality" value="0..*"/>
+            <property name="supplierCardinality" value="0..*"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nndm8-y10j3y" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nxok61ctg9j" role="Supplier"/>
+        </link>
+        <link uin="L-4dc66ef5qoie4bsim8m">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="0..*"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nndm8-y10j3y" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5odv033c0i79" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-tdsqjuef5nxok61ctg9j">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="SpendenWerber"/>
+        <link uin="L-4dc66ef5rkeqe-rw8d0w">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="composition" value=""/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="1"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nxok61ctg9j" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5rjzsyhzpvlt" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-tdsqjuef5odv033c0i79">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="Dauerauftrag"/>
+        <link uin="L-4dc66ef5oelec-hecvi5">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="composition" value=""/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="1"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5odv033c0i79" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5oe6m79jx1vv" role="Supplier"/>
+        </link>
+        <link uin="L-4dc66ef5ogxukc11jle">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="clientCardinality" value="1"/>
+            <property name="supplierCardinality" value="0..*"/>
+            <participant referencedUin="design:node:::-tdsqjuef5odv033c0i79" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nxok61ctg9j" role="Supplier"/>
+        </link>
+        <link uin="L-4dc66ef5olcx4-f4814q">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="clientCardinality" value="0..*"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5odv033c0i79" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nmt5c9osslw" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-tdsqjuef5oe6m79jx1vv">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="EinzugsErmächtigung"/>
+    </node>
+    <node uin="-tdsqjuef5qxblv-1u8h0r">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="Verwendungszweck"/>
+    </node>
+    <node uin="-tdsqjuef5r3dtmv7ocfe">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="NewsLetter"/>
+        <link uin="L-4dc66ef5r4uco-c2yhz8">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="clientCardinality" value="1"/>
+            <property name="supplierCardinality" value="0..*"/>
+            <participant referencedUin="design:node:::-tdsqjuef5r3dtmv7ocfe" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5r3oz0-8qlbks" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-tdsqjuef5r3oz0-8qlbks">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="InterneMitarbeiter"/>
+    </node>
+    <node uin="-tdsqjuef5rbu9jyh4804">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="SpenderProfil"/>
+    </node>
+    <node uin="-tdsqjuef5rdtrsvrfbck">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="Unternehmen"/>
+        <link uin="L-4dc66ef5rdzlt-o9ilh1">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="composition" value=""/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="0..*"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5rdtrsvrfbck" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5r3oz0-8qlbks" role="Supplier"/>
+        </link>
+        <link uin="L-4dc66ef5rfrzb-h7er40">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="composition" value=""/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="0..1"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5rdtrsvrfbck" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nxok61ctg9j" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-tdsqjuef5rilnl-hzccy2">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="SpendenOrgMitarbeiter"/>
+    </node>
+    <node uin="-tdsqjuef5rjzsyhzpvlt">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="Gehalt"/>
+        <link uin="L-4dc66ef5rlot6yitlnr">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="0..*"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::-tdsqjuef5rjzsyhzpvlt" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5rlinq-9q8c89" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-tdsqjuef5rlinq-9q8c89">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="Auszahlung"/>
+        <link uin="Lb1rvu1ef5rmy30ea6nu6">
+            <property name="$metaclass" value="Dependency20"/>
+            <property name="label" value="Provision je nach Spendenanzahl"/>
+            <participant referencedUin="design:node:::-tdsqjuef5rlinq-9q8c89" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuef5nmt5c9osslw" role="Supplier"/>
+        </link>
+    </node>
+</nodeSet>
