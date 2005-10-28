@@ -646,7 +646,7 @@
             <property name="$metaclass" value="KernelAssociation20"/>
             <property name="aggregation" value=""/>
             <property name="clientCardinality" value="0..1"/>
-            <property name="supplierCardinality" value="0..1"/>
+            <property name="supplierCardinality" value="0..*"/>
             <participant referencedUin="design:node:::-tdsqjuefcosnjbfdeahm" role="Client"/>
             <participant referencedUin="design:node:::-tdsqjuefcovlexyarcmb" role="Supplier"/>
         </link>
