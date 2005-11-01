@@ -7,72 +7,64 @@
   <title>Login</title>
 
 
+<LINK rel="stylesheet" type="text/css" HREF="formstyle.css">
+	<title><bean:message key="title.logonform"/></title>
 </head>
-
 <body>
+  <table class="outlineTABLE">
+    <tr><td align="center" class="outlineTD">
+      <table align="center" width="550px">
+        <tr><td>
+		<br><br><br><br><br><br>
+		<img src="images/logon48.gif" alt="Anmelden"  border="0" align="left">
+          <br>
+          <div class="title">Fund Raiser Login</div>
+          <div class="subtitle">Fund Raiser Login
+		  	    	   <a href="hilfe.html" target="Daten"><img src="images/helpsmall.gif" alt="help"  border="0" align="texttop"></a>
+      
+          </div>
+        
+          <div class="boxrow"></div>
+<br><br><br><br><br>
+	<form action="main.html" method="POST">
+	<table border="0" >
 
-<h1 style="text-align: left;"></h1>
+			<tr>
+			<td align="left">
+			Name:
+        <font class="redstar">*</font></td>
+        <td><input name="" type="text" value=""></td>
+		</tr>
+				<tr>
+			<td align="left">
+			Passwort:
+        <font class="redstar">*</font></td>
+        <td><input name="" type="password" value=""></td>
+		</tr>
+			<tr>
+			<td align="left">
+			Passwort wiederholen:
+        <font class="redstar">*</font></td>
+        <td><input name="" type="password" value=""></td>
+		</tr>
+		 <tr><td colspan=2 align="left">
+         <font class="redstar">*</font>
+         <font class="redstartext">erforderliche Felder</font>
+       </td></tr>	
+ 			
+		
+        <td></td>
+			<td><input type="submit" value="Logon"></td>
+		</tr>
+		<tr>
+        
+	</table>
+	</form>
+        </tr></td>
+      <table>
+    </tr></td>
+  <table>
 
-<form action="loginOK.html">
-
-<table style="text-align: left; width: 100%; height: 143px;" border="0" cellpadding="2" cellspacing="2">
-
-  <tbody>
-
-    <tr>
-      <td></td>
-      <td></td>
-      <td>
-      <h1 style="text-align: left;">Allgemeiner Login</h1>
-      </td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-
-      <td></td>
-
-      <td><input type="radio" name="organisation" value="Spendenorganisation" checked="checked" />
-Spendenorganisation<br />
-<input type="radio" name="organisation" value="Spendenwerber" />
-Spendenwerber<br />
-<input type="radio" name="organisation" value="Kunde" />
-Spender</td>
-
-      <td style="width: 400px;">Email (e.g.
-email-adress@gmx.com)<br />
-
-      <input name="eingabe" value="Name" /><br />
-
-Password<br />
-
-      <input name="passwort" value="Passwort" type="password" />
-      <br />
-
-      <br />
-
-      </td>
-
-      <td></td>
-
-      <td></td>
-
-    </tr>
-	
-	<tr>
-      <td></td>
-      <td></td>
-      <td>
-       <input type="submit"> <input type="reset">
-      </td>
-      <td></td>
-      <td></td>
-    </tr>
-
-  </tbody>
-</table>
-
-</form>
 
 
 <br />

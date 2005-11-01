@@ -1,0 +1,339 @@
+
+/* Basic layout */
+
+body 		
+{
+	background-position: top left;
+	background-repeat: repeat-y;
+	margin: 0px 0px 0px 0px;
+	
+}
+
+
+TABLE, t {
+	/*border : 2px;
+	margin-top : 15px;
+	margin-left : 25px;
+	*/
+}
+
+TABLE.outlineTABLE{
+	width : 94%;
+	height:70%;
+	margin-top : 15px;
+	margin-left :3%;
+	margin-right: 3%;
+	
+}
+
+TABLE.outlineTABLEPrint{
+	width : 94%;
+	height:70%;
+	margin-top : 3px;
+	margin-left :3%;
+	margin-right: 3%;
+	
+}
+
+TABLE.middleTABLE{
+	/*text-align : center;*/
+	text-align: center;
+	
+}
+
+
+TABLE.innerTABLE{
+	text-align : center;
+}
+
+
+TABLE.listTable{
+	margin-top : 10px;
+	margin-bottom : 25px;
+	vertical-align : middle;
+	
+}
+
+TABLE.listTablePrint{
+	margin-top : 2px;
+	margin-bottom : 5px;
+	vertical-align : middle;
+	
+}
+
+TABLE.listBoxTable{
+	margin-top : 10px;
+	margin-bottom : 25px;
+	vertical-align : middle;
+	/*border : thin solid Gray;*/
+}
+
+TABLE.listHeaderTable{
+text-align : left;
+}
+
+TD {
+	/*border : 0px;
+	*/
+	padding : 2px;
+	vertical-align : top;
+	
+}
+
+TD.outlineTD {
+	border : 0px;
+	padding : 3px;
+	vertical-align : middle;
+}
+
+TD.graylineTD {
+	border-top: 1px solid Silver;
+	line-height : 1px;
+	padding : 0px;
+	margin : 0px;
+}
+
+TD.fieldlabel  {
+	text-align : left;
+
+}
+
+TD.fieldvalue  {
+	text-align : left;
+}
+
+TD.listHeader{
+text-align : left;
+}
+
+TR.stripe1TR{
+	background : #EDEDED;
+	/*background : #F5F5F5;*/
+	background: #f2f2f2;
+}
+
+TR.stripe2TR{
+		/*background : #EDEDED;
+	background : #e3eaf2;*/
+	background: #F8F8FF;
+}
+
+
+
+/* Fonts */
+
+.keyvalue{
+	font-weight : bold;
+}
+
+body, table, td, select, textarea, input  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*border-top :1px #DDDDDD solid;
+	border-bottom :1px #DDDDDD solid;*/
+}
+
+a { 
+	color: #003399; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+.title{
+	/*font-size: 14px;*/
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: none; 
+	color: #228B22;
+	color: #0066CC;
+	text-align: left;
+}
+
+
+
+.subtitle{
+	font-size: 13px;
+	line-height : 20px;
+	margin-top : 5px;
+	line-height : 20px;
+	margin-bottom : 15px;
+	text-align : left;
+	/*color: #333333;
+	*/
+	font-style : italic;
+}
+
+
+.error{
+border-top :1px #DDDDDD solid;
+	font-size: 12px;
+	line-height: 18px;
+	color: #CC0000;
+	font-weight : bold;
+}
+
+.errorheaderpos{
+	/*border-top :1px #DDDDDD solid;
+	*/
+	font-size: 12px;
+	line-height: 18px;
+	color: #CC0000;
+	font-weight : bold;
+	/*padding-bottom : 5px;*/
+}
+
+.message{
+	font-size: 12px;
+	color: #333333;
+	font-weight : bold;
+	margin-top : 5px;
+	line-height : 20px;
+	margin-bottom : 15px;
+}
+/* Tabs */
+
+.redstarTD{
+	text-align : left;
+}
+
+.redstar{
+	font-size: 12px;
+	color: #CC0000;
+	
+}
+
+.redstartext{
+	font-size: 10px;
+	color: #696969;
+}
+
+.minitext{
+	font-size: 10px;
+	color: #696969;
+}
+
+
+
+.tab-s, .tab-u, .tab-g, .tab-r {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.tab-s:hover, .tab-u:hover, .tab-g:hover, .tab-r:hover {
+	text-decoration: underline;
+}
+
+.tab-s {
+	color: #0066CC;
+}
+
+.tab-u {
+	color: #FFFFFF;
+}
+
+.tab-g {
+	color: #666666;
+}
+
+.tab-r {
+	color: #CC0000;
+}
+
+.tab-n {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.tab-n:hover {
+	text-decoration: underline;
+}
+
+
+
+/* Form elements */
+
+select, textarea, input
+ {
+	border-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-color : #696969;
+	/*text-align : right;*/
+}
+
+select.error, textarea.error, input.error { 
+	border-color : #990000;
+}
+
+textarea.code, textarea.code-gray {
+	font-family: "Lucida Console", "Courier New", Courier, monospace;
+	font-size: 12px; 
+	line-height: 15px; 
+}
+
+textarea.code-gray {
+	border-style: solid;
+	border-top-width: 0px; 
+	border-right-width: 0px; 
+	border-bottom-width: 0px; 
+	border-left-width: 0px;
+	color: #808080;
+}
+
+div.box {
+	height:100px; 
+	width:275px; 
+	background-color: #FFFFFF;
+	overflow: auto; 
+	border: 2px inset;
+}
+
+div.boxrow {
+	cursor: pointer;
+	cursor: hand;
+	border-bottom: 1px #DDDDDD solid;
+	margin-bottom: 10px;
+}
+
+div.boxrowVertical {
+	border-left: 1px #DDDDDD solid;
+	margin:25px;
+	height : 100%;
+	
+}
+
+/* Custom */
+
+.phpAdsNew { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 24px; 
+	font-style: italic; 
+	font-weight: bold; 
+	color: #FFFFFF; 
+}
+
+.nav { 
+	color: #003399; 
+}
+
+.install { 
+	line-height: 18px;
+	color: #000066; 
+}
+
+td.cellenabled {
+	color: #000000;
+}
+
+
+td.celldisabled {
+	color: #888888;
+}

@@ -390,7 +390,7 @@
             <property name="clientCardinality" value="1"/>
             <property name="supplierCardinality" value="0..*"/>
             <participant referencedUin="design:node:::-tdsqjuef5r3dtmv7ocfe" role="Client"/>
-            <participant referencedUin="design:node:::-tdsqjuef5r3oz0-8qlbks" role="Supplier"/>
+            <participant referencedUin="design:node:::N-tdsqjuefcnzex4ehbxcc" role="Supplier"/>
         </link>
         <node uin="Lhnimszefcm0d0h-czsotz">
             <property name="$name" value="titel"/>
