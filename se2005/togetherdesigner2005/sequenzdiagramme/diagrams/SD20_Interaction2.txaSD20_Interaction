@@ -66,7 +66,7 @@
             </link>
         </node>
         <node uin="N-y8nsowefmsjm61-8p0mrg">
-            <property name="$name" value="LifeLine1"/>
+            <property name="$name" value="Spende"/>
             <property name="$metaclass" value="SD20_Lifeline"/>
             <property name="@connectableElementName" value="Spende"/>
             <node uin="Nc87hzvefmsykab-ac36tt">
@@ -112,7 +112,7 @@
             </link>
         </node>
         <node uin="N-y8nsowefmsk1hxr0b03a">
-            <property name="$name" value="LifeLine1"/>
+            <property name="$name" value="Spendenaktion"/>
             <property name="$metaclass" value="SD20_Lifeline"/>
             <property name="@connectableElementName" value="Spendenaktion"/>
             <node uin="Nc87hzvefmsylsah3a13i">
@@ -129,7 +129,7 @@
             </node>
         </node>
         <node uin="N-y8nsowefmsx2kz-lkq13w">
-            <property name="$name" value="LifeLine4"/>
+            <property name="$name" value="Browserfenster"/>
             <property name="$metaclass" value="SD20_Lifeline"/>
             <property name="@connectableElementName" value="Browserfenster"/>
             <node uin="Nc87hzvefmsx6z0-dcve59">
@@ -203,7 +203,7 @@
             <property name="@signalOrOperationName" value="userLogin"/>
         </node>
         <node uin="N-y8nsowefmtfb4x-exl050">
-            <property name="$name" value="LifeLine2"/>
+            <property name="$name" value="Non-Profit"/>
             <property name="$metaclass" value="SD20_Lifeline"/>
             <property name="@connectableElementName" value="Non-Profit"/>
             <node uin="Nc87hzvefmtg1o6-72cxt7">

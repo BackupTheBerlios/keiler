@@ -1,9 +1,9 @@
-content.layout.xml.[0]=<project-layout><tab_container selected_index="2"><tab node_name="diagrams/default.txvpck"/><tab node_name="diagrams/com/default.txvpck"/><tab node_name="diagrams/com/fundraiser/default.txvpck"/></tab_container></project-layout>
-history.files.active[0]=diagrams/com/fundraiser/default.txvpck
+content.layout.xml.[0]=<project-layout><tab_container selected_index="0"><tab node_name="diagrams/default.txvpck"/><tab node_name="diagrams/com/default.txvpck"/><tab node_name="diagrams/com/fundraiser/default.txvpck"/></tab_container></project-layout>
+history.files.active[0]=diagrams/default.txvpck
 history.files.open.1[0]=diagrams/default.txvpck
 history.files.open.2[0]=diagrams/com/default.txvpck
 history.files.open.3[0]=diagrams/com/fundraiser/default.txvpck
 sys.ReopenHistory.1[0]=diagrams/com/fundraiser/default.txaPackage
 sys.ReopenHistory.2[0]=diagrams/default.txaPackage
 sys.ReopenHistory.3[0]=diagrams/default.txvClassDiagram20
-team.lastScanned[0]=1130710905950
+team.lastScanned[0]=1131120021561

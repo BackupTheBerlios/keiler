@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Together XML Project-->
 <project>
+  <property category="config" name="option.confirmation.shortcut.delete.choice" value="element"/>
   <property category="config" name="option.model.createStandaloneDesignElements" value="true"/>
   <property category="config" name="options.umlVersion" value="20"/>
   <property category="config" name="print.preview.scale" value="50"/>
