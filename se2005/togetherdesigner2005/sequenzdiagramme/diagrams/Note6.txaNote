@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <node uin="N1g64yefn0qbje-p8e20y">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Spendenwerber anlegen"/>
+        <property name="$note_text" value="Spenderprofil anlegen"/>
+        <link uin="Lr7pm3wefn0qbje4odmok">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64yefn0qbje-p8e20y" role="Client"/>
+            <participant referencedUin="design:node:::Nc87hzvefn0npis-rdncq4:N-y8nsowefn01hkgm80k7m:N-yrgd8eefn01hkgl9vldj" role="Supplier"/>
+        </link>
+    </node>
+</nodeSet>

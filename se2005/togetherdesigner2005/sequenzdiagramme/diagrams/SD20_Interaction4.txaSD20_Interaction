@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <node uin="-yrgd8eefmyltkt-flburs">
+        <property name="$metaclass" value="SD20_Interaction"/>
+        <property name="$name" value="UC-MAAR"/>
+        <property name="$description" value="Der Mitarbeiter ruft eine Liste der Mitarbeiter ab. Das System zeigt die Namen, Adresse, persönlichen Daten, die Funktion und das Gehalt der Mitarbeiter an."/>
+        <node uin="N-y8nsowefmyq461-31d73i">
+            <property name="$name" value="Browserfenster"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Browserfenster"/>
+            <node uin="Nc87hzvefmzwfdu-y745xi">
+                <property name="$name" value="SD20_ExecutionSpecification1"/>
+                <property name="$metaclass" value="SD20_ExecutionSpecification"/>
+                <node uin="Nl2gqtvefmzwpzs-xhpjs0">
+                    <property name="$name" value="SD20_Int_InvocationSpecification1"/>
+                    <property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+                    <property name="@receiveExecutionSpecificationPuin" value="design:node:::Nc87hzvefmzwpzs-pv74wd:N-y8nsowefmyq9wq-sxqvdf:-yrgd8eefmyltkt-flburs"/>
+                    <property name="@call_cachedSequenceNumber" value="4.4"/>
+                    <property name="@call_literalSequenceNumberComponent" value="4"/>
+                    <property name="@signalOrOperationName" value="personenAbfrage"/>
+                    <property name="@sd20_reply_message_exists" value=""/>
+                    <node uin="Nrf4xatefmzxyul-yzf4mh">
+                        <property name="$name" value="SD20_Int_Message_Argument1"/>
+                        <property name="$metaclass" value="SD20_Int_Message_Argument"/>
+                        <property name="@stringValue" value="user"/>
+                    </node>
+                </node>
+            </node>
+            <link uin="L-4pt500efmzwpzs4jldhn">
+                <property name="$metaclass" value="SD20_Int_CommunicationLink"/>
+                <participant referencedUin="design:node:::N-y8nsowefmyq461-31d73i:-yrgd8eefmyltkt-flburs" role="Client"/>
+                <participant referencedUin="design:node:::N-y8nsowefmyq9wq-sxqvdf:-yrgd8eefmyltkt-flburs" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N-y8nsowefmyq9wq-sxqvdf">
+            <property name="$name" value="Mitarbeiter"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Personalist"/>
+            <node uin="Nc87hzvefmzwpzs-pv74wd">
+                <property name="$name" value="SD20_ExecutionSpecification1"/>
+                <property name="$metaclass" value="SD20_ExecutionSpecification"/>
+                <node uin="Nl2gqtvefmzwud89z29a2">
+                    <property name="$name" value="SD20_Int_InvocationSpecification3"/>
+                    <property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+                    <property name="@receiveExecutionSpecificationPuin" value="design:node:::Nc87hzvefmzwud8n9bq9f:N-y8nsowefmyqc36-bfbag6:-yrgd8eefmyltkt-flburs"/>
+                    <property name="@call_cachedSequenceNumber" value="4.4.1"/>
+                    <property name="@signalOrOperationName" value="getAll"/>
+                    <property name="@returnValue" value="spender"/>
+                    <property name="@sd20_reply_message_exists" value=""/>
+                </node>
+                <node uin="Nl2gqtvefmzww5r-fblu2c">
+                    <property name="$name" value="SD20_Int_InvocationSpecification4"/>
+                    <property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+                    <property name="@receiveExecutionSpecificationPuin" value="design:node:::Nc87hzvefmzww5rukefko:N-y8nsowefmzrsft-obpnq6:-yrgd8eefmyltkt-flburs"/>
+                    <property name="@call_cachedSequenceNumber" value="4.4.2"/>
+                    <property name="@signalOrOperationName" value="getAll"/>
+                    <property name="@returnValue" value="spWerber"/>
+                    <property name="@sd20_reply_message_exists" value=""/>
+                </node>
+            </node>
+            <link uin="L-4pt500efmzwud8k5j9oh">
+                <property name="$metaclass" value="SD20_Int_CommunicationLink"/>
+                <participant referencedUin="design:node:::N-y8nsowefmyq9wq-sxqvdf:-yrgd8eefmyltkt-flburs" role="Client"/>
+                <participant referencedUin="design:node:::N-y8nsowefmyqc36-bfbag6:-yrgd8eefmyltkt-flburs" role="Supplier"/>
+            </link>
+            <link uin="L-4pt500efmzww5rnvglx1">
+                <property name="$metaclass" value="SD20_Int_CommunicationLink"/>
+                <participant referencedUin="design:node:::N-y8nsowefmyq9wq-sxqvdf:-yrgd8eefmyltkt-flburs" role="Client"/>
+                <participant referencedUin="design:node:::N-y8nsowefmzrsft-obpnq6:-yrgd8eefmyltkt-flburs" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N-y8nsowefmyqc36-bfbag6">
+            <property name="$name" value="Spender"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Spender"/>
+            <node uin="Nc87hzvefmzwud8n9bq9f">
+                <property name="$name" value="SD20_ExecutionSpecification1"/>
+                <property name="$metaclass" value="SD20_ExecutionSpecification"/>
+            </node>
+        </node>
+        <node uin="N-y8nsowefmzrsft-obpnq6">
+            <property name="$name" value="Spendenwerber"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Spendenwerber"/>
+            <node uin="Nc87hzvefmzww5rukefko">
+                <property name="$name" value="SD20_ExecutionSpecification1"/>
+                <property name="$metaclass" value="SD20_ExecutionSpecification"/>
+            </node>
+        </node>
+        <node uin="Nl2gqtvefmzwfdu7bt0zf">
+            <property name="$name" value="SD20_Int_InvocationSpecification2"/>
+            <property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+            <property name="@receiveExecutionSpecificationPuin" value="design:node:::Nc87hzvefmzwfdu-y745xi:N-y8nsowefmyq461-31d73i:-yrgd8eefmyltkt-flburs"/>
+            <property name="@call_cachedSequenceNumber" value="4"/>
+            <property name="@call_literalSequenceNumberComponent" value="4"/>
+            <property name="@signalOrOperationName" value="userLogin"/>
+        </node>
+    </node>
+</nodeSet>
