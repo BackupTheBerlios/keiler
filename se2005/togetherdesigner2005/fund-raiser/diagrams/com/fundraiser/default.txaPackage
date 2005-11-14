@@ -149,6 +149,24 @@
                 <property name="mod__type" value="User"/>
             </node>
         </node>
+        <node uin="Ltq87gleg0tx0mjf01wrj">
+            <property name="$name" value="storniereSpende"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="$language" value="design"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <node uin="L-5kd6yfeg0txm7r-80smls">
+                <property name="$name" value="spender"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__typeReferencedElement" value="design:node:::-tdsqjuef5nmi0i18ewe0"/>
+                <property name="mod__type" value="Spender"/>
+            </node>
+            <node uin="L-5kd6yfeg0txm81-vx096r">
+                <property name="$name" value="spende"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__typeReferencedElement" value="design:node:::-tdsqjuef5nmt5c9osslw"/>
+                <property name="mod__type" value="Spende"/>
+            </node>
+        </node>
     </node>
     <node uin="-tdsqjuef5nmt5c9osslw">
         <property name="$metaclass" value="Class20"/>
@@ -389,12 +407,45 @@
                 <property name="mod__type" value="Spende"/>
             </node>
         </node>
+        <node uin="Ntq87gleg0trg11-1mti7n">
+            <property name="$name" value="ändern"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <property name="mod__returnType" value="boolean"/>
+            <node uin="L-5kd6yfeg0tsmltcvrfli">
+                <property name="$name" value="von"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Date"/>
+            </node>
+            <node uin="L-5kd6yfeg0tsmmd-4jobzc">
+                <property name="$name" value="bis"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Date"/>
+            </node>
+            <node uin="L-5kd6yfeg0tsmmn-prcwa2">
+                <property name="$name" value="betrag"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="float"/>
+            </node>
+        </node>
         <node uin="Ltq87gleg0rs5od-gcmkkm">
             <property name="$name" value="getBetrag"/>
             <property name="$metaclass" value="Operation20"/>
             <property name="$language" value="design"/>
             <property name="mod_Visibility" value="$protected"/>
             <property name="mod__returnType" value="float"/>
+        </node>
+        <node uin="Ltq87gleg0tuzet-mbdw7j">
+            <property name="$name" value="storniere"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="$language" value="design"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <property name="mod__returnType" value="boolean"/>
+            <node uin="L-5kd6yfeg0tvql5c7p9jx">
+                <property name="$name" value="date"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Date"/>
+            </node>
         </node>
     </node>
     <node uin="-tdsqjuef5oe6m79jx1vv">

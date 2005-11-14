@@ -3,6 +3,7 @@
     <node uin="N-yrgd8eefqrki0n-nvrrte">
         <property name="$metaclass" value="SD20_Interaction"/>
         <property name="$name" value="UC-DAAR"/>
+        <property name="$description" value="Dauerauftrag abrufen"/>
         <node uin="N-y8nsowefqrki0n-sv3y6y">
             <property name="$name" value="Spender"/>
             <property name="$metaclass" value="SD20_Lifeline"/>

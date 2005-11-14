@@ -3,7 +3,7 @@
     <node uin="N-yrgd8eefqrkpir-jfodlw">
         <property name="$metaclass" value="SD20_Interaction"/>
         <property name="$name" value="UC-MAFE"/>
-        <property name="$description" value="Der Mitarbeiter ruft eine Liste der Mitarbeiter ab. Das System zeigt die Namen, Adresse, persönlichen Daten, die Funktion und das Gehalt der Mitarbeiter an."/>
+        <property name="$description" value="Mitarbeiter erfassen"/>
         <node uin="N-y8nsowefqrkpj1vy6ntk">
             <property name="$name" value="Browserfenster"/>
             <property name="$metaclass" value="SD20_Lifeline"/>
