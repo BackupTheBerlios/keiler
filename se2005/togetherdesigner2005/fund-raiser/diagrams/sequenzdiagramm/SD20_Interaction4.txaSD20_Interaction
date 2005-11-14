@@ -69,5 +69,15 @@
                 <participant referencedUin="design:node:::-tdsqjuef5nxok61ctg9j" role="Supplier"/>
             </link>
         </node>
+        <node uin="N-y8nsoweg1cfo4c-4rrc2t">
+            <property name="$name" value="Spendenaktion"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="a"/>
+            <link uin="L-qmt7joeg1cg4dw-24p442">
+                <property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+                <participant referencedUin="design:node:::N-y8nsoweg1cfo4c-4rrc2t:N-yrgd8eefqrkpjv-j6b2f9" role="Client"/>
+                <participant referencedUin="design:node:::-tdsqjuef5nndm8-y10j3y" role="Supplier"/>
+            </link>
+        </node>
     </node>
 </nodeSet>

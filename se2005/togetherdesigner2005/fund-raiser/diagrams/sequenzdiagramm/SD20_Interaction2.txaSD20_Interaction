@@ -131,6 +131,7 @@
             <node uin="Nc87hzvefqrki0x-p8gy9">
                 <property name="$name" value="SD20_ExecutionSpecification1"/>
                 <property name="$metaclass" value="SD20_ExecutionSpecification"/>
+                <property name="@hideFoundMessageImpl" value=""/>
                 <node uin="Nl2gqtvefqrki0xaeelg">
                     <property name="$name" value="SD20_Int_InvocationSpecification1"/>
                     <property name="$metaclass" value="SD20_Int_InvocationSpecification"/>

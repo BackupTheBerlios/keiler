@@ -171,7 +171,7 @@
                     <link uin="Lnzzd9aeg0w6k3pm058xf">
                         <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
                         <participant referencedUin="design:node:::Nl2gqtvefqrkskw-mrqf3z:Nc87hzvefqrkskw6b72h4:N-y8nsowefqrkskw1kd91n:N-yrgd8eefqrkskm-mz3gcn" role="Client"/>
-                        <participant referencedUin="design:node:::Ntq87gleg0w55s7dppuc8:N-tdsqjuefcnzex4ehbxcc" role="Supplier"/>
+                        <participant referencedUin="design:node:::Ntq87gleg1crkfg-3vzbhm:-tdsqjuef5r3oz0-8qlbks" role="Supplier"/>
                     </link>
                 </node>
                 <node uin="Nl2gqtvefqrkskwu3r4l8">

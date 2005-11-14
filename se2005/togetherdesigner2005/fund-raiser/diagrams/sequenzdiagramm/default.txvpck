@@ -17,9 +17,11 @@
         </reference>
         <reference referencedUin="design:view:::Vam8ynkeg0vw8pn-wlx12p"/>
         <reference referencedUin="design:view:::Vam8ynkeg0schof-7peir6"/>
+        <reference referencedUin="design:view:::Vam8ynkeg1ceux39fsjt5"/>
         <reference referencedUin="design:view:::Vam8ynkefqry442vesyb1">
             <property name="@location_set_by_user" value="true"/>
             <property name="bounds" value="151,1,200,48"/>
         </reference>
+        <reference referencedUin="design:view:::Vam8ynkeg1ayn7k7l8u1q"/>
     </view>
 </nodeSet>

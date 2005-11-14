@@ -29,6 +29,43 @@
             <participant referencedUin="design:node:::-tdsqjuef5nm24ukxemtk" role="Client"/>
             <participant referencedUin="design:node:::-tdsqjuefco5j92-dpw1s0" role="Supplier"/>
         </link>
+        <node uin="Ltq87gleg1cjwki6db1wc">
+            <property name="$name" value="neueSpendenAktion"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="$language" value="design"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <node uin="L-5kd6yfeg1cmtpe-xdow23">
+                <property name="$name" value="mindestBetrag"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="float"/>
+                <property name="defaultValue" value="0"/>
+            </node>
+            <node uin="L-5kd6yfeg1cmtpofbg5g7">
+                <property name="$name" value="höchstBetrag"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="float"/>
+            </node>
+            <node uin="L-5kd6yfeg1cmtpyrbljyb">
+                <property name="$name" value="läuftBis"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Date"/>
+            </node>
+            <node uin="L-5kd6yfeg1cmtpyw5fmsx">
+                <property name="$name" value="läuftVon"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Date"/>
+            </node>
+            <node uin="L-5kd6yfeg1cmtpyenf9jg">
+                <property name="$name" value="beschreibung"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="String"/>
+            </node>
+            <node uin="L-5kd6yfeg1cmtq8-jh1qnh">
+                <property name="$name" value="name"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="String"/>
+            </node>
+        </node>
     </node>
     <node uin="-tdsqjuef5nmi0i18ewe0">
         <property name="$metaclass" value="Class20"/>
@@ -147,6 +184,31 @@
                 <property name="$name" value="user"/>
                 <property name="$metaclass" value="Parameter"/>
                 <property name="mod__type" value="User"/>
+            </node>
+        </node>
+        <node uin="Ntq87gleg1b46c7me1nyj">
+            <property name="$name" value="neuerSpender"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <node uin="L-5kd6yfeg1b6d9i-gplroi">
+                <property name="$name" value="gebDatum"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Date"/>
+            </node>
+            <node uin="L-5kd6yfeg1b6da2wsxxjb">
+                <property name="$name" value="adresse"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="String"/>
+            </node>
+            <node uin="L-5kd6yfeg1b6dac-7rf2v0">
+                <property name="$name" value="kundennr"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Integer"/>
+            </node>
+            <node uin="L-5kd6yfeg1b6dacptywi3">
+                <property name="$name" value="name"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="String"/>
             </node>
         </node>
         <node uin="Ltq87gleg0tx0mjf01wrj">
@@ -313,6 +375,54 @@
             <property name="$metaclass" value="Property20"/>
             <property name="$language" value="design"/>
             <property name="mod__type" value="Date"/>
+        </node>
+        <node uin="Ntq87gleg1cmyde-mcmyb5">
+            <property name="$name" value="neueSpendenAktion"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="$language" value="design"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <node uin="N-5kd6yfeg1cmydez50sj5">
+                <property name="$name" value="mindestBetrag"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="float"/>
+                <property name="defaultValue" value="0"/>
+            </node>
+            <node uin="N-5kd6yfeg1cmyde-bn2b3k">
+                <property name="$name" value="höchstBetrag"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="float"/>
+            </node>
+            <node uin="N-5kd6yfeg1cmyde72mlmn">
+                <property name="$name" value="läuftBis"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Date"/>
+            </node>
+            <node uin="N-5kd6yfeg1cmyde9bc3ev">
+                <property name="$name" value="läuftVon"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Date"/>
+            </node>
+            <node uin="N-5kd6yfeg1cmydep1uji1">
+                <property name="$name" value="beschreibung"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="String"/>
+            </node>
+            <node uin="N-5kd6yfeg1cmydeq75fk2">
+                <property name="$name" value="name"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="String"/>
+            </node>
+        </node>
+        <node uin="Ntq87gleg1csjvq-fsb3v3">
+            <property name="$name" value="spendeFreigeben"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <node uin="N-5kd6yfeg1csjvqrsvf5u">
+                <property name="$name" value="spende"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__typeReferencedElement" value="design:node:::-tdsqjuef5nndm8-y10j3y"/>
+                <property name="mod__type" value="SpendenAktion"/>
+            </node>
         </node>
         <node uin="Ltq87gleg0w34gkega647">
             <property name="$name" value="verwendungszweck"/>
@@ -489,6 +599,26 @@
             <property name="mod_Visibility" value="$protected"/>
             <property name="mod__returnType" value="Date"/>
         </node>
+        <node uin="Ntq87gleg1cvkdmk4s2tv">
+            <property name="$name" value="neuAnlegen"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <node uin="L-5kd6yfeg1cwrn5f8yobr">
+                <property name="$name" value="betrag"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="float"/>
+            </node>
+            <node uin="L-5kd6yfeg1cwrn5-38clpu">
+                <property name="$name" value="bis"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Date"/>
+            </node>
+            <node uin="L-5kd6yfeg1cwrnf-ufa6ns">
+                <property name="$name" value="von"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Date"/>
+            </node>
+        </node>
         <node uin="Ltq87glefqtwaj4-9k87ck">
             <property name="$name" value="existiert"/>
             <property name="$metaclass" value="Operation20"/>
@@ -650,6 +780,75 @@
             <participant referencedUin="design:node:::-tdsqjuef5r3oz0-8qlbks" role="Client"/>
             <participant referencedUin="design:node:::-tdsqjuefcosnjbfdeahm" role="Supplier"/>
         </link>
+        <node uin="Ntq87gleg1crhn0-dz4hxh">
+            <property name="$name" value="getAll"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="$language" value="design"/>
+            <property name="input" value="Nur mitarbeiter können die liste mit Mitarbeiter abfragen. Daher wird der Mitarbeiter bei der Methode mit übergeben"/>
+            <property name="mod__static" value=""/>
+            <property name="mod_Visibility" value="$protected"/>
+            <property name="multiplicity" value="1..*"/>
+            <property name="mod__returnType" value="Mitarbeiter[]"/>
+            <node uin="N-5kd6yfeg1crhn0-g3pd5z">
+                <property name="$name" value="benutzer"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__typeReferencedElement" value="design:node:::N-tdsqjuefcnzex4ehbxcc"/>
+                <property name="mod__type" value="Mitarbeiter"/>
+            </node>
+        </node>
+        <node uin="Ntq87gleg1crkfg-3vzbhm">
+            <property name="$name" value="sucheSpendeVon"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <node uin="N-5kd6yfeg1crkfg-e8tt32">
+                <property name="$name" value="spender"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__typeReferencedElement" value="design:node:::-tdsqjuef5nmi0i18ewe0"/>
+                <property name="mod__type" value="Spender"/>
+            </node>
+        </node>
+        <node uin="Ntq87gleg1cr5h64orc5b">
+            <property name="$name" value="spendeFreigeben"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <node uin="N-5kd6yfeg1cr5h6-sjtzcy">
+                <property name="$name" value="spende"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__typeReferencedElement" value="design:node:::-tdsqjuef5nndm8-y10j3y"/>
+                <property name="mod__type" value="SpendenAktion"/>
+            </node>
+        </node>
+        <node uin="Ntq87gleg1cr99r7elu7c">
+            <property name="$name" value="neuerMitarbeiter"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="$language" value="design"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <node uin="N-5kd6yfeg1cr99r768i96">
+                <property name="$name" value="name"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="String"/>
+            </node>
+            <node uin="N-5kd6yfeg1cr99ridi892">
+                <property name="$name" value="gebDatum"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Date"/>
+            </node>
+            <node uin="N-5kd6yfeg1cr99r-6er2de">
+                <property name="$name" value="eintrittAm"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Date"/>
+            </node>
+            <node uin="N-5kd6yfeg1cr99r-3k2unn">
+                <property name="$name" value="adresse"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="String"/>
+            </node>
+            <node uin="N-5kd6yfeg1cr99r1ue97l">
+                <property name="$name" value="telefon"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="Integer"/>
+            </node>
+        </node>
     </node>
     <node uin="-tdsqjuef5rbu9jyh4804">
         <property name="$metaclass" value="Class20"/>
@@ -801,69 +1000,11 @@
             <participant referencedUin="design:node:::N-tdsqjuefcnzex4ehbxcc" role="Client"/>
             <participant referencedUin="design:node:::-tdsqjuefcn13mi4toptt" role="Supplier"/>
         </link>
-        <node uin="Ltq87gleg0v7xfb-ybsmk8">
-            <property name="$name" value="neuerMitarbeiter"/>
-            <property name="$metaclass" value="Operation20"/>
-            <property name="$language" value="design"/>
-            <property name="mod_Visibility" value="$protected"/>
-            <node uin="L-5kd6yfeg0vfh60q3ho9f">
-                <property name="$name" value="name"/>
-                <property name="$metaclass" value="Parameter"/>
-                <property name="mod__type" value="String"/>
-            </node>
-            <node uin="L-5kd6yfeg0vfh60-ozbgcj">
-                <property name="$name" value="gebDatum"/>
-                <property name="$metaclass" value="Parameter"/>
-                <property name="mod__type" value="Date"/>
-            </node>
-            <node uin="L-5kd6yfeg0vfh60-24q18t">
-                <property name="$name" value="eintrittAm"/>
-                <property name="$metaclass" value="Parameter"/>
-                <property name="mod__type" value="Date"/>
-            </node>
-            <node uin="L-5kd6yfeg0vfh6akebch9">
-                <property name="$name" value="adresse"/>
-                <property name="$metaclass" value="Parameter"/>
-                <property name="mod__type" value="String"/>
-            </node>
-            <node uin="L-5kd6yfeg0vfh6aqly9ak">
-                <property name="$name" value="telefon"/>
-                <property name="$metaclass" value="Parameter"/>
-                <property name="mod__type" value="Integer"/>
-            </node>
-        </node>
         <node uin="Lhnimszeg0vck2i-gqcnzv">
             <property name="$name" value="telefon"/>
             <property name="$metaclass" value="Property20"/>
             <property name="$language" value="design"/>
             <property name="mod__type" value="int"/>
-        </node>
-        <node uin="Ntq87gleg0w55s7dppuc8">
-            <property name="$name" value="sucheSpendeVon"/>
-            <property name="$metaclass" value="Operation20"/>
-            <property name="mod_Visibility" value="$protected"/>
-            <node uin="L-5kd6yfeg0w5zmtl13bg2">
-                <property name="$name" value="spender"/>
-                <property name="$metaclass" value="Parameter"/>
-                <property name="mod__typeReferencedElement" value="design:node:::-tdsqjuef5nmi0i18ewe0"/>
-                <property name="mod__type" value="Spender"/>
-            </node>
-        </node>
-        <node uin="Ltq87gleg0vifz94t1x8v">
-            <property name="$name" value="getAll"/>
-            <property name="$metaclass" value="Operation20"/>
-            <property name="$language" value="design"/>
-            <property name="input" value="Nur mitarbeiter können die liste mit Mitarbeiter abfragen. Daher wird der Mitarbeiter bei der Methode mit übergeben"/>
-            <property name="mod__static" value=""/>
-            <property name="mod_Visibility" value="$protected"/>
-            <property name="multiplicity" value="1..*"/>
-            <property name="mod__returnType" value="Mitarbeiter[]"/>
-            <node uin="L-5kd6yfeg0vkv86-14u2nj">
-                <property name="$name" value="benutzer"/>
-                <property name="$metaclass" value="Parameter"/>
-                <property name="mod__typeReferencedElement" value="design:node:::N-tdsqjuefcnzex4ehbxcc"/>
-                <property name="mod__type" value="Mitarbeiter"/>
-            </node>
         </node>
     </node>
     <node uin="-tdsqjuefco5j92-dpw1s0">

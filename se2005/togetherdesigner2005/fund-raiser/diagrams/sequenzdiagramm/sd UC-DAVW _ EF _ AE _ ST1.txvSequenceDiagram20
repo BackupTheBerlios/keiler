@@ -2,13 +2,7 @@
 <nodeSet version="1.0">
     <view uin="Vam8ynkeg0schof-7peir6">
         <property name="$metaclass" value="SequenceDiagram20"/>
-        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true
-&#xA;toolbar.buttonRunCount = 2
-&#xA;toolbar.group.note.expanded = true
-&#xA;scrollX = 0
-&#xA;scrollY = 0
-&#xA;zoomFactor = 1.0
-&#xA;"/>
+        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
         <reference referencedUin="design:node:::N-yrgd8eeg0sbl4q4h7tml">
             <property name="$shortcutReference" value=""/>
             <reference referencedUin="design:node:::N-y8nsoweg0sbl50-m9z12z:N-yrgd8eeg0sbl4q4h7tml">
@@ -27,7 +21,7 @@
                 <property name="bounds_setted_by_user" value="true"/>
                 <reference referencedUin="design:node:::Nc87hzveg0sbl4q5bk5zx:N-y8nsoweg0sbl4qrwbeq1:N-yrgd8eeg0sbl4q4h7tml">
                     <property name="@location_set_by_user" value="true"/>
-                    <property name="bounds" value="42,938,20,66"/>
+                    <property name="bounds" value="42,370,20,66"/>
                     <property name="bounds_setted_by_user" value="true"/>
                     <reference referencedUin="design:node:::Nl2gqtveg0sbl4q7x97nf:Nc87hzveg0sbl4q5bk5zx:N-y8nsoweg0sbl4qrwbeq1:N-yrgd8eeg0sbl4q4h7tml">
                         <property name="@location_set_by_user" value="true"/>
@@ -52,7 +46,7 @@
                 <property name="bounds_setted_by_user" value="true"/>
                 <reference referencedUin="design:node:::Nc87hzveg0sbl4qolve5s:N-y8nsoweg0sbl4qoe808m:N-yrgd8eeg0sbl4q4h7tml">
                     <property name="@location_set_by_user" value="true"/>
-                    <property name="bounds" value="67,964,20,24"/>
+                    <property name="bounds" value="67,396,20,24"/>
                     <property name="bounds_setted_by_user" value="true"/>
                 </reference>
                 <reference referencedUin="design:node:::Nc87hzveg0sbl4q-l3uk74:N-y8nsoweg0sbl4qoe808m:N-yrgd8eeg0sbl4q4h7tml">
@@ -87,7 +81,7 @@
                 <property name="bounds_setted_by_user" value="true"/>
                 <reference referencedUin="design:node:::Nc87hzveg0sbl50-6az5nw:N-y8nsoweg0sbl50-cxilss:N-yrgd8eeg0sbl4q4h7tml">
                     <property name="@location_set_by_user" value="true"/>
-                    <property name="bounds" value="36,76,20,944"/>
+                    <property name="bounds" value="36,76,20,394"/>
                     <property name="bounds_setted_by_user" value="true"/>
                     <reference referencedUin="design:node:::Nl2gqtveg0sbl50z8ivbv:Nc87hzveg0sbl50-6az5nw:N-y8nsoweg0sbl50-cxilss:N-yrgd8eeg0sbl4q4h7tml">
                         <property name="@location_set_by_user" value="true"/>
@@ -101,7 +95,7 @@
                     </reference>
                     <reference referencedUin="design:node:::Nl2gqtveg0sbl503oot5o:Nc87hzveg0sbl50-6az5nw:N-y8nsoweg0sbl50-cxilss:N-yrgd8eeg0sbl4q4h7tml">
                         <property name="@location_set_by_user" value="true"/>
-                        <property name="bounds" value="0,862,30,66"/>
+                        <property name="bounds" value="0,294,30,66"/>
                         <property name="bounds_setted_by_user" value="true"/>
                     </reference>
                 </reference>
@@ -109,9 +103,9 @@
         </reference>
         <reference referencedUin="sd20_message|1|call|105(design:node:::Nl2gqtveg0sbl4q7x97nf:Nc87hzveg0sbl4q5bk5zx:N-y8nsoweg0sbl4qrwbeq1:N-yrgd8eeg0sbl4q4h7tml)">
             <property name="@location_set_by_user" value="false"/>
-            <property name="sourceAnchor" value="322,974"/>
+            <property name="sourceAnchor" value="322,406"/>
             <property name="bendpoints" value=""/>
-            <property name="targetAnchor" value="707,974"/>
+            <property name="targetAnchor" value="707,406"/>
         </reference>
         <reference referencedUin="sd20_message|1|call|106(design:node:::Nl2gqtveg0sbl4q8w9ie0:Nc87hzveg0sbl4q-nq65o6:N-y8nsoweg0sbl4qrwbeq1:N-yrgd8eeg0sbl4q4h7tml)">
             <property name="@location_set_by_user" value="false"/>
@@ -127,10 +121,10 @@
             <property name="bounds_setted_by_user" value="true"/>
         </reference>
         <reference referencedUin="sd20_message|1|call|107(design:node:::Nl2gqtveg0sbl503oot5o:Nc87hzveg0sbl50-6az5nw:N-y8nsoweg0sbl50-cxilss:N-yrgd8eeg0sbl4q4h7tml)">
-            <property name="@location_set_by_user" value="false"/>
-            <property name="sourceAnchor" value="96,948"/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="sourceAnchor" value="96,380"/>
             <property name="bendpoints" value=""/>
-            <property name="targetAnchor" value="302,948"/>
+            <property name="targetAnchor" value="302,380"/>
         </reference>
         <reference referencedUin="sd20_message|1|call|107(design:node:::Nl2gqtveg0sbl50z8ivbv:Nc87hzveg0sbl50-6az5nw:N-y8nsoweg0sbl50-cxilss:N-yrgd8eeg0sbl4q4h7tml)">
             <property name="@location_set_by_user" value="true"/>
@@ -146,9 +140,9 @@
         </reference>
         <reference referencedUin="sd20_message|1|reply|105(design:node:::Nl2gqtveg0sbl4q7x97nf:Nc87hzveg0sbl4q5bk5zx:N-y8nsoweg0sbl4qrwbeq1:N-yrgd8eeg0sbl4q4h7tml)">
             <property name="@location_set_by_user" value="false"/>
-            <property name="sourceAnchor" value="322,998"/>
+            <property name="sourceAnchor" value="322,430"/>
             <property name="bendpoints" value=""/>
-            <property name="targetAnchor" value="707,998"/>
+            <property name="targetAnchor" value="707,430"/>
         </reference>
         <reference referencedUin="sd20_message|1|reply|106(design:node:::Nl2gqtveg0sbl4q8w9ie0:Nc87hzveg0sbl4q-nq65o6:N-y8nsoweg0sbl4qrwbeq1:N-yrgd8eeg0sbl4q4h7tml)">
             <property name="@location_set_by_user" value="true"/>
@@ -158,9 +152,9 @@
         </reference>
         <reference referencedUin="sd20_message|1|reply|107(design:node:::Nl2gqtveg0sbl503oot5o:Nc87hzveg0sbl50-6az5nw:N-y8nsoweg0sbl50-cxilss:N-yrgd8eeg0sbl4q4h7tml)">
             <property name="@location_set_by_user" value="false"/>
-            <property name="sourceAnchor" value="96,1014"/>
+            <property name="sourceAnchor" value="96,446"/>
             <property name="bendpoints" value=""/>
-            <property name="targetAnchor" value="302,1014"/>
+            <property name="targetAnchor" value="302,446"/>
         </reference>
         <reference referencedUin="sd20_message|1|reply|107(design:node:::Nl2gqtveg0sbl50z8ivbv:Nc87hzveg0sbl50-6az5nw:N-y8nsoweg0sbl50-cxilss:N-yrgd8eeg0sbl4q4h7tml)">
             <property name="@location_set_by_user" value="true"/>

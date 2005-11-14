@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Together XML Project-->
 <project>
-  <property category="config" name="model_navigator.Navigator_Model_Root.Model.&lt;default&gt;.com.fundraiser.Class20" value="expanded"/>
+  <property category="config" name="model_navigator.Navigator_Model_Root.Model.&lt;default&gt;.com.fundraiser.Class20" value="collapsed"/>
   <property category="config" name="model_navigator.Navigator_Model_Root.Model.&lt;default&gt;.com.fundraiser.fundraiser.Class20" value="expanded"/>
   <property category="config" name="option.confirmation.shortcut.delete.choice" value="element"/>
   <property category="config" name="option.model.createStandaloneDesignElements" value="false"/>

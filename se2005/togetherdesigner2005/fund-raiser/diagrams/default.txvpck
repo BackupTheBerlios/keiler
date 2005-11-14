@@ -7,11 +7,15 @@
         <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;toolbar.group.pattern.expanded = true &#xA;toolbar.group.ocl.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
         <reference referencedUin="design:view:::V1hexuhefqrjwgtkixss">
             <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="114,119,188,186"/>
+            <property name="bounds" value="114,119,188,218"/>
         </reference>
         <reference referencedUin="design:view:::V1hexuhef5nl9e0-lgfkfa">
             <property name="@location_set_by_user" value="true"/>
             <property name="bounds" value="10,10,85,90"/>
+        </reference>
+        <reference referencedUin="design:node:::-tdsqjuef5ikxx1-g0dewc">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="114,1,81,77"/>
         </reference>
     </view>
 </nodeSet>
