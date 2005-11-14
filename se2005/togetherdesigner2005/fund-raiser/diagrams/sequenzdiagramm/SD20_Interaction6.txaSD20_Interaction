@@ -16,7 +16,6 @@
                     <property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
                     <property name="@receiveExecutionSpecificationPuin" value="design:node:::Nc87hzvefqrkskmu0a531:N-y8nsowefqrkskm-p0uvwd:N-yrgd8eefqrkskm-mz3gcn"/>
                     <property name="@call_cachedSequenceNumber" value="2.1.1"/>
-                    <property name="@signalOrOperationName" value="sucheSpende"/>
                     <property name="@sd20_reply_message_exists" value=""/>
                     <property name="@returnValue" value="zweck"/>
                     <node uin="Nrf4xatefqrkskm-wuenc0">
@@ -24,6 +23,11 @@
                         <property name="$metaclass" value="SD20_Int_Message_Argument"/>
                         <property name="@stringValue" value="spende"/>
                     </node>
+                    <link uin="Lnzzd9aeg0vzd7mg8x4l7">
+                        <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
+                        <participant referencedUin="design:node:::Nl2gqtvefqrkskmd22pxn:Nc87hzvefqrkskmr891xu:N-y8nsowefqrkskm-pxbije:N-yrgd8eefqrkskm-mz3gcn" role="Client"/>
+                        <participant referencedUin="design:node:::Ltq87glefqsd9dyadtejh:-tdsqjuef5nmt5c9osslw" role="Supplier"/>
+                    </link>
                 </node>
             </node>
             <link uin="L-4pt500efqrkskmnbcl57">
@@ -77,14 +81,12 @@
                     <property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
                     <property name="@receiveExecutionSpecificationPuin" value="design:node:::Nc87hzvefqrkskw-64r7eu:N-y8nsowefqrkskwz4dcan:N-yrgd8eefqrkskm-mz3gcn"/>
                     <property name="@call_cachedSequenceNumber" value="2.1.1.1"/>
-                    <property name="@signalOrOperationName" value="verwendung"/>
                     <property name="@sd20_reply_message_exists" value=""/>
-                    <property name="@returnValue" value="zweck"/>
-                    <node uin="Nrf4xatefqrkskmz5g5hm">
-                        <property name="$name" value="SD20_Int_Message_Argument1"/>
-                        <property name="$metaclass" value="SD20_Int_Message_Argument"/>
-                        <property name="@stringValue" value="spende"/>
-                    </node>
+                    <link uin="Lnzzd9aeg0w3wzw42qisb">
+                        <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
+                        <participant referencedUin="design:node:::Nl2gqtvefqrkskmie29bz:Nc87hzvefqrkskmu0a531:N-y8nsowefqrkskm-p0uvwd:N-yrgd8eefqrkskm-mz3gcn" role="Client"/>
+                        <participant referencedUin="design:node:::Ltq87gleg0w34gkega647:-tdsqjuef5nndm8-y10j3y" role="Supplier"/>
+                    </link>
                 </node>
             </node>
             <node uin="Nc87hzvefqrkskmf7t25o">
@@ -127,6 +129,11 @@
                 <property name="$name" value="SD20_ExecutionSpecification3"/>
                 <property name="$metaclass" value="SD20_ExecutionSpecification"/>
             </node>
+            <link uin="L-qmt7joeg0w2ju4xrbbgm">
+                <property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+                <participant referencedUin="design:node:::N-y8nsowefqrkskwz4dcan:N-yrgd8eefqrkskm-mz3gcn" role="Client"/>
+                <participant referencedUin="design:node:::-tdsqjuef5nndm8-y10j3y" role="Supplier"/>
+            </link>
         </node>
         <node uin="N-y8nsowefqrkskw1kd91n">
             <property name="$name" value="Browserfenster"/>
@@ -135,26 +142,25 @@
             <node uin="Nc87hzvefqrkskw6b72h4">
                 <property name="$name" value="SD20_ExecutionSpecification1"/>
                 <property name="$metaclass" value="SD20_ExecutionSpecification"/>
+                <property name="@hideFoundMessageImpl" value=""/>
                 <node uin="Nl2gqtvefqrkskw-axb86w">
                     <property name="$name" value="SD20_Int_InvocationSpecification1"/>
                     <property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
                     <property name="@receiveExecutionSpecificationPuin" value="design:node:::Nc87hzvefqrkskmr891xu:N-y8nsowefqrkskm-pxbije:N-yrgd8eefqrkskm-mz3gcn"/>
                     <property name="@call_cachedSequenceNumber" value="2.1"/>
-                    <property name="@signalOrOperationName" value="sucheSpende"/>
                     <property name="@sd20_reply_message_exists" value=""/>
                     <property name="@returnValue" value="zweck"/>
-                    <node uin="Nrf4xatefqrkskwnbnzfb">
-                        <property name="$name" value="SD20_Int_Message_Argument1"/>
-                        <property name="$metaclass" value="SD20_Int_Message_Argument"/>
-                        <property name="@stringValue" value="spende"/>
-                    </node>
+                    <link uin="Lnzzd9aeg0vxbbps0wsbm">
+                        <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
+                        <participant referencedUin="design:node:::Nl2gqtvefqrkskw-axb86w:Nc87hzvefqrkskw6b72h4:N-y8nsowefqrkskw1kd91n:N-yrgd8eefqrkskm-mz3gcn" role="Client"/>
+                        <participant referencedUin="design:node:::Ltq87glefqsd9dyadtejh:-tdsqjuef5nmt5c9osslw" role="Supplier"/>
+                    </link>
                 </node>
                 <node uin="Nl2gqtvefqrkskw-mrqf3z">
                     <property name="$name" value="SD20_Int_InvocationSpecification2"/>
                     <property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
                     <property name="@receiveExecutionSpecificationPuin" value="design:node:::Nc87hzvefqrkskm-orxlrm:N-y8nsowefqrkskm-fwb317:N-yrgd8eefqrkskm-mz3gcn"/>
                     <property name="@call_cachedSequenceNumber" value="2.2"/>
-                    <property name="@signalOrOperationName" value="userLogin"/>
                     <property name="@sd20_reply_message_exists" value=""/>
                     <property name="@returnValue" value="zweck"/>
                     <node uin="Nrf4xatefqrkskw-f4hirz">
@@ -162,6 +168,11 @@
                         <property name="$metaclass" value="SD20_Int_Message_Argument"/>
                         <property name="@stringValue" value="user"/>
                     </node>
+                    <link uin="Lnzzd9aeg0w6k3pm058xf">
+                        <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
+                        <participant referencedUin="design:node:::Nl2gqtvefqrkskw-mrqf3z:Nc87hzvefqrkskw6b72h4:N-y8nsowefqrkskw1kd91n:N-yrgd8eefqrkskm-mz3gcn" role="Client"/>
+                        <participant referencedUin="design:node:::Ntq87gleg0w55s7dppuc8:N-tdsqjuefcnzex4ehbxcc" role="Supplier"/>
+                    </link>
                 </node>
                 <node uin="Nl2gqtvefqrkskwu3r4l8">
                     <property name="$name" value="SD20_Int_InvocationSpecification1"/>

@@ -212,10 +212,17 @@
             <property name="$language" value="design"/>
             <property name="mod_Visibility" value="$protected"/>
             <property name="mod__returnType" value="boolean"/>
-            <node uin="L-5kd6yfefqsf6mf-98ag73">
-                <property name="$name" value="user"/>
+            <node uin="L-5kd6yfeg0vyolc-w7xx0o">
+                <property name="$name" value="benutzer"/>
                 <property name="$metaclass" value="Parameter"/>
-                <property name="mod__type" value="User"/>
+                <property name="mod__typeReferencedElement" value="design:node:::N-tdsqjuefcnzex4ehbxcc"/>
+                <property name="mod__type" value="Mitarbeiter"/>
+            </node>
+            <node uin="L-5kd6yfeg0vyolc-snt726">
+                <property name="$name" value="spender"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__typeReferencedElement" value="design:node:::-tdsqjuef5nmi0i18ewe0"/>
+                <property name="mod__type" value="Spender"/>
             </node>
         </node>
     </node>
@@ -306,6 +313,13 @@
             <property name="$metaclass" value="Property20"/>
             <property name="$language" value="design"/>
             <property name="mod__type" value="Date"/>
+        </node>
+        <node uin="Ltq87gleg0w34gkega647">
+            <property name="$name" value="verwendungszweck"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="$language" value="design"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <property name="mod__returnType" value="String"/>
         </node>
     </node>
     <node uin="-tdsqjuef5nxok61ctg9j">
@@ -823,6 +837,17 @@
             <property name="$metaclass" value="Property20"/>
             <property name="$language" value="design"/>
             <property name="mod__type" value="int"/>
+        </node>
+        <node uin="Ntq87gleg0w55s7dppuc8">
+            <property name="$name" value="sucheSpendeVon"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <node uin="L-5kd6yfeg0w5zmtl13bg2">
+                <property name="$name" value="spender"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__typeReferencedElement" value="design:node:::-tdsqjuef5nmi0i18ewe0"/>
+                <property name="mod__type" value="Spender"/>
+            </node>
         </node>
         <node uin="Ltq87gleg0vifz94t1x8v">
             <property name="$name" value="getAll"/>

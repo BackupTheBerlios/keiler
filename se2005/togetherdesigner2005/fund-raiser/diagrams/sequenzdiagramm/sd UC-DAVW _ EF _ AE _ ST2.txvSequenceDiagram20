@@ -7,7 +7,7 @@
 &#xA;toolbar.group.note.expanded = true
 &#xA;scrollX = 0
 &#xA;scrollY = 0
-&#xA;zoomFactor = 0.6830134553650702
+&#xA;zoomFactor = 1.0999999999999996
 &#xA;"/>
         <reference referencedUin="design:node:::N-yrgd8eeg0sc6hc32snlc">
             <property name="$shortcutReference" value=""/>
