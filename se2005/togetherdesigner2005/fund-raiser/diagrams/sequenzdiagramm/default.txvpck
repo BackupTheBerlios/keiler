@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="V1hexuhefqrjwgtkixss">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="ClassDiagram20"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true
+&#xA;toolbar.buttonRunCount = 2
+&#xA;toolbar.group.pattern.expanded = true
+&#xA;toolbar.group.ocl.expanded = true
+&#xA;toolbar.group.note.expanded = true
+&#xA;scrollX = 0
+&#xA;scrollY = 0
+&#xA;zoomFactor = 1.0
+&#xA;"/>
+        <reference referencedUin="design:view:::Vam8ynkefqrx1lm-9hxeey">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="151,68,114,48"/>
+        </reference>
+        <reference referencedUin="design:view:::Vam8ynkefqrzkjsractng">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="48,2,84,64"/>
+        </reference>
+        <reference referencedUin="design:view:::Vam8ynkefqry442vesyb1">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="151,1,200,48"/>
+        </reference>
+    </view>
+</nodeSet>

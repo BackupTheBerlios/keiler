@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <node uin="N1g64yefqrmyic-ng9c8">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="DBMS benachrichtigen"/>
+        <property name="$note_text" value="DBS benachrichtigen"/>
+        <link uin="Lr7pm3wefqrmyicuey2pr">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64yefqrmyic-ng9c8" role="Client"/>
+            <participant referencedUin="design:node:::Nc87hzvefqrkd2w-whkr5o:N-y8nsowefqrkd2w3e6ovd:N-yrgd8eefqrkd2w-h3afl5" role="Supplier"/>
+        </link>
+    </node>
+</nodeSet>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <node uin="N-yrgd8eefqrkpjv-j6b2f9">
+        <property name="$metaclass" value="SD20_Interaction"/>
+        <property name="$name" value="Alle Aktoren"/>
+        <node uin="N-y8nsowefqrkpjvfornf7">
+            <property name="$name" value="Spender"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Spender"/>
+        </node>
+        <node uin="N-y8nsowefqrkpjvrihlk1">
+            <property name="$name" value="Dauerauftrag"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Dauerauftrag"/>
+        </node>
+        <node uin="N-y8nsowefqrkpjv-sef068">
+            <property name="$name" value="Browserfenster"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Browserfenster"/>
+            <property name="@SD20_selector" value="Detailabfrage"/>
+        </node>
+        <node uin="N-y8nsowefqrkpjv-ylrv00">
+            <property name="$name" value="Spende"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Spende"/>
+        </node>
+        <node uin="N-y8nsowefqrkpjv-uhuphr">
+            <property name="$name" value="Non-Profit"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Non-Profit"/>
+        </node>
+        <node uin="N-y8nsowefqrkpjv-q883t4">
+            <property name="$name" value="Mitarbeiter"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Interner Mitarbeiter"/>
+        </node>
+        <node uin="N-y8nsowefqrkpjv-n0vyca">
+            <property name="$name" value="Spendenwerber"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Spendenwerber"/>
+        </node>
+    </node>
+</nodeSet>

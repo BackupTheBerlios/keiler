@@ -114,6 +114,41 @@
             <participant referencedUin="design:node:::-tdsqjuef5nmi0i18ewe0" role="Client"/>
             <participant referencedUin="design:node:::-tdsqjuefcosnjbfdeahm" role="Supplier"/>
         </link>
+        <node uin="Ntq87gleg0s5kmrdmeyw6">
+            <property name="$name" value="sucheSpende"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <property name="mod__returnType" value="Spende[]"/>
+            <property name="multiplicity" value="0..*"/>
+        </node>
+        <node uin="Ntq87gleg0sfkk9-rdruz1">
+            <property name="$name" value="auftragAnlegen"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <property name="mod__returnType" value="boolean"/>
+            <node uin="L-5kd6yfeg0ska41tksai8">
+                <property name="$name" value="spender"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__typeReferencedElement" value="design:node:::-tdsqjuef5nmi0i18ewe0"/>
+                <property name="mod__type" value="Spender"/>
+            </node>
+            <node uin="L-5kd6yfeg0ska4b-qtaxjx">
+                <property name="$name" value="user"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="User"/>
+            </node>
+        </node>
+        <node uin="Ltq87glefqt1vksu1ugtw">
+            <property name="$name" value="alleSpenden"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="$language" value="design"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <node uin="L-5kd6yfefqt2tu8vis080">
+                <property name="$name" value="user"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="User"/>
+            </node>
+        </node>
     </node>
     <node uin="-tdsqjuef5nmt5c9osslw">
         <property name="$metaclass" value="Class20"/>
@@ -152,6 +187,18 @@
             <property name="$metaclass" value="Property20"/>
             <property name="$language" value="design"/>
             <property name="mod__type" value="float"/>
+        </node>
+        <node uin="Ltq87glefqsd9dyadtejh">
+            <property name="$name" value="sucheSpende"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="$language" value="design"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <property name="mod__returnType" value="boolean"/>
+            <node uin="L-5kd6yfefqsf6mf-98ag73">
+                <property name="$name" value="user"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__type" value="User"/>
+            </node>
         </node>
     </node>
     <node uin="-tdsqjuef5nndm8-y10j3y">
@@ -321,6 +368,33 @@
             <property name="$metaclass" value="Property20"/>
             <property name="$language" value="design"/>
             <property name="mod__type" value="Date"/>
+        </node>
+        <node uin="Ntq87gleg0ruhai-hjjlt9">
+            <property name="$name" value="getVonDatum"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <property name="mod__returnType" value="Date"/>
+        </node>
+        <node uin="Ltq87glefqtwaj4-9k87ck">
+            <property name="$name" value="existiert"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="$language" value="design"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <property name="mod__returnType" value="boolean"/>
+            <property name="mod__static" value=""/>
+            <node uin="L-5kd6yfefqtwtogm9terv">
+                <property name="$name" value="spende"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__typeReferencedElement" value="design:node:::-tdsqjuef5nmt5c9osslw"/>
+                <property name="mod__type" value="Spende"/>
+            </node>
+        </node>
+        <node uin="Ltq87gleg0rs5od-gcmkkm">
+            <property name="$name" value="getBetrag"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="$language" value="design"/>
+            <property name="mod_Visibility" value="$protected"/>
+            <property name="mod__returnType" value="float"/>
         </node>
     </node>
     <node uin="-tdsqjuef5oe6m79jx1vv">
