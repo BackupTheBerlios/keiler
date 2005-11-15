@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="V1hexuhefzfkwbn-w9y9h4">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="ClassDiagram20"/>
+        <property name="$defaultDiagram" value=""/>
+        <reference referencedUin="design:view:::V1hexuhefzfm9hp-q20cy6"/>
+    </view>
+</nodeSet>

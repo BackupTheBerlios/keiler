@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="V1hexuhefzt9zk2291fs7">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="ClassDiagram20"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;option.layout.recursive = false &#xA;toolbar.group.pattern.expanded = true &#xA;toolbar.group.ocl.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
+        <reference referencedUin="design:node:::-tdsqjuefztag15-60dtu2">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="300,140,300,280"/>
+            <property name="bounds_setted_by_user" value="true"/>
+        </reference>
+        <reference referencedUin="design:view:::Vqeyl0lefzttjxcm75m6v">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="10,10,200,38"/>
+        </reference>
+        <reference referencedUin="design:view:::Vpje57wefzufauvn7009u">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="466,1,168,128"/>
+        </reference>
+        <reference referencedUin="design:view:::V-oyrl70efztu34mi5q6pz">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="229,1,182,38"/>
+        </reference>
+    </view>
+</nodeSet>

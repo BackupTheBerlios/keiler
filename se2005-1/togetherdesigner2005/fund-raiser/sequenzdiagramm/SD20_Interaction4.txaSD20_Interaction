@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <node uin="N-yrgd8eefqrkpjv-j6b2f9">
+        <property name="$metaclass" value="SD20_Interaction"/>
+        <property name="$name" value="Alle Aktoren"/>
+        <node uin="N-y8nsowefqrkpjvfornf7">
+            <property name="$name" value="Spender"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Spender"/>
+            <link uin="L-qmt7joeg0u0oshwdmp9k">
+                <property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+                <participant referencedUin="design:node:::N-y8nsowefqrkpjvfornf7:N-yrgd8eefqrkpjv-j6b2f9" role="Client"/>
+                <participant referencedUin="design:node:::N-tdsqjueg2d9rxy-knziwg" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N-y8nsowefqrkpjvrihlk1">
+            <property name="$name" value="Dauerauftrag"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Dauerauftrag"/>
+            <link uin="L-qmt7joeg0tzmhu-c9fx8x">
+                <property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+                <participant referencedUin="design:node:::N-y8nsowefqrkpjvrihlk1:N-yrgd8eefqrkpjv-j6b2f9" role="Client"/>
+                <participant referencedUin="design:node:::N-tdsqjueg2damze-9yw4lk" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N-y8nsowefqrkpjv-sef068">
+            <property name="$name" value="Browserfenster"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Browserfenster"/>
+            <property name="@SD20_selector" value="Detailabfrage"/>
+        </node>
+        <node uin="N-y8nsowefqrkpjv-ylrv00">
+            <property name="$name" value="Spende"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Spende"/>
+            <link uin="L-qmt7joeg0u0bil-275vq9">
+                <property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+                <participant referencedUin="design:node:::N-y8nsowefqrkpjv-ylrv00:N-yrgd8eefqrkpjv-j6b2f9" role="Client"/>
+                <participant referencedUin="design:node:::N-tdsqjueg2d9ong-mchulk" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N-y8nsowefqrkpjv-uhuphr">
+            <property name="$name" value="Non-Profit"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Non-Profit"/>
+            <link uin="L-qmt7joeg0u05zoj9b97r">
+                <property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+                <participant referencedUin="design:node:::N-y8nsowefqrkpjv-uhuphr:N-yrgd8eefqrkpjv-j6b2f9" role="Client"/>
+                <participant referencedUin="design:node:::N-tdsqjueg2djmjt-53xm5r" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N-y8nsowefqrkpjv-q883t4">
+            <property name="$name" value="Mitarbeiter"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Interner Mitarbeiter"/>
+            <link uin="L-qmt7joeg0tzvay-fiw2tq">
+                <property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+                <participant referencedUin="design:node:::N-y8nsowefqrkpjv-q883t4:N-yrgd8eefqrkpjv-j6b2f9" role="Client"/>
+                <participant referencedUin="design:node:::N-tdsqjueg2euvyn-49ajy2" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N-y8nsowefqrkpjv-n0vyca">
+            <property name="$name" value="Spendenwerber"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="Spendenwerber"/>
+            <link uin="L-qmt7joeg0u0houjxo7p7">
+                <property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+                <participant referencedUin="design:node:::N-y8nsowefqrkpjv-n0vyca:N-yrgd8eefqrkpjv-j6b2f9" role="Client"/>
+                <participant referencedUin="design:node:::N-tdsqjueg2e8b9lkt4xhe" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N-y8nsoweg1cfo4c-4rrc2t">
+            <property name="$name" value="Spendenaktion"/>
+            <property name="$metaclass" value="SD20_Lifeline"/>
+            <property name="@connectableElementName" value="a"/>
+            <link uin="L-qmt7joeg1cg4dw-24p442">
+                <property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+                <participant referencedUin="design:node:::N-y8nsoweg1cfo4c-4rrc2t:N-yrgd8eefqrkpjv-j6b2f9" role="Client"/>
+                <participant referencedUin="design:node:::N-tdsqjueg2eypt2inffsw" role="Supplier"/>
+            </link>
+        </node>
+    </node>
+</nodeSet>

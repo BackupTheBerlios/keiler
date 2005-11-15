@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <node uin="N1g64yefqrmyic-ng9c8">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="DBMS benachrichtigen"/>
+        <property name="$note_text" value="DBS benachrichtigen"/>
+    </node>
+</nodeSet>
