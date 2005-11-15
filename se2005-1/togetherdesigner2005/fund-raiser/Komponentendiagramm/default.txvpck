@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="V1hexuheg2kd8rq-vajnny">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="ClassDiagram20"/>
+        <property name="$defaultDiagram" value=""/>
+        <reference referencedUin="design:view:::V-oyrl70eg2klmlm1nnj4i">
+            <property name="$shortcutReference" value=""/>
+        </reference>
+        <reference referencedUin="design:view:::V-oyrl70eg2m2a3gu7mjxp">
+            <property name="$shortcutReference" value=""/>
+        </reference>
+    </view>
+</nodeSet>

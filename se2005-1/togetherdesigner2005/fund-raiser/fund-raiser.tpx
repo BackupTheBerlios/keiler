@@ -3,7 +3,7 @@
 <project>
   <property category="config" name="model_navigator.Navigator_Model_Root.Model.&lt;default&gt;.com.fundraiser.Class20" value="expanded"/>
   <property category="config" name="model_navigator.Navigator_Model_Root.Model.&lt;default&gt;.com.fundraiser.fundraiser.Class20" value="expanded"/>
-  <property category="config" name="option.confirmation.shortcut.delete.choice" value="element"/>
+  <property category="config" name="option.confirmation.shortcut.delete.choice" value="shortcut"/>
   <property category="config" name="option.model.createStandaloneDesignElements" value="false"/>
   <property category="config" name="options.umlVersion" value="20"/>
   <property category="path" name="DocPath" value="doc"/>

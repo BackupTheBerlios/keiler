@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <node uin="-y2zfpseg2kn8n0dkn5i1">
+        <property name="$metaclass" value="Artifact20"/>
+        <property name="$name" value="com"/>
+        <property name="stereotype" value="package"/>
+        <node uin="N-y2zfpseg2krgx289zxj8">
+            <property name="$name" value="fundraiser"/>
+            <property name="$metaclass" value="Artifact20"/>
+            <property name="stereotype" value="package"/>
+            <node uin="N-y2zfpseg2kuub84dpedm">
+                <property name="$name" value="intern"/>
+                <property name="$metaclass" value="Artifact20"/>
+                <property name="stereotype" value="package"/>
+                <node uin="N-y2zfpseg2kxbn8-np6crb">
+                    <property name="$name" value="gehalt"/>
+                    <property name="$metaclass" value="Artifact20"/>
+                    <property name="stereotype" value="package"/>
+                    <link uin="Lb1rvu1eg2l7rzmd8gbxm">
+                        <property name="$metaclass" value="Dependency20"/>
+                        <property name="stereotype" value="access"/>
+                        <participant referencedUin="design:node:::N-y2zfpseg2kxbn8-np6crb:N-y2zfpseg2kuub84dpedm:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Client"/>
+                        <participant referencedUin="design:node:::N-y2zfpseg2kxvjjzfgkj4:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Supplier"/>
+                    </link>
+                </node>
+                <link uin="Lb1rvu1eg2l4xqh54asmm">
+                    <property name="$metaclass" value="Dependency20"/>
+                    <property name="stereotype" value="access"/>
+                    <participant referencedUin="design:node:::N-y2zfpseg2kuub84dpedm:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Client"/>
+                    <participant referencedUin="design:node:::N-y2zfpseg2kxbn8-np6crb:N-y2zfpseg2kuub84dpedm:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Supplier"/>
+                </link>
+                <link uin="Lb1rvu1eg2l8e7nprgpyi">
+                    <property name="$metaclass" value="Dependency20"/>
+                    <property name="stereotype" value="access"/>
+                    <participant referencedUin="design:node:::N-y2zfpseg2kuub84dpedm:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Client"/>
+                    <participant referencedUin="design:node:::N-y2zfpseg2kxvjjzfgkj4:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="N-y2zfpseg2kxvjjzfgkj4">
+                <property name="$name" value="spenden"/>
+                <property name="$metaclass" value="Artifact20"/>
+                <property name="stereotype" value="package"/>
+                <node uin="N-y2zfpseg2kxvjj-vdvq0o">
+                    <property name="$name" value="npo"/>
+                    <property name="$metaclass" value="Artifact20"/>
+                    <property name="stereotype" value="package"/>
+                </node>
+                <link uin="Lb1rvu1eg2l5e48z1b1o8">
+                    <property name="$metaclass" value="Dependency20"/>
+                    <property name="stereotype" value="access"/>
+                    <participant referencedUin="design:node:::N-y2zfpseg2kxvjjzfgkj4:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Client"/>
+                    <participant referencedUin="design:node:::N-y2zfpseg2kxvjj-vdvq0o:N-y2zfpseg2kxvjjzfgkj4:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Supplier"/>
+                </link>
+                <link uin="Lb1rvu1eg2lbpmwucmhrx">
+                    <property name="$metaclass" value="Dependency20"/>
+                    <property name="stereotype" value="access"/>
+                    <participant referencedUin="design:node:::N-y2zfpseg2kxvjjzfgkj4:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Client"/>
+                    <participant referencedUin="design:node:::N-y2zfpseg2kxbn8-np6crb:N-y2zfpseg2kuub84dpedm:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Supplier"/>
+                </link>
+            </node>
+            <link uin="Lb1rvu1eg2l3c5ikqlrpb">
+                <property name="$metaclass" value="Dependency20"/>
+                <property name="stereotype" value="access"/>
+                <participant referencedUin="design:node:::N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Client"/>
+                <participant referencedUin="design:node:::N-y2zfpseg2kuub84dpedm:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Supplier"/>
+            </link>
+            <link uin="Lb1rvu1eg2l45v3-x71705">
+                <property name="$metaclass" value="Dependency20"/>
+                <property name="stereotype" value="access"/>
+                <participant referencedUin="design:node:::N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Client"/>
+                <participant referencedUin="design:node:::N-y2zfpseg2kxvjjzfgkj4:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Supplier"/>
+            </link>
+        </node>
+    </node>
+    <node uin="1g64yeg2lc0qm2iojrn">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note1"/>
+        <property name="$note_text" value="Spendenwerber:Mitarbeiter bekommt Gehalt "/>
+        <link uin="Lr7pm3weg2lcuoa-oi8kpz">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::1g64yeg2lc0qm2iojrn" role="Client"/>
+            <participant referencedUin="design:link:::Lb1rvu1eg2lbpmwucmhrx:N-y2zfpseg2kxvjjzfgkj4:N-y2zfpseg2krgx289zxj8:-y2zfpseg2kn8n0dkn5i1" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="ba089neg2m37da-d91ab7">
+        <property name="$metaclass" value="Component20"/>
+        <property name="$name" value="Spender"/>
+    </node>
+    <node uin="ba089neg2m71qwa19th1">
+        <property name="$metaclass" value="Component20"/>
+        <property name="$name" value="Spende"/>
+    </node>
+    <node uin="ba089neg2mxx35gbi6zi">
+        <property name="$metaclass" value="Component20"/>
+        <property name="$name" value="fund-raiser-System"/>
+        <node uin="Nba089neg2mymyr9gxeko">
+            <property name="$metaclass" value="Component20"/>
+            <property name="$name" value="Spendenaktion"/>
+            <property name="visibility" value="public"/>
+            <node uin="N-vedwtdeg2mymyr-br488p">
+                <property name="$name" value="_"/>
+                <property name="$metaclass" value="Port20"/>
+                <property name="isService" value="true"/>
+                <property name="visibility" value="public"/>
+                <link uin="L-ek237weg2n4v26ewnqrs">
+                    <property name="$metaclass" value="ProvidedInterface20"/>
+                    <participant referencedUin="design:node:::N-vedwtdeg2mymyr-br488p:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-amcqg9eg2n4p17-htklr2:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="N-vedwtdeg2nbr5x-rzh1q0">
+                <property name="$name" value="-"/>
+                <property name="$metaclass" value="Port20"/>
+                <property name="isService" value="true"/>
+                <property name="visibility" value="public"/>
+                <link uin="L-ek237weg2nc6zc-bwk8lu">
+                    <property name="$metaclass" value="ProvidedInterface20"/>
+                    <participant referencedUin="design:node:::N-vedwtdeg2nbr5x-rzh1q0:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-amcqg9eg2nb50ow023vt:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                </link>
+            </node>
+        </node>
+        <node uin="Nba089neg2mz12p3wxcik">
+            <property name="$metaclass" value="Component20"/>
+            <property name="$name" value="Npo"/>
+            <node uin="N-vedwtdeg2mz3sm-m35h9v">
+                <property name="$name" value="Port1"/>
+                <property name="$metaclass" value="Port20"/>
+                <property name="isService" value="true"/>
+                <property name="visibility" value="public"/>
+            </node>
+        </node>
+        <node uin="N-amcqg9eg2n4p17-htklr2">
+            <property name="$name" value="erzeugen"/>
+            <property name="$metaclass" value="Interface20"/>
+        </node>
+        <node uin="N-amcqg9eg2nb50ow023vt">
+            <property name="$name" value="freigeben"/>
+            <property name="$metaclass" value="Interface20"/>
+        </node>
+        <node uin="Nba089neg2nd34k-qor2kd">
+            <property name="$name" value="Mitarbeiter"/>
+            <property name="$metaclass" value="Component20"/>
+            <node uin="N-vedwtdeg2ndhrg1smgwe">
+                <property name="$name" value="-"/>
+                <property name="$metaclass" value="Port20"/>
+                <property name="isService" value="true"/>
+                <property name="visibility" value="public"/>
+            </node>
+            <node uin="N-vedwtdeg2ne1gsyrjyle">
+                <property name="$name" value="-"/>
+                <property name="$metaclass" value="Port20"/>
+                <property name="isService" value="true"/>
+                <property name="visibility" value="public"/>
+                <link uin="L-y168zseg2nelhkymsi5r">
+                    <property name="$metaclass" value="RequiredInterface20"/>
+                    <participant referencedUin="design:node:::N-vedwtdeg2ne1gsyrjyle:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-amcqg9eg2nb50ow023vt:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="N-vedwtdeg2nrtg7fetzwy">
+                <property name="$name" value="-"/>
+                <property name="$metaclass" value="Port20"/>
+                <property name="isService" value="true"/>
+                <property name="visibility" value="public"/>
+                <link uin="L-y168zseg2nscvjgmiim0">
+                    <property name="$metaclass" value="RequiredInterface20"/>
+                    <participant referencedUin="design:node:::N-vedwtdeg2nrtg7fetzwy:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-amcqg9eg2nqu25-zg2ca0:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="N-vedwtdeg2nrva4m74tvk">
+                <property name="$name" value="-"/>
+                <property name="$metaclass" value="Port20"/>
+                <property name="isService" value="true"/>
+                <property name="visibility" value="public"/>
+                <link uin="L-y168zseg2ns88c-vnepmg">
+                    <property name="$metaclass" value="RequiredInterface20"/>
+                    <participant referencedUin="design:node:::N-vedwtdeg2nrva4m74tvk:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-amcqg9eg2nq6cyih522v:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                </link>
+            </node>
+        </node>
+        <node uin="Nba089neg2npgae-a0o61h">
+            <property name="$name" value="Dauerauftrag"/>
+            <property name="$metaclass" value="Component20"/>
+            <node uin="N-vedwtdeg2npzga-7cevcw">
+                <property name="$name" value="-"/>
+                <property name="$metaclass" value="Port20"/>
+                <property name="isService" value="true"/>
+                <property name="visibility" value="public"/>
+                <link uin="L-ek237weg2nqpypylx7s2">
+                    <property name="$metaclass" value="ProvidedInterface20"/>
+                    <participant referencedUin="design:node:::N-vedwtdeg2npzga-7cevcw:Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-amcqg9eg2nq6cyih522v:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="N-vedwtdeg2nq35s-hfgeba">
+                <property name="$name" value="-"/>
+                <property name="$metaclass" value="Port20"/>
+                <property name="isService" value="true"/>
+                <property name="visibility" value="public"/>
+                <link uin="L-ek237weg2nr4o224ar4s">
+                    <property name="$metaclass" value="ProvidedInterface20"/>
+                    <participant referencedUin="design:node:::N-vedwtdeg2nq35s-hfgeba:Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-amcqg9eg2nqu25-zg2ca0:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                </link>
+            </node>
+        </node>
+        <node uin="N-amcqg9eg2nq6cyih522v">
+            <property name="$name" value="neu Anlegen"/>
+            <property name="$metaclass" value="Interface20"/>
+        </node>
+        <node uin="N-amcqg9eg2nqu25-zg2ca0">
+            <property name="$name" value="stornieren"/>
+            <property name="$metaclass" value="Interface20"/>
+        </node>
+        <node uin="Nba089neg2nsm4i7qquli">
+            <property name="$name" value="Npo"/>
+            <property name="$metaclass" value="Component20"/>
+            <node uin="N-vedwtdeg2nsuvequq9r2">
+                <property name="$name" value="-"/>
+                <property name="$metaclass" value="Port20"/>
+                <property name="isService" value="true"/>
+                <property name="visibility" value="public"/>
+                <link uin="L-y168zseg2nt1u11g3cii">
+                    <property name="$metaclass" value="RequiredInterface20"/>
+                    <participant referencedUin="design:node:::N-vedwtdeg2nsuvequq9r2:Nba089neg2nsm4i7qquli:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-amcqg9eg2n4p17-htklr2:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                </link>
+            </node>
+        </node>
+    </node>
+</nodeSet>

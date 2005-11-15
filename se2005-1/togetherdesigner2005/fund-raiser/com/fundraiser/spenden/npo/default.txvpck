@@ -25,9 +25,19 @@
             <property name="@location_set_by_user" value="true"/>
             <property name="bounds" value="261,10,142,77"/>
         </reference>
+        <reference referencedUin="design:node:::N-tdsqjueg2n6ck0-sq8pws">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="260,200,128,109"/>
+        </reference>
         <reference referencedUin="design:node:::N-tdsqjueg2eypt2inffsw">
             <property name="@location_set_by_user" value="true"/>
             <property name="bounds" value="20,200,157,237"/>
+            <reference referencedUin="design:link:::Lw0d380eg2mnuugr22snz:N-tdsqjueg2eypt2inffsw">
+                <property name="@location_set_by_user" value="false"/>
+                <property name="sourceAnchor" value="177,254"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="260,254"/>
+            </reference>
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkClientMultiplicity:design:link:::L-4dc66eg2djmk3-2m5rf1:N-tdsqjueg2djmjt-53xm5r">
             <property name="@location_set_by_user" value="false"/>

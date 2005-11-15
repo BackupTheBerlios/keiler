@@ -77,9 +77,13 @@
                     <property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
                     <property name="receiveExecutionSpecificationPuin" value="design:node:::Nc87hzveg0sbl4q-l3uk74:N-y8nsoweg0sbl4qoe808m:N-yrgd8eeg0sbl4q4h7tml"/>
                     <property name="call_cachedSequenceNumber" value="3.2.1"/>
-                    <property name="signalOrOperationName" value="neuerAuftrag"/>
                     <property name="sd20_reply_message_exists" value=""/>
                     <property name="returnValue" value="true"/>
+                    <link uin="Lnzzd9aeg2nooiwetzsop">
+                        <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
+                        <participant referencedUin="design:node:::Nl2gqtveg0sbl4q8w9ie0:Nc87hzveg0sbl4q-nq65o6:N-y8nsoweg0sbl4qrwbeq1:N-yrgd8eeg0sbl4q4h7tml" role="Client"/>
+                        <participant referencedUin="design:node:::Ntq87gleg2damze-t49o4q:N-tdsqjueg2damze-9yw4lk" role="Supplier"/>
+                    </link>
                 </node>
             </node>
             <node uin="Nc87hzveg0sbl4q5bk5zx">

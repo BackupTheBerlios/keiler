@@ -61,21 +61,6 @@
             <property name="mod__type" value="String"/>
         </node>
     </node>
-    <node uin="1g64yefcoiyz0-proplg">
-        <property name="$metaclass" value="Note"/>
-        <property name="$name" value="Note1"/>
-        <property name="$note_text" value="{XOR}"/>
-        <link uin="Lr7pm3wefcoj83twajark">
-            <property name="$metaclass" value="Note Link"/>
-            <participant referencedUin="design:node:::1g64yefcoiyz0-proplg" role="Client"/>
-            <participant referencedUin="design:link:::L-4dc66eg2d9ongkm0z63:N-tdsqjueg2d9ong-mchulk" role="Supplier"/>
-        </link>
-        <link uin="Lr7pm3wefcojbs8-t0jlb2">
-            <property name="$metaclass" value="Note Link"/>
-            <participant referencedUin="design:node:::1g64yefcoiyz0-proplg" role="Client"/>
-            <participant referencedUin="design:link:::L-4dc66eg2damze-u9srk8:N-tdsqjueg2damze-9yw4lk" role="Supplier"/>
-        </link>
-    </node>
     <node uin="-tdsqjuefcosnjbfdeahm">
         <property name="$metaclass" value="Class20"/>
         <property name="$language" value="design"/>
