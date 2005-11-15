@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <node uin="N-tdsqjueg2f8x9jmah6v2">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="Gehalt"/>
+        <link uin="L-4dc66eg2f8x9jf64o9e">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="0..*"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::N-tdsqjueg2f8x9jmah6v2" role="Client"/>
+            <participant referencedUin="design:node:::N-tdsqjueg2f8x9j2augsx" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N-tdsqjueg2f8x9j2augsx">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="Auszahlung"/>
+        <link uin="Lb1rvu1eg2f8x9j-5dbchr">
+            <property name="$metaclass" value="Dependency20"/>
+            <property name="label" value="Provision je nach Spendenanzahl für Spendenwerber"/>
+            <participant referencedUin="design:node:::N-tdsqjueg2f8x9j2augsx" role="Client"/>
+            <participant referencedUin="design:node:::N-tdsqjueg2d9ong-mchulk" role="Supplier"/>
+        </link>
+    </node>
+</nodeSet>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <node uin="-tdsqjuefztag15-60dtu2">
+        <property name="$metaclass" value="Class20"/>
+        <property name="$language" value="design"/>
+        <property name="$name" value="Gehaltsauszahlung"/>
+        <node uin="Nhnimszefzte0fc-hm7l59">
+            <property name="$name" value="betrag"/>
+            <property name="$metaclass" value="Property20"/>
+            <property name="mod__type" value="Float"/>
+        </node>
+        <node uin="Nhnimszefztdnga-jgg21y">
+            <property name="$name" value="auszahlungsdatum"/>
+            <property name="$metaclass" value="Property20"/>
+            <property name="mod__type" value="String"/>
+        </node>
+        <node uin="Nhnimszefztdbs8wtivzy">
+            <property name="$name" value="adresse"/>
+            <property name="$metaclass" value="Property20"/>
+            <property name="mod__type" value="String"/>
+        </node>
+        <node uin="Nhnimszefztcwen6jkun5">
+            <property name="$name" value="name"/>
+            <property name="$metaclass" value="Property20"/>
+            <property name="mod__type" value="String"/>
+        </node>
+        <node uin="Nhnimszefztc9znd37xj8">
+            <property name="$name" value="kontonummer"/>
+            <property name="$metaclass" value="Property20"/>
+            <property name="mod__type" value="Integer"/>
+        </node>
+        <node uin="Lhnimszefztbq8nn7ah3r">
+            <property name="$name" value="bankleitzahl"/>
+            <property name="$metaclass" value="Property20"/>
+            <property name="$language" value="design"/>
+            <property name="mod__type" value="Integer"/>
+        </node>
+    </node>
+    <node uin="-yrgd8eefztvj7t-5voftx">
+        <property name="$metaclass" value="SD20_Interaction"/>
+        <property name="$name" value="Interaction1"/>
+    </node>
+    <node uin="-qbjze4efztw64m-p6n84m">
+        <property name="$metaclass" value="Action20"/>
+        <property name="$name" value="Action1"/>
+    </node>
+    <node uin="-wcqejkefzufdeez5m6jh">
+        <property name="$metaclass" value="Node20"/>
+        <property name="$name" value="Server"/>
+        <node uin="N-wcqejkefzufkyq6vkfct">
+            <property name="$name" value="Applicationserver"/>
+            <property name="$metaclass" value="Node20"/>
+            <link uin="L-4dc66efzuh5okdehxes">
+                <property name="$metaclass" value="KernelAssociation20"/>
+                <property name="stereotype" value="ODBC"/>
+                <participant referencedUin="design:node:::N-wcqejkefzufkyq6vkfct:-wcqejkefzufdeez5m6jh" role="Client"/>
+                <participant referencedUin="design:node:::N-wcqejkefzufw95qg7qo9:-wcqejkefzufdeez5m6jh" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N-wcqejkefzufw95qg7qo9">
+            <property name="$name" value="Datenbankserver"/>
+            <property name="$metaclass" value="Node20"/>
+        </node>
+    </node>
+    <node uin="-wcqejkeg15q7dz6bgzna">
+        <property name="$metaclass" value="Node20"/>
+        <property name="$name" value="Client-PC"/>
+        <link uin="L-r7lu9zeg16q3gx-as9960">
+            <property name="$metaclass" value="CommunicationPath20"/>
+            <property name="stereotype" value="HTTP"/>
+            <participant referencedUin="design:node:::-wcqejkeg15q7dz6bgzna" role="Client"/>
+            <participant referencedUin="design:node:::N-wcqejkefzufkyq6vkfct:-wcqejkefzufdeez5m6jh" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-y2zfpseg16m8yl-t9gnvs">
+        <property name="$metaclass" value="Artifact20"/>
+        <property name="$name" value="Fundraising"/>
+        <link uin="Lgbt2beg16ysvtcbkaf5">
+            <property name="$metaclass" value="Deployment20"/>
+            <property name="$name" value="Deployment1"/>
+            <participant referencedUin="design:node:::-y2zfpseg16m8yl-t9gnvs" role="Client"/>
+            <participant referencedUin="design:node:::N-wcqejkefzufkyq6vkfct:-wcqejkefzufdeez5m6jh" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-wcqejkeg16r9xiindr38">
+        <property name="$metaclass" value="Node20"/>
+        <property name="$name" value="PDA"/>
+        <link uin="L-r7lu9zeg16rh01-h26j4b">
+            <property name="$metaclass" value="CommunicationPath20"/>
+            <participant referencedUin="design:node:::-wcqejkeg16r9xiindr38" role="Client"/>
+            <participant referencedUin="design:node:::N-wcqejkefzufkyq6vkfct:-wcqejkefzufdeez5m6jh" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-y2zfpseg16sba8lovoao">
+        <property name="$metaclass" value="Artifact20"/>
+        <property name="$name" value="Buchhaltungssystem"/>
+        <link uin="Lgbt2beg16svi8-t0qvn1">
+            <property name="$metaclass" value="Deployment20"/>
+            <property name="$name" value="Deployment1"/>
+            <participant referencedUin="design:node:::-y2zfpseg16sba8lovoao" role="Client"/>
+            <participant referencedUin="design:node:::N-wcqejkefzufkyq6vkfct:-wcqejkefzufdeez5m6jh" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-y2zfpseg16u4paf7zwrp">
+        <property name="$metaclass" value="Artifact20"/>
+        <property name="$name" value="Fremdadressen"/>
+        <link uin="Lgbt2beg16ypx0l0ttle">
+            <property name="$metaclass" value="Deployment20"/>
+            <property name="$name" value="Deployment1"/>
+            <participant referencedUin="design:node:::-y2zfpseg16u4paf7zwrp" role="Client"/>
+            <participant referencedUin="design:node:::N-wcqejkefzufkyq6vkfct:-wcqejkefzufdeez5m6jh" role="Supplier"/>
+        </link>
+    </node>
+</nodeSet>

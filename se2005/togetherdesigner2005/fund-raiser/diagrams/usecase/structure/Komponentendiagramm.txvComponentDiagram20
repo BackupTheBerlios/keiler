@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="V-oyrl70efztu34mi5q6pz">
+        <property name="$metaclass" value="ComponentDiagram20"/>
+        <property name="$description" value=""/>
+        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true
+&#xA;toolbar.buttonRunCount = 2
+&#xA;toolbar.group.pattern.expanded = true
+&#xA;toolbar.group.note.expanded = true
+&#xA;scrollX = 0
+&#xA;scrollY = 0
+&#xA;zoomFactor = 1.0
+&#xA;"/>
+    </view>
+</nodeSet>

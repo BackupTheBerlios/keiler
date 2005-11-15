@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <node uin="-2452mfeeo4ni36-wmevkk">
+        <property name="$metaclass" value="ExecutionEnvironment20"/>
+        <property name="$name" value="Unternehmen"/>
+        <node uin="Njevcj8eeo51kfb-13wqru">
+            <property name="$metaclass" value="Device20"/>
+            <property name="$name" value="Unternehmensserver"/>
+            <node uin="N-wcqejkeeo51mo9mh2hxz">
+                <property name="$metaclass" value="Node20"/>
+                <property name="$name" value="Applikationsserver"/>
+                <node uin="N-y2zfpseeo51mo9sjiadw">
+                    <property name="$name" value="Fund-Raiser- Anwendung"/>
+                    <property name="$metaclass" value="Artifact20"/>
+                </node>
+                <link uin="L-4dc66eeo51mo9-78kksu">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <participant referencedUin="design:node:::N-wcqejkeeo51mo9mh2hxz:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Client"/>
+                    <participant referencedUin="design:node:::N-wcqejkeeo51oc2a564bz:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Supplier"/>
+                </link>
+                <link uin="L-4dc66eeo5cor5-1p2yjt">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <participant referencedUin="design:node:::N-wcqejkeeo51mo9mh2hxz:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Client"/>
+                    <participant referencedUin="design:node:::-2452mfeeo5bzth-skhm9" role="Supplier"/>
+                </link>
+                <link uin="L-4dc66eeo5crf4-jn6yyy">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <participant referencedUin="design:node:::N-wcqejkeeo51mo9mh2hxz:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Client"/>
+                    <participant referencedUin="design:node:::N-2452mfeeo5cdb6-n6xx1q" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="N-wcqejkeeo51oc2a564bz">
+                <property name="$metaclass" value="Node20"/>
+                <property name="$name" value="Datenbankserver"/>
+            </node>
+            <node uin="N1g64yeeo6bnwi-fjwdi1">
+                <property name="$metaclass" value="Note"/>
+                <property name="$name" value="Note1"/>
+                <property name="$note_text" value="Evt. eigener Server für Datenbank"/>
+                <link uin="Lr7pm3weeo6bnwi-4gxxzf">
+                    <property name="$metaclass" value="Note Link"/>
+                    <participant referencedUin="design:node:::N1g64yeeo6bnwi-fjwdi1:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Client"/>
+                    <participant referencedUin="design:node:::N-wcqejkeeo51oc2a564bz:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Supplier"/>
+                </link>
+            </node>
+        </node>
+        <node uin="Njevcj8eeo56uffiio6s4">
+            <property name="$metaclass" value="Device20"/>
+            <property name="$name" value="Client für Unternemens- Mitarbeiter"/>
+            <link uin="L-4dc66eeo577s4-vq4xrd">
+                <property name="$metaclass" value="KernelAssociation20"/>
+                <participant referencedUin="design:node:::Njevcj8eeo56uffiio6s4:-2452mfeeo4ni36-wmevkk" role="Client"/>
+                <participant referencedUin="design:node:::N-wcqejkeeo51mo9mh2hxz:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N1g64yeeo5hvuo6xuyvt">
+            <property name="$metaclass" value="Note"/>
+            <property name="$name" value="Note1"/>
+            <property name="$note_text" value="Firmennetzwerk"/>
+            <link uin="Lr7pm3weeo5imwa-2agdl3">
+                <property name="$metaclass" value="Note Link"/>
+                <participant referencedUin="design:node:::N1g64yeeo5hvuo6xuyvt:-2452mfeeo4ni36-wmevkk" role="Client"/>
+                <participant referencedUin="design:link:::L-4dc66eeo577s4-vq4xrd:Njevcj8eeo56uffiio6s4:-2452mfeeo4ni36-wmevkk" role="Supplier"/>
+            </link>
+        </node>
+    </node>
+    <node uin="Njevcj8eeo57epxd8yo8m">
+        <property name="$metaclass" value="Device20"/>
+        <property name="$name" value="PDA Spenden- Werber"/>
+        <property name="$doc" value="PDA mit Standardbrowser und ausreichend großem Display mit Anbindung ans Internet per 'Mobilfunk'"/>
+        <link uin="L-4dc66eeo57epx-1t3u35">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <participant referencedUin="design:node:::Njevcj8eeo57epxd8yo8m" role="Client"/>
+            <participant referencedUin="design:node:::N-wcqejkeeo51mo9mh2hxz:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="-2452mfeeo5ajelj7zrj4">
+        <property name="$metaclass" value="ExecutionEnvironment20"/>
+        <property name="$name" value="Spenden- Organisation"/>
+        <node uin="Njevcj8eeo5azvo5t3sbz">
+            <property name="$metaclass" value="Device20"/>
+            <property name="$name" value="PC-Client"/>
+            <link uin="L-4dc66eeo5azvo-iv9ey2">
+                <property name="$metaclass" value="KernelAssociation20"/>
+                <participant referencedUin="design:node:::Njevcj8eeo5azvo5t3sbz:-2452mfeeo5ajelj7zrj4" role="Client"/>
+                <participant referencedUin="design:node:::N-wcqejkeeo51mo9mh2hxz:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Supplier"/>
+            </link>
+        </node>
+    </node>
+    <node uin="N-2452mfeeo5bhgtspabvm">
+        <property name="$metaclass" value="ExecutionEnvironment20"/>
+        <property name="$name" value="Spender"/>
+        <node uin="Njevcj8eeo5bhgt-hbywo4">
+            <property name="$metaclass" value="Device20"/>
+            <property name="$name" value="PC-Client"/>
+            <link uin="L-4dc66eeo5bhgt40zkvc">
+                <property name="$metaclass" value="KernelAssociation20"/>
+                <participant referencedUin="design:node:::Njevcj8eeo5bhgt-hbywo4:N-2452mfeeo5bhgtspabvm" role="Client"/>
+                <participant referencedUin="design:node:::N-wcqejkeeo51mo9mh2hxz:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Supplier"/>
+            </link>
+        </node>
+    </node>
+    <node uin="-2452mfeeo5bzth-skhm9">
+        <property name="$metaclass" value="ExecutionEnvironment20"/>
+        <property name="$name" value="Bank"/>
+        <node uin="N-y2zfpseeo5r3geswrtzt">
+            <property name="$name" value="Gehalts- Auszahlung"/>
+            <property name="$metaclass" value="Artifact20"/>
+        </node>
+    </node>
+    <node uin="N-2452mfeeo5cdb6-n6xx1q">
+        <property name="$metaclass" value="ExecutionEnvironment20"/>
+        <property name="$name" value="Daten-Lieferant"/>
+        <node uin="N-y2zfpseeo5seev-8e9jb0">
+            <property name="$name" value="Kundendaten liefern"/>
+            <property name="$metaclass" value="Artifact20"/>
+        </node>
+    </node>
+    <node uin="N1g64yeeo5j5ueh0hhqk">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note1"/>
+        <property name="$note_text" value="Internet: TCP/IP - HTML"/>
+        <link uin="Lr7pm3weeo5jlql-fa6xyn">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64yeeo5j5ueh0hhqk" role="Client"/>
+            <participant referencedUin="design:link:::L-4dc66eeo5azvo-iv9ey2:Njevcj8eeo5azvo5t3sbz:-2452mfeeo5ajelj7zrj4" role="Supplier"/>
+        </link>
+        <link uin="Lr7pm3weeo5jp6ecl6vbn">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64yeeo5j5ueh0hhqk" role="Client"/>
+            <participant referencedUin="design:link:::L-4dc66eeo5bhgt40zkvc:Njevcj8eeo5bhgt-hbywo4:N-2452mfeeo5bhgtspabvm" role="Supplier"/>
+        </link>
+        <link uin="Lr7pm3weeo5juat-1v67zu">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64yeeo5j5ueh0hhqk" role="Client"/>
+            <participant referencedUin="design:link:::L-4dc66eeo5crf4-jn6yyy:N-wcqejkeeo51mo9mh2hxz:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Supplier"/>
+        </link>
+        <link uin="Lr7pm3weeo5jxmp50wukg">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64yeeo5j5ueh0hhqk" role="Client"/>
+            <participant referencedUin="design:link:::L-4dc66eeo5cor5-1p2yjt:N-wcqejkeeo51mo9mh2hxz:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64yeeo5m3eagmcocd">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note1"/>
+        <property name="$note_text" value="Internet: TCP/IP: HTML + Übertragung des Dokumentes mit der Unterschrift noch offen"/>
+        <link uin="Lr7pm3weeo5m3ea-ojdbzh">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64yeeo5m3eagmcocd" role="Client"/>
+            <participant referencedUin="design:link:::L-4dc66eeo57epx-1t3u35:Njevcj8eeo57epxd8yo8m" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64yeeo5taykn90pbj">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note1"/>
+        <property name="$note_text" value="Standard-PCs mit Internetanbindung"/>
+        <link uin="Lr7pm3weeo5taykcdzapq">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64yeeo5taykn90pbj" role="Client"/>
+            <participant referencedUin="design:node:::Njevcj8eeo5azvo5t3sbz:-2452mfeeo5ajelj7zrj4" role="Supplier"/>
+        </link>
+        <link uin="Lr7pm3weeo5uhb9dqa402">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64yeeo5taykn90pbj" role="Client"/>
+            <participant referencedUin="design:node:::Njevcj8eeo5bhgt-hbywo4:N-2452mfeeo5bhgtspabvm" role="Supplier"/>
+        </link>
+        <link uin="Lr7pm3weeo5urfe-ruu71b">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64yeeo5taykn90pbj" role="Client"/>
+            <participant referencedUin="design:node:::N-2452mfeeo5cdb6-n6xx1q" role="Supplier"/>
+        </link>
+        <link uin="Lr7pm3weeo5uthyx2lmjz">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64yeeo5taykn90pbj" role="Client"/>
+            <participant referencedUin="design:node:::-2452mfeeo5bzth-skhm9" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="N1g64yeeo5x4bg-7mkpma">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note1"/>
+        <property name="$note_text" value="PDA mit Standardbrowser und ausreichend großem Display mit Anbindung ans Internet per 'Mobilfunk'"/>
+        <link uin="Lr7pm3weeo5yjwk-9ztvuv">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::N1g64yeeo5x4bg-7mkpma" role="Client"/>
+            <participant referencedUin="design:node:::Njevcj8eeo57epxd8yo8m" role="Supplier"/>
+        </link>
+    </node>
+</nodeSet>

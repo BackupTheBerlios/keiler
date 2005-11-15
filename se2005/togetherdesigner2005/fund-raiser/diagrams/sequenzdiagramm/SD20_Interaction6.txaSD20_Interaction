@@ -26,7 +26,7 @@
                     <link uin="Lnzzd9aeg0vzd7mg8x4l7">
                         <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
                         <participant referencedUin="design:node:::Nl2gqtvefqrkskmd22pxn:Nc87hzvefqrkskmr891xu:N-y8nsowefqrkskm-pxbije:N-yrgd8eefqrkskm-mz3gcn" role="Client"/>
-                        <participant referencedUin="design:node:::Ltq87glefqsd9dyadtejh:-tdsqjuef5nmt5c9osslw" role="Supplier"/>
+                        <participant referencedUin="design:node:::Ntq87gleg2d9ong-uz6hwn:N-tdsqjueg2d9ong-mchulk" role="Supplier"/>
                     </link>
                 </node>
             </node>
@@ -85,7 +85,7 @@
                     <link uin="Lnzzd9aeg0w3wzw42qisb">
                         <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
                         <participant referencedUin="design:node:::Nl2gqtvefqrkskmie29bz:Nc87hzvefqrkskmu0a531:N-y8nsowefqrkskm-p0uvwd:N-yrgd8eefqrkskm-mz3gcn" role="Client"/>
-                        <participant referencedUin="design:node:::Ltq87gleg0w34gkega647:-tdsqjuef5nndm8-y10j3y" role="Supplier"/>
+                        <participant referencedUin="design:node:::Ntq87gleg2eypt2hsekfp:N-tdsqjueg2eypt2inffsw" role="Supplier"/>
                     </link>
                 </node>
             </node>
@@ -132,7 +132,7 @@
             <link uin="L-qmt7joeg0w2ju4xrbbgm">
                 <property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
                 <participant referencedUin="design:node:::N-y8nsowefqrkskwz4dcan:N-yrgd8eefqrkskm-mz3gcn" role="Client"/>
-                <participant referencedUin="design:node:::-tdsqjuef5nndm8-y10j3y" role="Supplier"/>
+                <participant referencedUin="design:node:::N-tdsqjueg2eypt2inffsw" role="Supplier"/>
             </link>
         </node>
         <node uin="N-y8nsowefqrkskw1kd91n">
@@ -153,7 +153,7 @@
                     <link uin="Lnzzd9aeg0vxbbps0wsbm">
                         <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
                         <participant referencedUin="design:node:::Nl2gqtvefqrkskw-axb86w:Nc87hzvefqrkskw6b72h4:N-y8nsowefqrkskw1kd91n:N-yrgd8eefqrkskm-mz3gcn" role="Client"/>
-                        <participant referencedUin="design:node:::Ltq87glefqsd9dyadtejh:-tdsqjuef5nmt5c9osslw" role="Supplier"/>
+                        <participant referencedUin="design:node:::Ntq87gleg2d9ong-uz6hwn:N-tdsqjueg2d9ong-mchulk" role="Supplier"/>
                     </link>
                 </node>
                 <node uin="Nl2gqtvefqrkskw-mrqf3z">
@@ -171,7 +171,7 @@
                     <link uin="Lnzzd9aeg0w6k3pm058xf">
                         <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
                         <participant referencedUin="design:node:::Nl2gqtvefqrkskw-mrqf3z:Nc87hzvefqrkskw6b72h4:N-y8nsowefqrkskw1kd91n:N-yrgd8eefqrkskm-mz3gcn" role="Client"/>
-                        <participant referencedUin="design:node:::Ntq87gleg1crkfg-3vzbhm:-tdsqjuef5r3oz0-8qlbks" role="Supplier"/>
+                        <participant referencedUin="design:node:::Ntq87gleg2euiul4xnw6:N-tdsqjueg2euiul31xktm" role="Supplier"/>
                     </link>
                 </node>
                 <node uin="Nl2gqtvefqrkskwu3r4l8">
