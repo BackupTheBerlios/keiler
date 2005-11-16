@@ -31,7 +31,7 @@
         </reference>
         <reference referencedUin="design:node:::N-tdsqjueg2eypt2inffsw">
             <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="20,200,157,237"/>
+            <property name="bounds" value="20,200,157,253"/>
             <reference referencedUin="design:link:::Lw0d380eg2mnuugr22snz:N-tdsqjueg2eypt2inffsw">
                 <property name="@location_set_by_user" value="false"/>
                 <property name="sourceAnchor" value="177,254"/>

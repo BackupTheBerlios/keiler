@@ -5,16 +5,6 @@
         <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
         <reference referencedUin="design:node:::N-yrgd8eeg0sbl4q4h7tml">
             <property name="$shortcutReference" value=""/>
-            <reference referencedUin="design:node:::N-y8nsoweg0sbl50-m9z12z:N-yrgd8eeg0sbl4q4h7tml">
-                <property name="@location_set_by_user" value="true"/>
-                <property name="bounds" value="926,10,96,1046"/>
-                <property name="bounds_setted_by_user" value="true"/>
-            </reference>
-            <reference referencedUin="design:node:::N-y8nsoweg0sbl50bijwl9:N-yrgd8eeg0sbl4q4h7tml">
-                <property name="@location_set_by_user" value="true"/>
-                <property name="bounds" value="460,10,96,1046"/>
-                <property name="bounds_setted_by_user" value="true"/>
-            </reference>
             <reference referencedUin="design:node:::N-y8nsoweg0sbl4qrwbeq1:N-yrgd8eeg0sbl4q4h7tml">
                 <property name="@location_set_by_user" value="true"/>
                 <property name="bounds" value="260,10,104,1046"/>

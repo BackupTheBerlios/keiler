@@ -38,7 +38,7 @@
         </reference>
         <reference referencedUin="design:node:::N-tdsqjueg2d9ong-mchulk">
             <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="120,330,140,93"/>
+            <property name="bounds" value="120,330,140,109"/>
             <reference referencedUin="design:link:::L-4dc66eg2d9ongkm0z63:N-tdsqjueg2d9ong-mchulk">
                 <property name="@location_set_by_user" value="true"/>
                 <property name="sourceAnchor" value="259,330"/>
@@ -104,7 +104,7 @@
             <property name="$imported" value=""/>
             <property name="@location_set_by_user" value="true"/>
             <property name="background_color" value="204,204,204"/>
-            <property name="bounds" value="100,550,200,263"/>
+            <property name="bounds" value="100,550,200,279"/>
             <reference referencedUin="design:link:::L-4dc66eg2eypt2unpzwu:N-tdsqjueg2eypt2inffsw">
                 <property name="@location_set_by_user" value="true"/>
                 <property name="sourceAnchor" value="300,610"/>
@@ -123,7 +123,7 @@
                 <property name="@location_set_by_user" value="true"/>
                 <property name="sourceAnchor" value="190,550"/>
                 <property name="bendpoints" value=""/>
-                <property name="targetAnchor" value="190,423"/>
+                <property name="targetAnchor" value="190,439"/>
             </reference>
             <reference referencedUin="design:link:::L-4dc66eg2eypt2nyokr1:N-tdsqjueg2eypt2inffsw">
                 <property name="@location_set_by_user" value="true"/>
@@ -167,7 +167,7 @@
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkSupplierMultiplicity:design:link:::L-4dc66eg2eypt2-gorh84:N-tdsqjueg2eypt2inffsw">
             <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="193,427,15,16"/>
+            <property name="bounds" value="193,443,15,16"/>
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkClientMultiplicity:design:link:::L-4dc66eg2damze-vtt7zn:N-tdsqjueg2damze-9yw4lk">
             <property name="@location_set_by_user" value="false"/>
@@ -241,13 +241,13 @@
             <property name="@location_set_by_user" value="false"/>
             <property name="bounds" value="310,591,26,16"/>
         </reference>
-        <reference referencedUin="label:$inplace_AssociatesLinkClientMultiplicity:design:link:::L-4dc66eg2d9rxy-ahgb5d:N-tdsqjueg2d9rxy-knziwg">
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="276,113,26,16"/>
-        </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkSupplierMultiplicity:design:link:::L-4dc66eg2djmk3-2m5rf1:N-tdsqjueg2djmjt-53xm5r">
             <property name="@location_set_by_user" value="false"/>
             <property name="bounds" value="310,741,15,16"/>
+        </reference>
+        <reference referencedUin="label:$inplace_AssociatesLinkClientMultiplicity:design:link:::L-4dc66eg2d9rxy-ahgb5d:N-tdsqjueg2d9rxy-knziwg">
+            <property name="@location_set_by_user" value="false"/>
+            <property name="bounds" value="276,113,26,16"/>
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkSupplierMultiplicity:design:link:::L-4dc66eg2damze-u9srk8:N-tdsqjueg2damze-9yw4lk">
             <property name="@location_set_by_user" value="false"/>

@@ -209,6 +209,11 @@
                 <property name="mod__type" value="SpendenAktion"/>
             </node>
         </node>
+        <node uin="Ntq87gleg3bqcc5-5ry67q">
+            <property name="$name" value="freigegeben"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="mod__returnType" value="boolean"/>
+        </node>
         <node uin="Ntq87gleg2eypt2hsekfp">
             <property name="$name" value="verwendungszweck"/>
             <property name="$metaclass" value="Operation20"/>

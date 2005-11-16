@@ -7,10 +7,24 @@
         <reference referencedUin="design:view:::V1hexuheg2kd8rq-vajnny">
             <property name="@__fqn" value="uml:package:fund-raiser:src:package1"/>
             <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="48,2,168,106"/>
         </reference>
-        <reference referencedUin="design:view:::V1hexuhefzff9sm3zjtmg"/>
-        <reference referencedUin="design:view:::V1hexuhefqrjwgtkixss"/>
-        <reference referencedUin="design:view:::V1hexuheg29ab15-m3mppf"/>
-        <reference referencedUin="design:view:::V1hexuhef5nl9e0-lgfkfa"/>
+        <reference referencedUin="design:view:::V1hexuhefzff9sm3zjtmg">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="56,127,175,136"/>
+        </reference>
+        <reference referencedUin="design:view:::V1hexuhefqrjwgtkixss">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="235,110,122,60"/>
+        </reference>
+        <reference referencedUin="design:view:::V1hexuheg29ab15-m3mppf">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="395,1,200,90"/>
+        </reference>
+        <reference referencedUin="design:view:::V1hexuhef5nl9e0-lgfkfa">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="235,1,85,90"/>
+        </reference>
     </view>
 </nodeSet>

@@ -38,6 +38,17 @@
             <property name="$language" value="design"/>
             <property name="mod__type" value="float"/>
         </node>
+        <node uin="Ntq87gleg3c08h3mzt3r">
+            <property name="$name" value="freigegeben"/>
+            <property name="$metaclass" value="Operation20"/>
+            <property name="mod__returnType" value="boolean"/>
+            <node uin="L-5kd6yfeg3c11kptexuqx">
+                <property name="$name" value="spende"/>
+                <property name="$metaclass" value="Parameter"/>
+                <property name="mod__typeReferencedElement" value="design:node:::N-tdsqjueg2d9ong-mchulk"/>
+                <property name="mod__type" value="Spende"/>
+            </node>
+        </node>
         <node uin="Ntq87gleg2d9ong-uz6hwn">
             <property name="$name" value="sucheSpende"/>
             <property name="$metaclass" value="Operation20"/>

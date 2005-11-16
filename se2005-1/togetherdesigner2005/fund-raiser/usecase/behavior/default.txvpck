@@ -4,6 +4,9 @@
         <property name="$defaultDiagram" value="true"/>
         <property name="$metaclass" value="ClassDiagram20"/>
         <property name="$defaultDiagram" value=""/>
-        <reference referencedUin="design:view:::V1hexuhefzfm9hp-q20cy6"/>
+        <reference referencedUin="design:view:::V1hexuhefzfm9hp-q20cy6">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="10,10,187,202"/>
+        </reference>
     </view>
 </nodeSet>
