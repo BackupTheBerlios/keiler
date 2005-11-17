@@ -95,6 +95,11 @@
                 </reference>
             </reference>
         </reference>
+        <reference referencedUin="design:node:::1g64yeg59ozri-dhu45i">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="140,240,200,63"/>
+        </reference>
         <reference referencedUin="sd20_message|1|call|105(design:node:::Nl2gqtvefqrki0xaeelg:Nc87hzvefqrki0x-p8gy9:N-y8nsowefqrki0xq73038:N-yrgd8eefqrki0n-nvrrte)">
             <property name="@location_set_by_user" value="false"/>
             <property name="sourceAnchor" value="107,112"/>

@@ -7,7 +7,7 @@
         <link uin="Lr7pm3wefqrmwxb-234zrq">
             <property name="$metaclass" value="Note Link"/>
             <participant referencedUin="design:node:::N1g64yefqrmwxb-w7fohz" role="Client"/>
-            <participant referencedUin="design:node:::Nc87hzvefqrkd2w-1zefqz:N-y8nsowefqrkd2w3e6ovd:N-yrgd8eefqrkd2w-h3afl5" role="Supplier"/>
+            <participant referencedUin="design:node:::Nc87hzveg5a7tkpihh1dk:N-y8nsowefqrkd2w3e6ovd:N-yrgd8eefqrkd2w-h3afl5" role="Supplier"/>
         </link>
     </node>
 </nodeSet>
