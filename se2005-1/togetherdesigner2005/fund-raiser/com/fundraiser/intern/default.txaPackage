@@ -29,6 +29,15 @@
             <participant referencedUin="design:node:::N-tdsqjueg2eugxlfutz3v" role="Client"/>
             <participant referencedUin="design:node:::-tdsqjuefco5j92-dpw1s0" role="Supplier"/>
         </link>
+        <link uin="L-4dc66eg5731hj-90k5go">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="composition" value=""/>
+            <property name="aggregation" value=""/>
+            <property name="clientCardinality" value="1"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::N-tdsqjueg2eugxlfutz3v" role="Client"/>
+            <participant referencedUin="design:node:::-tdsqjuefcn13mi4toptt" role="Supplier"/>
+        </link>
     </node>
     <node uin="N-tdsqjueg2euiul31xktm">
         <property name="$metaclass" value="Class20"/>

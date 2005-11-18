@@ -26,6 +26,12 @@
             <participant referencedUin="design:node:::N-tdsqjueg2d9ong-mchulk" role="Client"/>
             <participant referencedUin="design:node:::N-tdsqjueg2dajbt-5angy4" role="Supplier"/>
         </link>
+        <node uin="Nhnimszeg5arcasenfi10">
+            <property name="$name" value="einziehung"/>
+            <property name="$metaclass" value="Property20"/>
+            <property name="$language" value="design"/>
+            <property name="mod__type" value="Date"/>
+        </node>
         <node uin="Nhnimszeg2d9ongbwxby8">
             <property name="$name" value="datum"/>
             <property name="$metaclass" value="Property20"/>

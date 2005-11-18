@@ -4,18 +4,30 @@
         <property name="$defaultDiagram" value="true"/>
         <property name="$metaclass" value="ClassDiagram20"/>
         <property name="$defaultDiagram" value=""/>
-        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true
-&#xA;toolbar.buttonRunCount = 2
-&#xA;"/>
-        <reference referencedUin="design:view:::V-oyrl70eg2klmlm1nnj4i">
+
+        <reference referencedUin="design:node:::N-amcqg9eg53r8zwgdn7hx"/>
+        <reference referencedUin="design:view:::V-oyrl70eg6m044we38vxx">
             <property name="$shortcutReference" value=""/>
-            <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="216,1,165,48"/>
         </reference>
-        <reference referencedUin="design:view:::V-oyrl70eg2m2a3gu7mjxp">
-            <property name="$shortcutReference" value=""/>
-            <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="10,10,187,80"/>
-        </reference>
+        <reference referencedUin="design:node:::-amcqg9eg53t0ga-1zzwi2"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53r8xorbzqy3"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53i2pg-w3s5kt"/>
+        <reference referencedUin="design:node:::-amcqg9eg53w92uemndhl"/>
+        <reference referencedUin="design:node:::-amcqg9eg53xeqh-ou5y94"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53i2yx-6qa8br"/>
+        <reference referencedUin="design:node:::-amcqg9eg56bpgfk4g099"/>
+        <reference referencedUin="design:node:::-amcqg9eg53v4v7-luuats"/>
+        <reference referencedUin="design:node:::-amcqg9eg55z1bb5czkk"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53jdwuevvxxt"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53jdy9-icnxdc"/>
+        <reference referencedUin="design:node:::-amcqg9eg5654f1-ad9pmy"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53r8uc6x47py"/>
+        <reference referencedUin="design:node:::-amcqg9eg53vi53-ms0q9v"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53i2vb-io9aw1"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53hl0g-ewjgac"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53i2rf5jqukb"/>
+        <reference referencedUin="design:node:::-amcqg9eg569ms4-uf3ta6"/>
+
+
     </view>
 </nodeSet>

@@ -4,7 +4,16 @@
         <property name="$defaultDiagram" value="true"/>
         <property name="$metaclass" value="ClassDiagram20"/>
         <property name="$defaultDiagram" value=""/>
-        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;option.layout.recursive = false &#xA;"/>
+        <property name="@__options" value="option.layout.recursive = false
+&#xA;toolbar.group.#DEFAULT.expanded = true
+&#xA;toolbar.buttonRunCount = 2
+&#xA;toolbar.group.pattern.expanded = true
+&#xA;toolbar.group.ocl.expanded = true
+&#xA;toolbar.group.note.expanded = true
+&#xA;scrollX = 0
+&#xA;scrollY = 0
+&#xA;zoomFactor = 1.0
+&#xA;"/>
         <reference referencedUin="design:node:::N-tdsqjueg2djmjt-53xm5r">
             <property name="@location_set_by_user" value="true"/>
             <property name="bounds" value="10,10,171,109"/>

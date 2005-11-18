@@ -54,9 +54,9 @@
             </reference>
             <reference referencedUin="design:link:::L-4dc66eg2d9ongl6fftw:N-tdsqjueg2d9ong-mchulk">
                 <property name="@location_set_by_user" value="false"/>
-                <property name="sourceAnchor" value="260,376"/>
+                <property name="sourceAnchor" value="260,384"/>
                 <property name="bendpoints" value=""/>
-                <property name="targetAnchor" value="340,376"/>
+                <property name="targetAnchor" value="340,384"/>
             </reference>
         </reference>
         <reference referencedUin="design:node:::N-tdsqjueg2dadt6-lhohp">
@@ -199,7 +199,7 @@
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkClientMultiplicity:design:link:::L-4dc66eg2d9ongl6fftw:N-tdsqjueg2d9ong-mchulk">
             <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="270,357,15,16"/>
+            <property name="bounds" value="270,365,15,16"/>
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkClientMultiplicity:design:link:::L-4dc66eg2djmk3-2m5rf1:N-tdsqjueg2djmjt-53xm5r">
             <property name="@location_set_by_user" value="false"/>
@@ -219,7 +219,7 @@
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkSupplierMultiplicity:design:link:::L-4dc66eg2d9ongl6fftw:N-tdsqjueg2d9ong-mchulk">
             <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="304,357,26,16"/>
+            <property name="bounds" value="304,365,26,16"/>
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkClientMultiplicity:design:link:::L-4dc66eg2damze-u9srk8:N-tdsqjueg2damze-9yw4lk">
             <property name="@location_set_by_user" value="false"/>
