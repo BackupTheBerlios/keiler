@@ -53,11 +53,6 @@
                         <property name="$metaclass" value="SD20_Int_Message_Argument"/>
                         <property name="@stringValue" value="user"/>
                     </node>
-                    <link uin="Lnzzd9aeg0s7c2bnlul5r">
-                        <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
-                        <participant referencedUin="design:node:::Nl2gqtvefqrkd2w-5hvhoq:Nc87hzvefqrkd2w-8b2k6a:N-y8nsowefqrkd2w-hyrpv2:N-yrgd8eefqrkd2w-h3afl5" role="Client"/>
-                        <participant referencedUin="design:node:::Ntq87gleg2d9ong-uz6hwn:N-tdsqjueg2d9ong-mchulk" role="Supplier"/>
-                    </link>
                 </node>
             </node>
             <node uin="Nc87hzveg5a7tkp-hk3c70">
@@ -131,11 +126,6 @@
                         <property name="$metaclass" value="SD20_Int_Message_Argument"/>
                         <property name="@stringValue" value="spende"/>
                     </node>
-                    <link uin="Lnzzd9aeg0s82xt-qjccsn">
-                        <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
-                        <participant referencedUin="design:node:::Nl2gqtvefqrkd2wpa9w5j:Nc87hzvefqrkd2wnxmjtx:N-y8nsowefqrkd2w-jqg6xj:N-yrgd8eefqrkd2w-h3afl5" role="Client"/>
-                        <participant referencedUin="design:node:::Ntq87gleg2damze1ev1ep:N-tdsqjueg2damze-9yw4lk" role="Supplier"/>
-                    </link>
                 </node>
                 <node uin="Nl2gqtvefqrkd2w-367hxi">
                     <property name="$name" value="SD20_Int_InvocationSpecification3"/>
@@ -156,11 +146,6 @@
                         <property name="$metaclass" value="SD20_Int_Message_Argument"/>
                         <property name="@stringValue" value="spende"/>
                     </node>
-                    <link uin="Lnzzd9aeg0s9cvboaode6">
-                        <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
-                        <participant referencedUin="design:node:::Nl2gqtvefqrkd2wy5ks74:Nc87hzvefqrkd2wnxmjtx:N-y8nsowefqrkd2w-jqg6xj:N-yrgd8eefqrkd2w-h3afl5" role="Client"/>
-                        <participant referencedUin="design:node:::Ntq87gleg2damze-242pwh:N-tdsqjueg2damze-9yw4lk" role="Supplier"/>
-                    </link>
                 </node>
                 <node uin="Nl2gqtvefqrkd2w-gv7nsv">
                     <property name="$name" value="SD20_Int_InvocationSpecification1"/>
@@ -224,7 +209,7 @@
                     <link uin="Lnzzd9aeg0s41s8-f4c42g">
                         <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
                         <participant referencedUin="design:node:::Nl2gqtvefqrkd2w8zu1y9:Nc87hzvefqrkd2wmnq2ai:N-y8nsowefqrkd2wgxk8zr:N-yrgd8eefqrkd2w-h3afl5" role="Client"/>
-                        <participant referencedUin="design:node:::Ntq87gleg2d9rxy-mu0j6t:N-tdsqjueg2d9rxy-knziwg" role="Supplier"/>
+                        <participant referencedUin="design:node:::Ntq87gleg7zokog-ykc0h9:N-tdsqjueg2damze-9yw4lk" role="Supplier"/>
                     </link>
                 </node>
                 <node uin="Nl2gqtvefqrkd2wrfl4kc">

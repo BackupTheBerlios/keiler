@@ -4,16 +4,7 @@
         <property name="$defaultDiagram" value="true"/>
         <property name="$metaclass" value="ClassDiagram20"/>
         <property name="$defaultDiagram" value=""/>
-        <property name="@__options" value="option.layout.recursive = false
-&#xA;toolbar.group.#DEFAULT.expanded = true
-&#xA;toolbar.buttonRunCount = 2
-&#xA;toolbar.group.pattern.expanded = true
-&#xA;toolbar.group.ocl.expanded = true
-&#xA;toolbar.group.note.expanded = true
-&#xA;scrollX = 0
-&#xA;scrollY = 0
-&#xA;zoomFactor = 1.0
-&#xA;"/>
+        <property name="@__options" value="option.layout.recursive = false &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;toolbar.group.pattern.expanded = true &#xA;toolbar.group.ocl.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
         <reference referencedUin="design:node:::N-tdsqjueg2djmjt-53xm5r">
             <property name="@location_set_by_user" value="true"/>
             <property name="bounds" value="10,10,171,109"/>
@@ -41,12 +32,6 @@
         <reference referencedUin="design:node:::N-tdsqjueg2eypt2inffsw">
             <property name="@location_set_by_user" value="true"/>
             <property name="bounds" value="20,200,157,253"/>
-            <reference referencedUin="design:link:::Lw0d380eg2mnuugr22snz:N-tdsqjueg2eypt2inffsw">
-                <property name="@location_set_by_user" value="false"/>
-                <property name="sourceAnchor" value="177,254"/>
-                <property name="bendpoints" value=""/>
-                <property name="targetAnchor" value="260,254"/>
-            </reference>
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkClientMultiplicity:design:link:::L-4dc66eg2djmk3-2m5rf1:N-tdsqjueg2djmjt-53xm5r">
             <property name="@location_set_by_user" value="false"/>

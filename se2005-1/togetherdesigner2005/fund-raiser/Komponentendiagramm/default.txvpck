@@ -4,7 +4,6 @@
         <property name="$defaultDiagram" value="true"/>
         <property name="$metaclass" value="ClassDiagram20"/>
         <property name="$defaultDiagram" value=""/>
-
         <reference referencedUin="design:node:::N-amcqg9eg53r8zwgdn7hx"/>
         <reference referencedUin="design:view:::V-oyrl70eg6m044we38vxx">
             <property name="$shortcutReference" value=""/>
@@ -21,13 +20,29 @@
         <reference referencedUin="design:node:::N-amcqg9eg53jdwuevvxxt"/>
         <reference referencedUin="design:node:::N-amcqg9eg53jdy9-icnxdc"/>
         <reference referencedUin="design:node:::-amcqg9eg5654f1-ad9pmy"/>
+        <reference referencedUin="design:node:::-amcqg9eg6m68qb5h3zpb"/>
         <reference referencedUin="design:node:::N-amcqg9eg53r8uc6x47py"/>
         <reference referencedUin="design:node:::-amcqg9eg53vi53-ms0q9v"/>
         <reference referencedUin="design:node:::N-amcqg9eg53i2vb-io9aw1"/>
         <reference referencedUin="design:node:::N-amcqg9eg53hl0g-ewjgac"/>
         <reference referencedUin="design:node:::N-amcqg9eg53i2rf5jqukb"/>
         <reference referencedUin="design:node:::-amcqg9eg569ms4-uf3ta6"/>
-
-
+        <reference referencedUin="design:view:::V-oyrl70eg2klmlm1nnj4i"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53jdvq-ladx6o"/>
+        <reference referencedUin="design:node:::-amcqg9eg5b5566-voovb6"/>
+        <reference referencedUin="design:view:::V-oyrl70eg55b2mzx3wg4u"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53i2sjoqjkav"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53zsg1-gkudc"/>
+        <reference referencedUin="design:node:::-amcqg9eg55uqofw81p37"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53r8vg1rehbx"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53r8ys5nxoyx"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53i2wf4zpjnf"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53jdum-ga60ot"/>
+        <reference referencedUin="design:node:::-amcqg9eg53vtmh3is2z1"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53r8wk6wfg03"/>
+        <reference referencedUin="design:node:::-amcqg9eg54altf-9rcnj0"/>
+        <reference referencedUin="design:node:::-amcqg9eg5b5mm1-hfv1tz"/>
+        <reference referencedUin="design:view:::V-oyrl70eg2m2a3gu7mjxp"/>
+        <reference referencedUin="design:node:::N-amcqg9eg53i2u7-v5uqed"/>
     </view>
 </nodeSet>

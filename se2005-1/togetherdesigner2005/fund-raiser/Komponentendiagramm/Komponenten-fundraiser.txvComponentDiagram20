@@ -3,235 +3,24 @@
     <view uin="V-oyrl70eg2m2a3gu7mjxp">
         <property name="$metaclass" value="ComponentDiagram20"/>
         <property name="$description" value=""/>
-        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true
-&#xA;toolbar.buttonRunCount = 2
-&#xA;toolbar.group.pattern.expanded = true
-&#xA;toolbar.group.note.expanded = true
-&#xA;scrollX = 0
-&#xA;scrollY = 0
-&#xA;zoomFactor = 1.0
-&#xA;"/>
-        <reference referencedUin="design:node:::ba089neg2mxx35gbi6zi">
-            <property name="$shortcutReference" value=""/>
-            <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="20,-40,580,560"/>
-            <property name="bounds_setted_by_user" value="true"/>
-            <reference referencedUin="design:node:::N-amcqg9eg2nq6cyih522v:ba089neg2mxx35gbi6zi">
-                <property name="@location_set_by_user" value="true"/>
-                <property name="@__referenceContsraints" value="shiftX=300,shiftY=328"/>
-                <property name="bounds" value="300,360,20,20"/>
-            </reference>
-            <reference referencedUin="design:node:::N-amcqg9eg2n4p17-htklr2:ba089neg2mxx35gbi6zi">
-                <property name="@location_set_by_user" value="true"/>
-                <property name="@__referenceContsraints" value="shiftX=300,shiftY=148"/>
-                <property name="bounds" value="300,180,20,20"/>
-            </reference>
-            <reference referencedUin="design:node:::N-amcqg9eg2nb50ow023vt:ba089neg2mxx35gbi6zi">
-                <property name="@location_set_by_user" value="true"/>
-                <property name="@__referenceContsraints" value="shiftX=300,shiftY=208"/>
-                <property name="bounds" value="300,240,20,20"/>
-            </reference>
-            <reference referencedUin="design:node:::Nba089neg2nsm4i7qquli:ba089neg2mxx35gbi6zi">
-                <property name="@location_set_by_user" value="true"/>
-                <property name="@__referenceContsraints" value="shiftX=340,shiftY=8"/>
-                <property name="bounds" value="340,40,110,60"/>
-                <property name="bounds_setted_by_user" value="true"/>
-                <reference referencedUin="design:node:::N-vedwtdeg2nsuvequq9r2:Nba089neg2nsm4i7qquli:ba089neg2mxx35gbi6zi">
-                    <property name="@location_set_by_user" value="true"/>
-                    <property name="@__referenceContsraints" value="shiftX=360,shiftY=62"/>
-                    <property name="bounds" value="20,54,12,12"/>
-                    <reference referencedUin="design:link:::L-y168zseg2nt1u11g3cii:N-vedwtdeg2nsuvequq9r2:Nba089neg2nsm4i7qquli:ba089neg2mxx35gbi6zi">
-                        <property name="@location_set_by_user" value="false"/>
-                        <property name="sourceAnchor" value="382,66"/>
-                        <property name="bendpoints" value=""/>
-                        <property name="targetAnchor" value="339,149"/>
-                    </reference>
-                </reference>
-            </reference>
-            <reference referencedUin="design:node:::N-amcqg9eg2nqu25-zg2ca0:ba089neg2mxx35gbi6zi">
-                <property name="@location_set_by_user" value="true"/>
-                <property name="@__referenceContsraints" value="shiftX=360,shiftY=388"/>
-                <property name="bounds" value="360,420,20,20"/>
-            </reference>
-            <reference referencedUin="design:node:::Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi">
-                <property name="@location_set_by_user" value="true"/>
-                <property name="@__referenceContsraints" value="shiftX=400,shiftY=128"/>
-                <property name="bounds" value="400,160,110,92"/>
-                <reference referencedUin="design:node:::N-vedwtdeg2ne1gsyrjyle:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi">
-                    <property name="@location_set_by_user" value="true"/>
-                    <property name="@__referenceContsraints" value="shiftX=394,shiftY=207"/>
-                    <property name="bounds" value="-6,79,12,12"/>
-                    <reference referencedUin="design:link:::L-y168zseg2nelhkymsi5r:N-vedwtdeg2ne1gsyrjyle:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi">
-                        <property name="@location_set_by_user" value="false"/>
-                        <property name="sourceAnchor" value="414,205"/>
-                        <property name="bendpoints" value=""/>
-                        <property name="targetAnchor" value="339,209"/>
-                    </reference>
-                </reference>
-                <reference referencedUin="design:node:::N-vedwtdeg2nrva4m74tvk:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi">
-                    <property name="@location_set_by_user" value="true"/>
-                    <property name="@__referenceContsraints" value="shiftX=420,shiftY=214"/>
-                    <property name="bounds" value="20,86,12,12"/>
-                    <reference referencedUin="design:link:::L-y168zseg2ns88c-vnepmg:N-vedwtdeg2nrva4m74tvk:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi">
-                        <property name="@location_set_by_user" value="false"/>
-                        <property name="sourceAnchor" value="440,218"/>
-                        <property name="bendpoints" value=""/>
-                        <property name="targetAnchor" value="336,322"/>
-                    </reference>
-                </reference>
-                <reference referencedUin="design:node:::N-vedwtdeg2ndhrg1smgwe:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi">
-                    <property name="@location_set_by_user" value="true"/>
-                    <property name="@__referenceContsraints" value="shiftX=394,shiftY=147"/>
-                    <property name="bounds" value="-6,19,12,12"/>
-                </reference>
-                <reference referencedUin="design:node:::N-vedwtdeg2nrtg7fetzwy:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi">
-                    <property name="@location_set_by_user" value="true"/>
-                    <property name="@__referenceContsraints" value="shiftX=460,shiftY=214"/>
-                    <property name="bounds" value="60,86,12,12"/>
-                    <reference referencedUin="design:link:::L-y168zseg2nscvjgmiim0:N-vedwtdeg2nrtg7fetzwy:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi">
-                        <property name="@location_set_by_user" value="false"/>
-                        <property name="sourceAnchor" value="482,218"/>
-                        <property name="bendpoints" value=""/>
-                        <property name="targetAnchor" value="394,380"/>
-                    </reference>
-                </reference>
-            </reference>
-            <reference referencedUin="design:node:::Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi">
-                <property name="@location_set_by_user" value="true"/>
-                <property name="@__referenceContsraints" value="shiftX=140,shiftY=348"/>
-                <property name="bounds" value="140,380,110,92"/>
-                <reference referencedUin="design:node:::N-vedwtdeg2nq35s-hfgeba:Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi">
-                    <property name="@location_set_by_user" value="true"/>
-                    <property name="@__referenceContsraints" value="shiftX=244,shiftY=428"/>
-                    <property name="bounds" value="104,80,12,12"/>
-                    <reference referencedUin="design:link:::L-ek237weg2nr4o224ar4s:N-vedwtdeg2nq35s-hfgeba:Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi">
-                        <property name="@location_set_by_user" value="false"/>
-                        <property name="sourceAnchor" value="276,424"/>
-                        <property name="bendpoints" value=""/>
-                        <property name="targetAnchor" value="380,392"/>
-                    </reference>
-                </reference>
-                <reference referencedUin="design:node:::N-vedwtdeg2npzga-7cevcw:Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi">
-                    <property name="@location_set_by_user" value="true"/>
-                    <property name="@__referenceContsraints" value="shiftX=244,shiftY=388"/>
-                    <property name="bounds" value="104,40,12,12"/>
-                    <reference referencedUin="design:link:::L-ek237weg2nqpypylx7s2:N-vedwtdeg2npzga-7cevcw:Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi">
-                        <property name="@location_set_by_user" value="false"/>
-                        <property name="sourceAnchor" value="276,380"/>
-                        <property name="bendpoints" value=""/>
-                        <property name="targetAnchor" value="320,340"/>
-                    </reference>
-                </reference>
-            </reference>
-            <reference referencedUin="design:node:::Nba089neg2mz12p3wxcik:ba089neg2mxx35gbi6zi">
-                <property name="@location_set_by_user" value="true"/>
-                <property name="@__referenceContsraints" value="shiftX=20,shiftY=8"/>
-                <property name="bounds" value="20,40,110,92"/>
-                <reference referencedUin="design:node:::N-vedwtdeg2mz3sm-m35h9v:Nba089neg2mz12p3wxcik:ba089neg2mxx35gbi6zi">
-                    <property name="@location_set_by_user" value="true"/>
-                    <property name="@__referenceContsraints" value="shiftX=124,shiftY=68"/>
-                    <property name="bounds" value="104,60,12,12"/>
-                </reference>
-            </reference>
-            <reference referencedUin="design:node:::Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi">
-                <property name="@location_set_by_user" value="true"/>
-                <property name="@__referenceContsraints" value="shiftX=120,shiftY=128"/>
-                <property name="bounds" value="120,160,120,100"/>
-                <property name="bounds_setted_by_user" value="true"/>
-                <reference referencedUin="design:node:::N-vedwtdeg2mymyr-br488p:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi">
-                    <property name="@location_set_by_user" value="true"/>
-                    <property name="@__referenceContsraints" value="shiftX=234,shiftY=153"/>
-                    <property name="bounds" value="114,25,12,12"/>
-                    <reference referencedUin="design:link:::L-ek237weg2n4v26ewnqrs:N-vedwtdeg2mymyr-br488p:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi">
-                        <property name="@location_set_by_user" value="false"/>
-                        <property name="sourceAnchor" value="266,151"/>
-                        <property name="bendpoints" value=""/>
-                        <property name="targetAnchor" value="320,150"/>
-                    </reference>
-                </reference>
-                <reference referencedUin="design:node:::N-vedwtdeg2nbr5x-rzh1q0:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi">
-                    <property name="@location_set_by_user" value="true"/>
-                    <property name="@__referenceContsraints" value="shiftX=234,shiftY=208"/>
-                    <property name="bounds" value="114,80,12,12"/>
-                    <reference referencedUin="design:link:::L-ek237weg2nc6zc-bwk8lu:N-vedwtdeg2nbr5x-rzh1q0:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi">
-                        <property name="@location_set_by_user" value="false"/>
-                        <property name="sourceAnchor" value="266,206"/>
-                        <property name="bendpoints" value=""/>
-                        <property name="targetAnchor" value="320,209"/>
-                    </reference>
-                </reference>
-            </reference>
-        </reference>
+        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;toolbar.group.pattern.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
         <reference referencedUin="design:node:::ba089neg2m37da-d91ab7">
             <property name="$shortcutReference" value=""/>
             <property name="@location_set_by_user" value="true"/>
             <property name="bounds" value="640,80,110,80"/>
             <property name="bounds_setted_by_user" value="true"/>
         </reference>
-        <reference referencedUin="design:node:::ba089neg2m71qwa19th1">
+        <reference referencedUin="design:node:::ba089neg2mxx35gbi6zi">
             <property name="$shortcutReference" value=""/>
             <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="620,380,110,102"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-vedwtdeg2mz3sm-m35h9v:Nba089neg2mz12p3wxcik:ba089neg2mxx35gbi6zi">
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="132,82,37,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-amcqg9eg2nb50ow023vt:ba089neg2mxx35gbi6zi">
-            <property name="@__referenceContsraints" value="shiftX=280,shiftY=238"/>
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="300,230,60,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-vedwtdeg2nrtg7fetzwy:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi">
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="480,228,12,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-vedwtdeg2nsuvequq9r2:Nba089neg2nsm4i7qquli:ba089neg2mxx35gbi6zi">
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="380,76,12,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-amcqg9eg2nqu25-zg2ca0:ba089neg2mxx35gbi6zi">
-            <property name="@__referenceContsraints" value="shiftX=338,shiftY=418"/>
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="358,410,64,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-vedwtdeg2ndhrg1smgwe:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi">
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="414,161,12,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-vedwtdeg2ne1gsyrjyle:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi">
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="414,221,12,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-amcqg9eg2n4p17-htklr2:ba089neg2mxx35gbi6zi">
-            <property name="@__referenceContsraints" value="shiftX=281,shiftY=178"/>
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="301,170,59,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-vedwtdeg2nrva4m74tvk:Nba089neg2nd34k-qor2kd:ba089neg2mxx35gbi6zi">
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="440,228,12,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-vedwtdeg2npzga-7cevcw:Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi">
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="264,402,12,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-vedwtdeg2nq35s-hfgeba:Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi">
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="264,442,12,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-amcqg9eg2nq6cyih522v:ba089neg2mxx35gbi6zi">
-            <property name="@__referenceContsraints" value="shiftX=272,shiftY=358"/>
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="292,350,77,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-vedwtdeg2nbr5x-rzh1q0:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi">
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="254,222,12,16"/>
-        </reference>
-        <reference referencedUin="label:$name:design:node:::N-vedwtdeg2mymyr-br488p:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi">
-            <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="253,167,15,16"/>
+            <property name="bounds" value="20,-40,580,560"/>
+            <property name="bounds_setted_by_user" value="true"/>
+            <reference referencedUin="design:node:::Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi">
+                <property name="@location_set_by_user" value="true"/>
+                <property name="@__referenceContsraints" value="shiftX=120,shiftY=128"/>
+                <property name="bounds" value="120,160,120,100"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
         </reference>
     </view>
 </nodeSet>

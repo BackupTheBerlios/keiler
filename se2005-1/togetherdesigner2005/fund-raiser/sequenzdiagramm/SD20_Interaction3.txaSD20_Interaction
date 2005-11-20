@@ -19,11 +19,6 @@
                     <property name="@call_cachedSequenceNumber" value="4.4"/>
                     <property name="@call_literalSequenceNumberComponent" value="4"/>
                     <property name="@sd20_reply_message_exists" value=""/>
-                    <link uin="Lnzzd9aeg1b1xlt-kpiin8">
-                        <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
-                        <participant referencedUin="design:node:::Nl2gqtvefqrkpj1-5y01n5:Nc87hzvefqrkpj1mwjere:N-y8nsowefqrkpj1vy6ntk:N-yrgd8eefqrkpir-jfodlw" role="Client"/>
-                        <participant referencedUin="design:node:::Ntq87gleg2euiul-wztnb7:N-tdsqjueg2euiul31xktm" role="Supplier"/>
-                    </link>
                 </node>
             </node>
             <link uin="L-4pt500efqrkpj1-ax3xpj">
@@ -45,11 +40,6 @@
                     <property name="@receiveExecutionSpecificationPuin" value="design:node:::Nc87hzvefqrkpj1-wqpiw6:N-y8nsowefqrkpj1tp1gjl:N-yrgd8eefqrkpir-jfodlw"/>
                     <property name="@call_cachedSequenceNumber" value="4.4.1"/>
                     <property name="@sd20_reply_message_exists" value=""/>
-                    <link uin="Lnzzd9aeg1b9k06misblu">
-                        <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
-                        <participant referencedUin="design:node:::Nl2gqtvefqrkpj14azctj:Nc87hzvefqrkpj1tbbjde:N-y8nsowefqrkpj1t8g1cz:N-yrgd8eefqrkpir-jfodlw" role="Client"/>
-                        <participant referencedUin="design:node:::Ntq87gleg2e8b9l-q74ptk:N-tdsqjueg2e8b9lkt4xhe" role="Supplier"/>
-                    </link>
                 </node>
                 <node uin="Nl2gqtvefqrkpj1bw2o8n">
                     <property name="$name" value="SD20_Int_InvocationSpecification1"/>
@@ -57,11 +47,6 @@
                     <property name="@receiveExecutionSpecificationPuin" value="design:node:::Nc87hzvefqrkpj1-f9wms:N-y8nsowefqrkpj1bdbj81:N-yrgd8eefqrkpir-jfodlw"/>
                     <property name="@call_cachedSequenceNumber" value="4.4.2"/>
                     <property name="@sd20_reply_message_exists" value=""/>
-                    <link uin="Lnzzd9aeg1b7ks7ibfu1e">
-                        <property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
-                        <participant referencedUin="design:node:::Nl2gqtvefqrkpj1bw2o8n:Nc87hzvefqrkpj1tbbjde:N-y8nsowefqrkpj1t8g1cz:N-yrgd8eefqrkpir-jfodlw" role="Client"/>
-                        <participant referencedUin="design:node:::Ntq87gleg2d9rxyxzbi8d:N-tdsqjueg2d9rxy-knziwg" role="Supplier"/>
-                    </link>
                 </node>
             </node>
             <link uin="L-4pt500efqrkpj1-uo9e4w">

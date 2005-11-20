@@ -92,28 +92,38 @@
         <property name="stereotype" value="subsystem"/>
         <node uin="Nba089neg2mymyr9gxeko">
             <property name="$metaclass" value="Component20"/>
-            <property name="$name" value="Spendenaktion"/>
+            <property name="$name" value="Npo-Spendenaktion"/>
             <property name="visibility" value="public"/>
-        </node>
-        <node uin="Nba089neg2npgae-a0o61h">
-            <property name="$name" value="Dauerauftrag"/>
-            <property name="$metaclass" value="Component20"/>
-            <link uin="Lb1rvu1eg51zlhg-mtyjpq">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="L-4dc66eg525r956n4e9g">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <property name="aggregation" value=""/>
-                <participant referencedUin="design:node:::Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg51wmeg7oudb3:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg528eb0c95xgm">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg5280r3wvb7la:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
+            <node uin="Nt5jmdoeg9v56fp-454ydg">
+                <property name="$name" value="Npo"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.spenden.npo.Spendenorganistion"/>
+                <link uin="Lsu8x6peg9v56fpyazr9h">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.spenden.npo.Spendenorganistion"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9v56fp-454ydg:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-tdsqjueg2djmjt-53xm5r" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="Nt5jmdoeg9v86mh1wlhdz">
+                <property name="$name" value="SpendenAktion"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.spenden.npo.SpendenAktion"/>
+                <link uin="Lsu8x6peg9v8hn6-93aieh">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.spenden.npo.SpendenAktion"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9v86mh1wlhdz:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-tdsqjueg2eypt2inffsw" role="Supplier"/>
+                </link>
+                <link uin="L-4dc66eg9v9c3g8rpxsf">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <property name="aggregation" value=""/>
+                    <property name="clientCardinality" value="0..*"/>
+                    <property name="supplierCardinality" value="1"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9v86mh1wlhdz:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9v56fp-454ydg:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                </link>
+            </node>
         </node>
         <node uin="Nba089neg51i697-mpagx5">
             <property name="$name" value="Login"/>
@@ -142,44 +152,6 @@
                 <participant referencedUin="design:node:::Nba089neg51i697-mpagx5:ba089neg2mxx35gbi6zi" role="Client"/>
                 <participant referencedUin="design:node:::Nba089neg530k8e-zb2pkc:ba089neg2mxx35gbi6zi" role="Supplier"/>
             </link>
-            <link uin="L-4dc66eg541b7h-t2kjpd">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <property name="aggregation" value=""/>
-                <participant referencedUin="design:node:::Nba089neg51i697-mpagx5:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg540jf5-s8mmmx:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg567512-i75oex">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg51i697-mpagx5:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg5664dy-2rikfk:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-        </node>
-        <node uin="Nba089neg51wmeg7oudb3">
-            <property name="$metaclass" value="Component20"/>
-            <property name="$name" value="Spende"/>
-            <link uin="Lb1rvu1eg526d8aue25ls">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg51wmeg7oudb3:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg528g3tphu6ss">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg51wmeg7oudb3:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg5280r3wvb7la:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-        </node>
-        <node uin="Nba089neg5280r3wvb7la">
-            <property name="$name" value="Spender"/>
-            <property name="$metaclass" value="Component20"/>
-        </node>
-        <node uin="Nba089neg52thr5ox0koy">
-            <property name="$name" value="Npo"/>
-            <property name="$metaclass" value="Component20"/>
-            <link uin="Lb1rvu1eg554co4ddcufi">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg52thr5ox0koy:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
         </node>
         <node uin="Nba089neg530k8e-zb2pkc">
             <property name="$name" value="Mitarbeiter-Ansicht"/>
@@ -189,27 +161,12 @@
             <link uin="Lb1rvu1eg53knosbt4aci">
                 <property name="$metaclass" value="Dependency20"/>
                 <participant referencedUin="design:node:::Nba089neg530k8e-zb2pkc:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg5280r3wvb7la:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg53ktaq-z6dzkn">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg530k8e-zb2pkc:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg53lnu3vjtro6">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg530k8e-zb2pkc:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                <participant referencedUin="design:node:::Nba089neg9v0sxc-1uhxsk:ba089neg2mxx35gbi6zi" role="Supplier"/>
             </link>
             <link uin="Lb1rvu1eg53lsiokbxmkf">
                 <property name="$metaclass" value="Dependency20"/>
                 <participant referencedUin="design:node:::Nba089neg530k8e-zb2pkc:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg52thr5ox0koy:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg53tskvcwy1g">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg530k8e-zb2pkc:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg51wmeg7oudb3:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                <participant referencedUin="design:node:::Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Supplier"/>
             </link>
             <node uin="N-vedwtdeg5krkwgua5va5">
                 <property name="$name" value="TCP/IP"/>
@@ -267,22 +224,7 @@
             <link uin="Lb1rvu1eg53ovwb-8rgfw1">
                 <property name="$metaclass" value="Dependency20"/>
                 <participant referencedUin="design:node:::Nba089neg534toq-gkvb5v:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg5280r3wvb7la:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg53p2pe8djjbs">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg534toq-gkvb5v:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg51wmeg7oudb3:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg53p689ri3tn4">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg534toq-gkvb5v:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg53p88aivasa4">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg534toq-gkvb5v:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg52thr5ox0koy:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                <participant referencedUin="design:node:::Nba089neg9v0sxc-1uhxsk:ba089neg2mxx35gbi6zi" role="Supplier"/>
             </link>
             <node uin="N-vedwtdeg5kqghlipo8k9">
                 <property name="$name" value="TCP/IP"/>
@@ -326,20 +268,10 @@
             <property name="$metaclass" value="Component20"/>
             <property name="stereotype" value="subsystem"/>
             <property name="stereotype" value="WEB-GUI"/>
-            <link uin="Lb1rvu1eg53rqkrjd1efr">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg539mou-d6vmgn:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg5280r3wvb7la:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
             <link uin="Lb1rvu1eg53s197-bg0l25">
                 <property name="$metaclass" value="Dependency20"/>
                 <participant referencedUin="design:node:::Nba089neg539mou-d6vmgn:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg2npgae-a0o61h:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg53s9tf9woeja">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg539mou-d6vmgn:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg51wmeg7oudb3:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                <participant referencedUin="design:node:::Nba089neg9v0sxc-1uhxsk:ba089neg2mxx35gbi6zi" role="Supplier"/>
             </link>
             <node uin="N-vedwtdeg5kt19eke1xgp">
                 <property name="$name" value="TCP_IP"/>
@@ -386,7 +318,7 @@
             <link uin="Lb1rvu1eg566fq1-evq8zw">
                 <property name="$metaclass" value="Dependency20"/>
                 <participant referencedUin="design:node:::Nba089neg53czt0-1534ra:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg5664dy-2rikfk:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                <participant referencedUin="design:node:::Nt5jmdoeg9v1zxof189n4:ba089neg2mxx35gbi6zi" role="Supplier"/>
             </link>
             <node uin="N-vedwtdeg5kl8f0tz8ykf">
                 <property name="$name" value="TCP/IP"/>
@@ -435,26 +367,6 @@
                 <participant referencedUin="design:node:::Nba089neg53z721-4gx8yw:ba089neg2mxx35gbi6zi" role="Client"/>
                 <participant referencedUin="design:node:::Nba089neg51i697-mpagx5:ba089neg2mxx35gbi6zi" role="Supplier"/>
             </link>
-            <link uin="L-4dc66eg5abceh-8cf6mt">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <participant referencedUin="design:node:::Nba089neg53z721-4gx8yw:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg53czt0-1534ra:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="L-4dc66eg5abftq86d6pg">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <participant referencedUin="design:node:::Nba089neg53z721-4gx8yw:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg534toq-gkvb5v:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="L-4dc66eg5abm2r-k0pcog">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <participant referencedUin="design:node:::Nba089neg53z721-4gx8yw:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg530k8e-zb2pkc:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
-            <link uin="L-4dc66eg5abqpyvnwyfp">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <participant referencedUin="design:node:::Nba089neg53z721-4gx8yw:ba089neg2mxx35gbi6zi" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg539mou-d6vmgn:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
             <node uin="N-vedwtdeg5kp9v5-yy8fmk">
                 <property name="$name" value="TCP/IP"/>
                 <property name="$metaclass" value="Port20"/>
@@ -466,14 +378,6 @@
                     <participant referencedUin="design:node:::N-amcqg9eg53zsg1-gkudc" role="Supplier"/>
                 </link>
             </node>
-        </node>
-        <node uin="Nba089neg540jf5-s8mmmx">
-            <property name="$name" value="LoginRolle"/>
-            <property name="$metaclass" value="Component20"/>
-        </node>
-        <node uin="Nba089neg5664dy-2rikfk">
-            <property name="$name" value="Spendenwerber"/>
-            <property name="$metaclass" value="Component20"/>
         </node>
         <node uin="Nba089neg6jksso-vy8zo">
             <property name="$name" value="MVC-Control"/>
@@ -491,6 +395,110 @@
             <link uin="L-4dc66eg6jmg665svbp3">
                 <property name="$metaclass" value="KernelAssociation20"/>
                 <participant referencedUin="design:node:::Nba089neg6jksso-vy8zo:ba089neg2mxx35gbi6zi" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg51i697-mpagx5:ba089neg2mxx35gbi6zi" role="Supplier"/>
+            </link>
+            <link uin="L-4dc66eg9vbtzi1d3u98">
+                <property name="$metaclass" value="KernelAssociation20"/>
+                <participant referencedUin="design:node:::Nba089neg6jksso-vy8zo:ba089neg2mxx35gbi6zi" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg539mou-d6vmgn:ba089neg2mxx35gbi6zi" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="Nba089neg9v0sxc-1uhxsk">
+            <property name="$metaclass" value="Component20"/>
+            <property name="$name" value="Spende"/>
+            <node uin="Nt5jmdoeg9v0sxc-untxqu">
+                <property name="$name" value="Spender"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.spenden.Spender"/>
+                <link uin="Lsu8x6peg9v0sxccwcw">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.spenden.Spender"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9v0sxc-untxqu:Nba089neg9v0sxc-1uhxsk:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-tdsqjueg2d9rxy-knziwg" role="Supplier"/>
+                </link>
+                <link uin="L-4dc66eg9v0sxc-5lb9p0">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <property name="aggregation" value=""/>
+                    <property name="clientCardinality" value="0..*"/>
+                    <property name="supplierCardinality" value="1"/>
+                    <property name="composition" value=""/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9v0sxc-untxqu:Nba089neg9v0sxc-1uhxsk:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9v0sxc453r3w:Nba089neg9v0sxc-1uhxsk:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="Nt5jmdoeg9v0sxc453r3w">
+                <property name="$name" value="Spende"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.spenden.Spende"/>
+                <link uin="Lsu8x6peg9v0sxcnnd2os">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.spenden.Spende"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9v0sxc453r3w:Nba089neg9v0sxc-1uhxsk:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-tdsqjueg2d9ong-mchulk" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="Nt5jmdoeg9v0sxcq4isla">
+                <property name="$name" value="Dauerauftrag"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.spenden.Dauerauftrag"/>
+                <link uin="Lsu8x6peg9v0sxcn5iuff">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.spenden.Dauerauftrag"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9v0sxcq4isla:Nba089neg9v0sxc-1uhxsk:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::N-tdsqjueg2damze-9yw4lk" role="Supplier"/>
+                </link>
+                <link uin="L-4dc66eg9v0sxc-dzub8h">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <property name="clientCardinality" value="0..*"/>
+                    <property name="supplierCardinality" value="1"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9v0sxcq4isla:Nba089neg9v0sxc-1uhxsk:ba089neg2mxx35gbi6zi" role="Client"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9v0sxc453r3w:Nba089neg9v0sxc-1uhxsk:ba089neg2mxx35gbi6zi" role="Supplier"/>
+                </link>
+            </node>
+            <link uin="Lb1rvu1eg9v0sxctr0d3u">
+                <property name="$metaclass" value="Dependency20"/>
+                <participant referencedUin="design:node:::Nba089neg9v0sxc-1uhxsk:ba089neg2mxx35gbi6zi" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="Nt5jmdoeg9v1zxof189n4">
+            <property name="$name" value="SpendenWerber"/>
+            <property name="$metaclass" value="InstanceSpecification20"/>
+            <property name="classifier" value="com.fundraiser.spenden.SpendenWerber"/>
+            <link uin="Lsu8x6peg9v2dfn-62ik46">
+                <property name="$metaclass" value="InstantiatesLink20"/>
+                <property name="classifier" value="com.fundraiser.spenden.SpendenWerber"/>
+                <participant referencedUin="design:node:::Nt5jmdoeg9v1zxof189n4:ba089neg2mxx35gbi6zi" role="Client"/>
+                <participant referencedUin="design:node:::N-tdsqjueg2e8b9lkt4xhe" role="Supplier"/>
+            </link>
+            <link uin="Lb1rvu1eg9vcvzvp8abah">
+                <property name="$metaclass" value="Dependency20"/>
+                <participant referencedUin="design:node:::Nt5jmdoeg9v1zxof189n4:ba089neg2mxx35gbi6zi" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg9v0sxc-1uhxsk:ba089neg2mxx35gbi6zi" role="Supplier"/>
+            </link>
+            <link uin="Lb1rvu1eg9vczvi-44gean">
+                <property name="$metaclass" value="Dependency20"/>
+                <participant referencedUin="design:node:::Nt5jmdoeg9v1zxof189n4:ba089neg2mxx35gbi6zi" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N1g64yeg9vhthvmk0wps">
+            <property name="$metaclass" value="Note"/>
+            <property name="$name" value="Note6"/>
+            <property name="$note_text" value="Control für alle Views - alle Verbindungen der Views nach innen gehen prinzipiell über dieses Control - wurde aus Gründen der Übersichtlichkeit nicht ausgeführt."/>
+            <link uin="Lr7pm3weg9vhthvej1ofs">
+                <property name="$metaclass" value="Note Link"/>
+                <participant referencedUin="design:node:::N1g64yeg9vhthvmk0wps:ba089neg2mxx35gbi6zi" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg6jksso-vy8zo:ba089neg2mxx35gbi6zi" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N1g64yeg9vlsz3e2ah2v">
+            <property name="$metaclass" value="Note"/>
+            <property name="$name" value="Note4"/>
+            <property name="$note_text" value="Login-Komponente wie in Fundraiser Komponenten für Geldverkehr"/>
+            <link uin="Lr7pm3weg9vlsz3-l5aibu">
+                <property name="$metaclass" value="Note Link"/>
+                <participant referencedUin="design:node:::N1g64yeg9vlsz3e2ah2v:ba089neg2mxx35gbi6zi" role="Client"/>
                 <participant referencedUin="design:node:::Nba089neg51i697-mpagx5:ba089neg2mxx35gbi6zi" role="Supplier"/>
             </link>
         </node>
@@ -694,6 +702,11 @@
                 <participant referencedUin="design:node:::Nba089neg52cike2xffor:Nba089neg52cikeasxe13" role="Client"/>
                 <participant referencedUin="design:node:::-amcqg9eg569ms4-uf3ta6" role="Supplier"/>
             </link>
+            <link uin="Lb1rvu1eg6v19r8-bgam1c">
+                <property name="$metaclass" value="Dependency20"/>
+                <participant referencedUin="design:node:::Nba089neg52cike2xffor:Nba089neg52cikeasxe13" role="Client"/>
+                <participant referencedUin="design:node:::-amcqg9eg5654f1-ad9pmy" role="Supplier"/>
+            </link>
         </node>
     </node>
     <node uin="N-amcqg9eg53hl0g-ewjgac">
@@ -807,7 +820,7 @@
     </node>
     <node uin="ba089neg55oshlgt25os">
         <property name="$metaclass" value="Component20"/>
-        <property name="$name" value="Fundraiser-System"/>
+        <property name="$name" value="Fundraiser-Geldverkehr"/>
         <property name="stereotype" value="subsystem"/>
         <node uin="Nba089neg55rwbo-g8eo6k">
             <property name="$name" value="Mitarbeiter-Ansicht"/>
@@ -834,11 +847,6 @@
                 <participant referencedUin="design:node:::Nba089neg55rwbo-g8eo6k:ba089neg55oshlgt25os" role="Client"/>
                 <participant referencedUin="design:node:::N-amcqg9eg53jdvq-ladx6o" role="Supplier"/>
             </link>
-            <link uin="Lb1rvu1eg55rwbodt8xzt">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg55rwbo-g8eo6k:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg52thr5ox0koy:ba089neg2mxx35gbi6zi" role="Supplier"/>
-            </link>
             <link uin="L-y168zseg55rwbo-pmv045">
                 <property name="$metaclass" value="RequiredInterface20"/>
                 <participant referencedUin="design:node:::Nba089neg55rwbo-g8eo6k:ba089neg55oshlgt25os" role="Client"/>
@@ -853,21 +861,6 @@
                 <property name="$metaclass" value="RequiredInterface20"/>
                 <participant referencedUin="design:node:::Nba089neg55rwbo-g8eo6k:ba089neg55oshlgt25os" role="Client"/>
                 <participant referencedUin="design:node:::-amcqg9eg54altf-9rcnj0" role="Supplier"/>
-            </link>
-            <link uin="L-4dc66eg5ay7c59dlwlj">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <participant referencedUin="design:node:::Nba089neg55rwbo-g8eo6k:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg55rwfk-6xbt4i:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-            <link uin="L-4dc66eg5ayaufkusnk7">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <participant referencedUin="design:node:::Nba089neg55rwbo-g8eo6k:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg55rwdwk75eb6:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-            <link uin="L-4dc66eg5ayhg0-3vmpho">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <participant referencedUin="design:node:::Nba089neg55rwbo-g8eo6k:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg55rwg4-mchn3c:ba089neg55oshlgt25os" role="Supplier"/>
             </link>
             <node uin="N-vedwtdeg5kue04b390u">
                 <property name="$name" value="TCP/IP"/>
@@ -885,50 +878,16 @@
                     <participant referencedUin="design:node:::-amcqg9eg5b5566-voovb6" role="Supplier"/>
                 </link>
             </node>
-        </node>
-        <node uin="Nba089neg55rwdwk75eb6">
-            <property name="$name" value="Dauerauftrag"/>
-            <property name="$metaclass" value="Component20"/>
-            <link uin="L-4dc66eg57ej0hmuvhh0">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <property name="aggregation" value=""/>
-                <property name="clientCardinality" value="0..*"/>
-                <property name="supplierCardinality" value="1"/>
-                <participant referencedUin="design:node:::Nba089neg55rwdwk75eb6:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg55rwfk-6xbt4i:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-            <link uin="L-4dc66eg5ay1t8-xqb71c">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <participant referencedUin="design:node:::Nba089neg55rwdwk75eb6:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg55rwg4-mchn3c:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg5b08gjbfgvwm">
+            <link uin="Lb1rvu1eg9tsnyj-ghp3v2">
                 <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg55rwdwk75eb6:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg56uqki7qfzeb:ba089neg55oshlgt25os" role="Supplier"/>
+                <participant referencedUin="design:node:::Nba089neg55rwbo-g8eo6k:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Supplier"/>
             </link>
-        </node>
-        <node uin="Nba089neg55rwfk-6xbt4i">
-            <property name="$metaclass" value="Component20"/>
-            <property name="$name" value="Spende"/>
-            <link uin="L-4dc66eg57aw813q84ei">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <property name="aggregation" value=""/>
-                <property name="clientCardinality" value="1"/>
-                <property name="supplierCardinality" value="1"/>
-                <participant referencedUin="design:node:::Nba089neg55rwfk-6xbt4i:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg57a5er-vewr32:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg5az9tq-rjp601">
+            <link uin="Lb1rvu1eg9uapn5-orxcli">
                 <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg55rwfk-6xbt4i:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg56uqki7qfzeb:ba089neg55oshlgt25os" role="Supplier"/>
+                <participant referencedUin="design:node:::Nba089neg55rwbo-g8eo6k:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg6v53hq-q4agqh:ba089neg55oshlgt25os" role="Supplier"/>
             </link>
-        </node>
-        <node uin="Nba089neg55rwg4-mchn3c">
-            <property name="$metaclass" value="Component20"/>
-            <property name="$name" value="Spendenaktion"/>
-            <property name="visibility" value="public"/>
         </node>
         <node uin="Nba089neg55rwgoqzv38f">
             <property name="$name" value="Login"/>
@@ -957,16 +916,36 @@
                 <participant referencedUin="design:node:::Nba089neg55rwgoqzv38f:ba089neg55oshlgt25os" role="Client"/>
                 <participant referencedUin="design:node:::Nba089neg55rwbo-g8eo6k:ba089neg55oshlgt25os" role="Supplier"/>
             </link>
-            <link uin="L-4dc66eg55rwgolr6d6j">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <property name="aggregation" value=""/>
-                <participant referencedUin="design:node:::Nba089neg55rwgoqzv38f:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg55rwi2vjcksg:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-        </node>
-        <node uin="Nba089neg55rwi2vjcksg">
-            <property name="$name" value="LoginRolle"/>
-            <property name="$metaclass" value="Component20"/>
+            <node uin="Nt5jmdoeg9tdp616p536u">
+                <property name="$name" value="LoginAccount"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.LoginAccount"/>
+                <link uin="Lsu8x6peg9tdp61-zg2yyt">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.LoginAccount"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tdp616p536u:Nba089neg55rwgoqzv38f:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::-tdsqjuefcosnjbfdeahm" role="Supplier"/>
+                </link>
+                <link uin="L-4dc66eg9tdp61-yar8mh">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <property name="aggregation" value=""/>
+                    <property name="clientCardinality" value="0..*"/>
+                    <property name="supplierCardinality" value="1"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tdp616p536u:Nba089neg55rwgoqzv38f:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tdr80-p6volt:Nba089neg55rwgoqzv38f:ba089neg55oshlgt25os" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="Nt5jmdoeg9tdr80-p6volt">
+                <property name="$name" value="LoginRolle"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.LoginRolle"/>
+                <link uin="Lsu8x6peg9tdr80-m16b9l">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.LoginRolle"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tdr80-p6volt:Nba089neg55rwgoqzv38f:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::-tdsqjuefcovlexyarcmb" role="Supplier"/>
+                </link>
+            </node>
         </node>
         <node uin="Nba089neg55rwimiujdc5">
             <property name="$name" value="Login"/>
@@ -982,16 +961,6 @@
                 <property name="$metaclass" value="Dependency20"/>
                 <participant referencedUin="design:node:::Nba089neg55rwimiujdc5:ba089neg55oshlgt25os" role="Client"/>
                 <participant referencedUin="design:node:::Nba089neg55rwgoqzv38f:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-            <link uin="Lb1rvu1eg55rwim-d50nfi">
-                <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg55rwimiujdc5:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg55rwi2vjcksg:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-            <link uin="L-4dc66eg5ab4hwcz1xm2">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <participant referencedUin="design:node:::Nba089neg55rwimiujdc5:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg55rwjq-j34l7i:ba089neg55oshlgt25os" role="Supplier"/>
             </link>
             <node uin="N-vedwtdeg5kuxy4yqfy1p">
                 <property name="$name" value="TCP/IP"/>
@@ -1040,16 +1009,6 @@
                 <participant referencedUin="design:node:::Nba089neg55rwjq-j34l7i:ba089neg55oshlgt25os" role="Client"/>
                 <participant referencedUin="design:node:::-amcqg9eg53xeqh-ou5y94" role="Supplier"/>
             </link>
-            <link uin="L4s6u1weg56ricf7crr29">
-                <property name="$metaclass" value="Realization20"/>
-                <participant referencedUin="design:node:::Nba089neg55rwjq-j34l7i:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg56ew40cxzrbm:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-            <link uin="L-4dc66eg5axip14wqv8v">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <participant referencedUin="design:node:::Nba089neg55rwjq-j34l7i:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg55rwfk-6xbt4i:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
             <node uin="N-vedwtdeg5kv8d3-q1nnfm">
                 <property name="$name" value="TCP/IP"/>
                 <property name="$metaclass" value="Port20"/>
@@ -1061,51 +1020,24 @@
                     <participant referencedUin="design:node:::-amcqg9eg5654f1-ad9pmy" role="Supplier"/>
                 </link>
             </node>
-        </node>
-        <node uin="Nba089neg568gc3-b0vx2c">
-            <property name="$name" value="Spendenwerber"/>
-            <property name="$metaclass" value="Component20"/>
-            <link uin="L-4dc66eg56g173-cfl6e9">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <property name="aggregation" value=""/>
-                <property name="clientCardinality" value="1"/>
-                <property name="supplierCardinality" value="1"/>
-                <property name="composition" value=""/>
-                <participant referencedUin="design:node:::Nba089neg568gc3-b0vx2c:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg56eo94skwnmw:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-        </node>
-        <node uin="Nba089neg56eo94skwnmw">
-            <property name="$name" value="Gehalt"/>
-            <property name="$metaclass" value="Component20"/>
-            <link uin="L-4dc66eg56fepv69itdo">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <property name="aggregation" value=""/>
-                <property name="clientCardinality" value="0..1"/>
-                <property name="supplierCardinality" value="1"/>
-                <participant referencedUin="design:node:::Nba089neg56eo94skwnmw:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg56ew40cxzrbm:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-        </node>
-        <node uin="Nba089neg56ew40cxzrbm">
-            <property name="$name" value="GehaltsAuszahlung"/>
-            <property name="$metaclass" value="Component20"/>
-            <link uin="Lb1rvu1eg5alk4ofuhseb">
+            <link uin="Lb1rvu1eg9tt1wx-gvcp32">
                 <property name="$metaclass" value="Dependency20"/>
-                <participant referencedUin="design:node:::Nba089neg56ew40cxzrbm:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg56uqki7qfzeb:ba089neg55oshlgt25os" role="Supplier"/>
+                <participant referencedUin="design:node:::Nba089neg55rwjq-j34l7i:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Supplier"/>
+            </link>
+            <link uin="Lb1rvu1eg9u543g-hni87w">
+                <property name="$metaclass" value="Dependency20"/>
+                <property name="label" value="Überweisung initiieren"/>
+                <participant referencedUin="design:node:::Nba089neg55rwjq-j34l7i:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Supplier"/>
             </link>
         </node>
         <node uin="Nba089neg56uqki7qfzeb">
             <property name="$name" value="Bank-Schnittstelle"/>
             <property name="$metaclass" value="Component20"/>
-            <link uin="L-4dc66eg5akydc-yk2i0q">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <participant referencedUin="design:node:::Nba089neg56uqki7qfzeb:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg574jto-1in10u:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
+            <property name="stereotype" value="Webservice-Client"/>
             <node uin="N-vedwtdeg5kvtr3lsivkn">
-                <property name="$name" value="TCP/IP"/>
+                <property name="$name" value="SOAP"/>
                 <property name="$metaclass" value="Port20"/>
                 <property name="isService" value="true"/>
                 <property name="visibility" value="public"/>
@@ -1120,45 +1052,11 @@
                     <participant referencedUin="design:node:::-amcqg9eg55z1bb5czkk" role="Supplier"/>
                 </link>
             </node>
-        </node>
-        <node uin="Nba089neg574jto-1in10u">
-            <property name="$name" value="Fundraiser-Konto"/>
-            <property name="$metaclass" value="Component20"/>
-        </node>
-        <node uin="Nba089neg57a5er-vewr32">
-            <property name="$name" value="Einzugsermächtigung"/>
-            <property name="$metaclass" value="Component20"/>
-            <link uin="L-4dc66eg57cqf7-aqk0mj">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <property name="aggregation" value=""/>
-                <property name="clientCardinality" value="1"/>
-                <property name="supplierCardinality" value="1"/>
-                <participant referencedUin="design:node:::Nba089neg57a5er-vewr32:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg57cbjf6ybzr8:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-        </node>
-        <node uin="Nba089neg57cbjf6ybzr8">
-            <property name="$name" value="Spenderkonto"/>
-            <property name="$metaclass" value="Component20"/>
-        </node>
-        <node uin="N1g64yeg5aozle-ue01j2">
-            <property name="$name" value="Note1"/>
-            <property name="$metaclass" value="Note"/>
-            <property name="$note_text" value="Einzug für einzelne Spende"/>
-            <link uin="Lr7pm3weg5azcty8b5ihx">
-                <property name="$metaclass" value="Note Link"/>
-                <participant referencedUin="design:node:::N1g64yeg5aozle-ue01j2:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:link:::Lb1rvu1eg5az9tq-rjp601:Nba089neg55rwfk-6xbt4i:ba089neg55oshlgt25os" role="Supplier"/>
-            </link>
-        </node>
-        <node uin="N1g64yeg5azrtm-t6oc1l">
-            <property name="$name" value="Note1"/>
-            <property name="$metaclass" value="Note"/>
-            <property name="$note_text" value="Einzug für Dauerauftrag"/>
-            <link uin="Lr7pm3weg5azrtm-di567w">
-                <property name="$metaclass" value="Note Link"/>
-                <participant referencedUin="design:node:::N1g64yeg5azrtm-t6oc1l:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:link:::Lb1rvu1eg5b08gjbfgvwm:Nba089neg55rwdwk75eb6:ba089neg55oshlgt25os" role="Supplier"/>
+            <link uin="Lb1rvu1eg9u26ghpbnpc7">
+                <property name="$metaclass" value="Dependency20"/>
+                <property name="label" value="Überweisung von Konto"/>
+                <participant referencedUin="design:node:::Nba089neg56uqki7qfzeb:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nt5jmdoeg9u206b-auudzj:Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Supplier"/>
             </link>
         </node>
         <node uin="N1g64yeg5b18i8yv8h8d">
@@ -1168,7 +1066,272 @@
             <link uin="Lr7pm3weg5b1fyey7jr7">
                 <property name="$metaclass" value="Note Link"/>
                 <participant referencedUin="design:node:::N1g64yeg5b18i8yv8h8d:ba089neg55oshlgt25os" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg55rwdwk75eb6:ba089neg55oshlgt25os" role="Supplier"/>
+                <participant referencedUin="design:node:::Nt5jmdoeg9tmave-5yd6o5:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="Nba089neg6v53hq-q4agqh">
+            <property name="$name" value="MVC-Control"/>
+            <property name="$metaclass" value="Component20"/>
+            <link uin="L-4dc66eg6v53hqw5bdk2">
+                <property name="$metaclass" value="KernelAssociation20"/>
+                <participant referencedUin="design:node:::Nba089neg6v53hq-q4agqh:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg53czt0-1534ra:ba089neg2mxx35gbi6zi" role="Supplier"/>
+            </link>
+            <link uin="L-4dc66eg6v53hq-tkmtix">
+                <property name="$metaclass" value="KernelAssociation20"/>
+                <participant referencedUin="design:node:::Nba089neg6v53hq-q4agqh:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg53z721-4gx8yw:ba089neg2mxx35gbi6zi" role="Supplier"/>
+            </link>
+            <link uin="L-4dc66eg6v53hq-2idwuc">
+                <property name="$metaclass" value="KernelAssociation20"/>
+                <participant referencedUin="design:node:::Nba089neg6v53hq-q4agqh:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg51i697-mpagx5:ba089neg2mxx35gbi6zi" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N1g64yeg6v53jen2ki9u">
+            <property name="$metaclass" value="Note"/>
+            <property name="$name" value="Note6"/>
+            <property name="$note_text" value="Control für alle Views - alle Verbindungen der Views nach innen gehen prinzipiell über dieses Control - wurde aus Gründen der Übersichtlichkeit nicht ausgeführt."/>
+            <link uin="Lr7pm3weg6v53je-m3wena">
+                <property name="$metaclass" value="Note Link"/>
+                <participant referencedUin="design:node:::N1g64yeg6v53jen2ki9u:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg6jksso-vy8zo:ba089neg2mxx35gbi6zi" role="Supplier"/>
+            </link>
+            <link uin="Lr7pm3weg6v53je-8uoap1">
+                <property name="$metaclass" value="Note Link"/>
+                <participant referencedUin="design:node:::N1g64yeg6v53jen2ki9u:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg6v53hq-q4agqh:ba089neg55oshlgt25os" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N1g64yeg6v65gpxc25ju">
+            <property name="$metaclass" value="Note"/>
+            <property name="$name" value="Note5"/>
+            <property name="$note_text" value="HTML-VIEW"/>
+            <link uin="Lr7pm3weg6v65gp45jdnc">
+                <property name="$metaclass" value="Note Link"/>
+                <participant referencedUin="design:node:::N1g64yeg6v65gpxc25ju:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg53czt0-1534ra:ba089neg2mxx35gbi6zi" role="Supplier"/>
+            </link>
+            <link uin="Lr7pm3weg6v6b8i82mcxi">
+                <property name="$metaclass" value="Note Link"/>
+                <participant referencedUin="design:node:::N1g64yeg6v65gpxc25ju:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg55rwbo-g8eo6k:ba089neg55oshlgt25os" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="Nba089neg9ths30rt7fdx">
+            <property name="$name" value="Spendenaktion-Dauerauftrag"/>
+            <property name="$metaclass" value="Component20"/>
+            <node uin="Nt5jmdoeg9ti8wwdpdkxb">
+                <property name="$name" value="Spenderkonto"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.Konto"/>
+                <link uin="Lsu8x6peg9titv1-pyf7l3">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.Konto"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9ti8wwdpdkxb:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::-tdsqjuefcn13mi4toptt" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="Nt5jmdoeg9tizzm-5n6wwl">
+                <property name="$name" value="EinzugsErmächtigung"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.spenden.EinzugsErmächtigung"/>
+                <link uin="Lsu8x6peg9tj91n-sbcy9y">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.spenden.EinzugsErmächtigung"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tizzm-5n6wwl:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::N-tdsqjueg2dajbt-5angy4" role="Supplier"/>
+                </link>
+                <link uin="L-4dc66eg9tkheo-20evq9">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <property name="aggregation" value=""/>
+                    <property name="clientCardinality" value="1"/>
+                    <property name="supplierCardinality" value="1"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tizzm-5n6wwl:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9ti8wwdpdkxb:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="Nt5jmdoeg9tksfcy012c3">
+                <property name="$name" value="Spende"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.spenden.Spende"/>
+                <link uin="Lsu8x6peg9tl2wumg2gq">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.spenden.Spende"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tksfcy012c3:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::N-tdsqjueg2d9ong-mchulk" role="Supplier"/>
+                </link>
+                <link uin="L-4dc66eg9tl9mk9qgwe3">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <property name="aggregation" value=""/>
+                    <property name="clientCardinality" value="1"/>
+                    <property name="supplierCardinality" value="1"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tksfcy012c3:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tizzm-5n6wwl:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="Nt5jmdoeg9tmave-5yd6o5">
+                <property name="$name" value="Dauerauftrag"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.spenden.Dauerauftrag"/>
+                <link uin="Lsu8x6peg9tmlqiiflwkb">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.spenden.Dauerauftrag"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tmave-5yd6o5:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::N-tdsqjueg2damze-9yw4lk" role="Supplier"/>
+                </link>
+                <link uin="L-4dc66eg9tnfnm-xpfp6k">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <property name="aggregation" value=""/>
+                    <property name="clientCardinality" value="0..*"/>
+                    <property name="supplierCardinality" value="1"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tmave-5yd6o5:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tksfcy012c3:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Supplier"/>
+                </link>
+                <link uin="Lb1rvu1eg9tqjkgnk2zrb">
+                    <property name="$metaclass" value="Dependency20"/>
+                    <property name="label" value="Einzug"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tmave-5yd6o5:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::Nba089neg56uqki7qfzeb:ba089neg55oshlgt25os" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="Nt5jmdoeg9tocuehc8ea">
+                <property name="$name" value="SpendenAktion"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.spenden.npo.SpendenAktion"/>
+                <link uin="Lsu8x6peg9toqkz-k6h0se">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.spenden.npo.SpendenAktion"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tocuehc8ea:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::N-tdsqjueg2eypt2inffsw" role="Supplier"/>
+                </link>
+                <link uin="L-4dc66eg9tpdzvkjq4l2">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tocuehc8ea:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9tksfcy012c3:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Supplier"/>
+                </link>
+            </node>
+            <link uin="Lb1rvu1eg9tprgq-w03njx">
+                <property name="$metaclass" value="Dependency20"/>
+                <property name="label" value="Einzug"/>
+                <participant referencedUin="design:node:::Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg56uqki7qfzeb:ba089neg55oshlgt25os" role="Supplier"/>
+            </link>
+            <node uin="N1g64yeg9u4e4hhayslu">
+                <property name="$name" value="Note1"/>
+                <property name="$metaclass" value="Note"/>
+                <property name="$note_text" value="Einzug für Dauerauftrag"/>
+                <link uin="Lr7pm3weg9u4e4h-dckdja">
+                    <property name="$metaclass" value="Note Link"/>
+                    <participant referencedUin="design:node:::N1g64yeg9u4e4hhayslu:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:link:::Lb1rvu1eg9tqjkgnk2zrb:Nt5jmdoeg9tmave-5yd6o5:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Supplier"/>
+                </link>
+            </node>
+        </node>
+        <node uin="N1g64yeg9tviqk19p7v7">
+            <property name="$metaclass" value="Note"/>
+            <property name="$name" value="Note4"/>
+            <property name="$note_text" value="Optional: Spendenwerber initiiert Gehaltsauszahlung per Web-GUI. Die Gehaltsauszahlung ist immer abhängig von den geworbenen Spenden."/>
+            <link uin="Lr7pm3weg9tviqk9fwr2u">
+                <property name="$metaclass" value="Note Link"/>
+                <participant referencedUin="design:node:::N1g64yeg9tviqk19p7v7:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::-amcqg9eg5654f1-ad9pmy" role="Supplier"/>
+            </link>
+            <link uin="Lr7pm3weg9tviqk2nqfz8">
+                <property name="$metaclass" value="Note Link"/>
+                <participant referencedUin="design:node:::N1g64yeg9tviqk19p7v7:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:link:::Lb1rvu1eg9u0p4s-hq6ib0:Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="Nba089neg9u0p4s-fhqboq">
+            <property name="$name" value="Spendenwerber-Gehalt"/>
+            <property name="$metaclass" value="Component20"/>
+            <node uin="Nt5jmdoeg9u0p4s3yq0ns">
+                <property name="$name" value="Gehalt"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.intern.gehalt.Gehalt"/>
+                <link uin="Lsu8x6peg9u0p4ssqhnhw">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.intern.gehalt.Gehalt"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9u0p4s3yq0ns:Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::N-tdsqjueg2f8x9jmah6v2" role="Supplier"/>
+                </link>
+                <link uin="L-4dc66eg9u0p4s78hk0">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <property name="aggregation" value=""/>
+                    <property name="clientCardinality" value="0..1"/>
+                    <property name="supplierCardinality" value="1"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9u0p4s3yq0ns:Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9u0p4s-h0vw7n:Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="Nt5jmdoeg9u0p4s-re7ie3">
+                <property name="$name" value="SpendenWerber"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.spenden.SpendenWerber"/>
+                <link uin="Lsu8x6peg9u0p4s-l83fr">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.spenden.SpendenWerber"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9u0p4s-re7ie3:Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::N-tdsqjueg2e8b9lkt4xhe" role="Supplier"/>
+                </link>
+                <link uin="L-4dc66eg9u0p4spzwwm6">
+                    <property name="$metaclass" value="KernelAssociation20"/>
+                    <property name="aggregation" value=""/>
+                    <property name="composition" value=""/>
+                    <property name="clientCardinality" value="1"/>
+                    <property name="supplierCardinality" value="1"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9u0p4s-re7ie3:Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9u0p4s3yq0ns:Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Supplier"/>
+                </link>
+            </node>
+            <node uin="Nt5jmdoeg9u0p4s-h0vw7n">
+                <property name="$name" value="Auszahlung"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.intern.gehalt.Auszahlung"/>
+                <link uin="Lsu8x6peg9u0p4sa2fe1r">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.intern.gehalt.Auszahlung"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9u0p4s-h0vw7n:Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::N-tdsqjueg2f8x9j2augsx" role="Supplier"/>
+                </link>
+            </node>
+            <link uin="Lb1rvu1eg9u0p4s-hq6ib0">
+                <property name="$metaclass" value="Dependency20"/>
+                <property name="label" value="Überweisung"/>
+                <participant referencedUin="design:node:::Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:node:::Nba089neg56uqki7qfzeb:ba089neg55oshlgt25os" role="Supplier"/>
+            </link>
+            <node uin="Nt5jmdoeg9u206b-auudzj">
+                <property name="$name" value="FundraiserKonto"/>
+                <property name="$metaclass" value="InstanceSpecification20"/>
+                <property name="classifier" value="com.fundraiser.Konto"/>
+                <link uin="Lsu8x6peg9u206b-lxp304">
+                    <property name="$metaclass" value="InstantiatesLink20"/>
+                    <property name="classifier" value="com.fundraiser.Konto"/>
+                    <participant referencedUin="design:node:::Nt5jmdoeg9u206b-auudzj:Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Client"/>
+                    <participant referencedUin="design:node:::-tdsqjuefcn13mi4toptt" role="Supplier"/>
+                </link>
+            </node>
+        </node>
+        <node uin="N1g64yeg9u4c4g-3mcdoi">
+            <property name="$name" value="Note1"/>
+            <property name="$metaclass" value="Note"/>
+            <property name="$note_text" value="Einzug für einzelne Spende"/>
+            <link uin="Lr7pm3weg9u4c4g-u7moi5">
+                <property name="$metaclass" value="Note Link"/>
+                <participant referencedUin="design:node:::N1g64yeg9u4c4g-3mcdoi:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:link:::Lb1rvu1eg9tprgq-w03njx:Nba089neg9ths30rt7fdx:ba089neg55oshlgt25os" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="N1g64yeg9u8d4glwvei0">
+            <property name="$metaclass" value="Note"/>
+            <property name="$name" value="Note4"/>
+            <property name="$note_text" value="&quot;Reguläre&quot; Gehaltsauszahlung am Ende des Monats"/>
+            <link uin="Lr7pm3weg9u8d4g-qdhv0l">
+                <property name="$metaclass" value="Note Link"/>
+                <participant referencedUin="design:node:::N1g64yeg9u8d4glwvei0:ba089neg55oshlgt25os" role="Client"/>
+                <participant referencedUin="design:link:::Lb1rvu1eg9u0p4s-hq6ib0:Nba089neg9u0p4s-fhqboq:ba089neg55oshlgt25os" role="Supplier"/>
             </link>
         </node>
     </node>
@@ -1176,27 +1339,43 @@
         <property name="$metaclass" value="Component20"/>
         <property name="$name" value="Bank"/>
         <property name="stereotype" value="subsystem"/>
-        <property name="mod__implements" value="Einziehung"/>
-        <property name="mod__implements" value="Überweisung"/>
-        <property name="mod__implements" value="Konto Administration"/>
-        <link uin="Lw0d380eg55vfd73es5fc">
-            <property name="$metaclass" value="Implementation20"/>
-            <property name="mod__cachedBaseName" value="Einziehung"/>
-            <participant referencedUin="design:node:::ba089neg55ubo7eylofx" role="Client"/>
-            <participant referencedUin="design:node:::-amcqg9eg55uqofw81p37" role="Supplier"/>
-        </link>
-        <link uin="Lw0d380eg55z88u-rkbhjv">
-            <property name="$metaclass" value="Implementation20"/>
-            <property name="mod__cachedBaseName" value="Überweisung"/>
-            <participant referencedUin="design:node:::ba089neg55ubo7eylofx" role="Client"/>
-            <participant referencedUin="design:node:::-amcqg9eg55z1bb5czkk" role="Supplier"/>
-        </link>
-        <link uin="Lw0d380eg56c1se-8iiwzy">
-            <property name="$metaclass" value="Implementation20"/>
-            <property name="mod__cachedBaseName" value="Konto Administration"/>
-            <participant referencedUin="design:node:::ba089neg55ubo7eylofx" role="Client"/>
-            <participant referencedUin="design:node:::-amcqg9eg56bpgfk4g099" role="Supplier"/>
-        </link>
+        <node uin="Nba089neg6ukqzv2g2fr2">
+            <property name="$name" value="Kontoverwaltung"/>
+            <property name="$metaclass" value="Component20"/>
+            <property name="stereotype" value="Webservice"/>
+            <node uin="N-vedwtdeg6unusaym8rll">
+                <property name="$name" value="SAOP"/>
+                <property name="$metaclass" value="Port20"/>
+                <property name="isService" value="true"/>
+                <property name="visibility" value="public"/>
+                <link uin="L-ek237weg6uofa0ggqjm2">
+                    <property name="$metaclass" value="ProvidedInterface20"/>
+                    <participant referencedUin="design:node:::N-vedwtdeg6unusaym8rll:Nba089neg6ukqzv2g2fr2:ba089neg55ubo7eylofx" role="Client"/>
+                    <participant referencedUin="design:node:::-amcqg9eg55uqofw81p37" role="Supplier"/>
+                </link>
+                <link uin="L-ek237weg6uonwg-73alz9">
+                    <property name="$metaclass" value="ProvidedInterface20"/>
+                    <participant referencedUin="design:node:::N-vedwtdeg6unusaym8rll:Nba089neg6ukqzv2g2fr2:ba089neg55ubo7eylofx" role="Client"/>
+                    <participant referencedUin="design:node:::-amcqg9eg55z1bb5czkk" role="Supplier"/>
+                </link>
+            </node>
+        </node>
+        <node uin="Nba089neg6vhdpa-q4gqsp">
+            <property name="$name" value="Kontoverwaltung"/>
+            <property name="$metaclass" value="Component20"/>
+            <property name="stereotype" value="HTTP-Service"/>
+            <node uin="N-vedwtdeg6vic91ar7pw1">
+                <property name="$name" value="TCP/IP"/>
+                <property name="$metaclass" value="Port20"/>
+                <property name="isService" value="true"/>
+                <property name="visibility" value="public"/>
+                <link uin="L-ek237weg6vinic2hlkhl">
+                    <property name="$metaclass" value="ProvidedInterface20"/>
+                    <participant referencedUin="design:node:::N-vedwtdeg6vic91ar7pw1:Nba089neg6vhdpa-q4gqsp:ba089neg55ubo7eylofx" role="Client"/>
+                    <participant referencedUin="design:node:::-amcqg9eg56bpgfk4g099" role="Supplier"/>
+                </link>
+            </node>
+        </node>
     </node>
     <node uin="-amcqg9eg55uqofw81p37">
         <property name="$metaclass" value="Interface20"/>
@@ -1239,8 +1418,8 @@
                 <property name="$metaclass" value="Port20"/>
                 <property name="isService" value="true"/>
                 <property name="visibility" value="public"/>
-                <link uin="L-ek237weg6mberf-gft60i">
-                    <property name="$metaclass" value="ProvidedInterface20"/>
+                <link uin="L-y168zseg6uhqo3-38ks7z">
+                    <property name="$metaclass" value="RequiredInterface20"/>
                     <participant referencedUin="design:node:::N-vedwtdeg6mberfvp1l5i:Nba089neg6mberf-7vfohq:Nba089neg564sinucg05j" role="Client"/>
                     <participant referencedUin="design:node:::-amcqg9eg6m68qb5h3zpb" role="Supplier"/>
                 </link>
@@ -1258,36 +1437,6 @@
     <node uin="-amcqg9eg56bpgfk4g099">
         <property name="$metaclass" value="Interface20"/>
         <property name="$name" value="Konto Administration"/>
-    </node>
-    <node uin="1g64yeg56rmo7xu857a">
-        <property name="$metaclass" value="Note"/>
-        <property name="$name" value="Note4"/>
-        <property name="$note_text" value="Spendenwerber initiiert Gehaltsauszahlung per Web-GUI. Die Gehaltsauszahlung ist abhängig von den geworbenen Spenden."/>
-        <link uin="Lr7pm3weg56stknb6ywi0">
-            <property name="$metaclass" value="Note Link"/>
-            <participant referencedUin="design:node:::1g64yeg56rmo7xu857a" role="Client"/>
-            <participant referencedUin="design:link:::Lb1rvu1eg5alk4ofuhseb:Nba089neg56ew40cxzrbm:ba089neg55oshlgt25os" role="Supplier"/>
-        </link>
-        <link uin="Lr7pm3weg56tet33ycmsh">
-            <property name="$metaclass" value="Note Link"/>
-            <participant referencedUin="design:node:::1g64yeg56rmo7xu857a" role="Client"/>
-            <participant referencedUin="design:node:::-amcqg9eg5654f1-ad9pmy" role="Supplier"/>
-        </link>
-    </node>
-    <node uin="N1g64yeg5amp9f-3u6dwt">
-        <property name="$metaclass" value="Note"/>
-        <property name="$name" value="Note4"/>
-        <property name="$note_text" value="&quot;Reguläre&quot; Gehaltsauszahlung am Ende des Monats"/>
-        <link uin="Lr7pm3weg5anvwf-2c3t9r">
-            <property name="$metaclass" value="Note Link"/>
-            <participant referencedUin="design:node:::N1g64yeg5amp9f-3u6dwt" role="Client"/>
-            <participant referencedUin="design:node:::Nba089neg56ew40cxzrbm:ba089neg55oshlgt25os" role="Supplier"/>
-        </link>
-        <link uin="Lr7pm3weg5ao7c4sg9d3v">
-            <property name="$metaclass" value="Note Link"/>
-            <participant referencedUin="design:node:::N1g64yeg5amp9f-3u6dwt" role="Client"/>
-            <participant referencedUin="design:link:::Lb1rvu1eg5alk4ofuhseb:Nba089neg56ew40cxzrbm:ba089neg55oshlgt25os" role="Supplier"/>
-        </link>
     </node>
     <node uin="-amcqg9eg5b5566-voovb6">
         <property name="$metaclass" value="Interface20"/>
@@ -1322,36 +1471,10 @@
             <participant referencedUin="design:node:::Nba089neg53czt0-1534ra:ba089neg2mxx35gbi6zi" role="Supplier"/>
         </link>
     </node>
-    <node uin="1g64yeg6jnlke-l993nx">
-        <property name="$metaclass" value="Note"/>
-        <property name="$name" value="Note6"/>
-        <property name="$note_text" value="Control für alle Views - alle Verbindungen der Views nach innen gehen prinzipiell über dieses Control - wurde aus Gründen der Übersichtlichkeit nicht ausgeführt."/>
-        <link uin="Lr7pm3weg6jomaa-ky0hcg">
-            <property name="$metaclass" value="Note Link"/>
-            <participant referencedUin="design:node:::1g64yeg6jnlke-l993nx" role="Client"/>
-            <participant referencedUin="design:node:::Nba089neg6jksso-vy8zo:ba089neg2mxx35gbi6zi" role="Supplier"/>
-        </link>
-    </node>
     <node uin="ba089neg6m08nm-t4jdtw">
         <property name="$metaclass" value="Component20"/>
-        <property name="$name" value="Fundraiser-System"/>
+        <property name="$name" value="Fundraiser Spenderdaten-Import"/>
         <property name="stereotype" value="subsystem"/>
-        <node uin="Nba089neg6m2azf-bsqzbr">
-            <property name="$name" value="Spender"/>
-            <property name="$metaclass" value="Component20"/>
-            <link uin="L-4dc66eg6m48mcwmlxa5">
-                <property name="$metaclass" value="KernelAssociation20"/>
-                <property name="aggregation" value=""/>
-                <property name="clientCardinality" value="0..1"/>
-                <property name="supplierCardinality" value="1"/>
-                <participant referencedUin="design:node:::Nba089neg6m2azf-bsqzbr:ba089neg6m08nm-t4jdtw" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg6m2f0mb82k78:ba089neg6m08nm-t4jdtw" role="Supplier"/>
-            </link>
-        </node>
-        <node uin="Nba089neg6m2f0mb82k78">
-            <property name="$name" value="SpenderProfil"/>
-            <property name="$metaclass" value="Component20"/>
-        </node>
         <node uin="Nba089neg6m54fm-mmheq1">
             <property name="$name" value="Spenderdaten importieren"/>
             <property name="$metaclass" value="Component20"/>
@@ -1367,10 +1490,41 @@
                     <participant referencedUin="design:node:::-amcqg9eg6m68qb5h3zpb" role="Supplier"/>
                 </link>
             </node>
-            <link uin="L4s6u1weg6m7smndogwgg">
-                <property name="$metaclass" value="Realization20"/>
+            <link uin="Lb1rvu1eg9t4wgwx1vnfq">
+                <property name="$metaclass" value="Dependency20"/>
+                <property name="label" value="realize"/>
                 <participant referencedUin="design:node:::Nba089neg6m54fm-mmheq1:ba089neg6m08nm-t4jdtw" role="Client"/>
-                <participant referencedUin="design:node:::Nba089neg6m2azf-bsqzbr:ba089neg6m08nm-t4jdtw" role="Supplier"/>
+                <participant referencedUin="design:node:::Nt5jmdoeg9sxr6fsi7p3r:ba089neg6m08nm-t4jdtw" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="Nt5jmdoeg9sxr6fsi7p3r">
+            <property name="$name" value="Spender"/>
+            <property name="$metaclass" value="InstanceSpecification20"/>
+            <property name="classifier" value="com.fundraiser.spenden.Spender"/>
+            <link uin="Lsu8x6peg9sy9g1pbtvl3">
+                <property name="$metaclass" value="InstantiatesLink20"/>
+                <property name="classifier" value="com.fundraiser.spenden.Spender"/>
+                <participant referencedUin="design:node:::Nt5jmdoeg9sxr6fsi7p3r:ba089neg6m08nm-t4jdtw" role="Client"/>
+                <participant referencedUin="design:node:::N-tdsqjueg2d9rxy-knziwg" role="Supplier"/>
+            </link>
+            <link uin="L-4dc66eg9t5jfxmqwkbc">
+                <property name="$metaclass" value="KernelAssociation20"/>
+                <property name="aggregation" value=""/>
+                <property name="clientCardinality" value="0..1"/>
+                <property name="supplierCardinality" value="1"/>
+                <participant referencedUin="design:node:::Nt5jmdoeg9sxr6fsi7p3r:ba089neg6m08nm-t4jdtw" role="Client"/>
+                <participant referencedUin="design:node:::Nt5jmdoeg9syfmv-1g8m1n:ba089neg6m08nm-t4jdtw" role="Supplier"/>
+            </link>
+        </node>
+        <node uin="Nt5jmdoeg9syfmv-1g8m1n">
+            <property name="$name" value="SpenderProfil"/>
+            <property name="$metaclass" value="InstanceSpecification20"/>
+            <property name="classifier" value="com.fundraiser.spenden.SpenderProfil"/>
+            <link uin="Lsu8x6peg9syqd9odh0vq">
+                <property name="$metaclass" value="InstantiatesLink20"/>
+                <property name="classifier" value="com.fundraiser.spenden.SpenderProfil"/>
+                <participant referencedUin="design:node:::Nt5jmdoeg9syfmv-1g8m1n:ba089neg6m08nm-t4jdtw" role="Client"/>
+                <participant referencedUin="design:node:::N-tdsqjueg2d9w0j-pldpk1" role="Supplier"/>
             </link>
         </node>
     </node>
@@ -1382,5 +1536,28 @@
         <property name="$metaclass" value="Note"/>
         <property name="$name" value="Note2"/>
         <property name="$note_text" value="Fundraiser Komponenten für Spenderdatenimport"/>
+    </node>
+    <node uin="Nba089neg6v330z5du3yt">
+        <property name="$name" value="MVC-Control"/>
+        <property name="$metaclass" value="Component20"/>
+        <link uin="L-4dc66eg6v330z5pyblt">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <participant referencedUin="design:node:::Nba089neg6v330z5du3yt" role="Client"/>
+            <participant referencedUin="design:node:::Nba089neg53czt0-1534ra:ba089neg2mxx35gbi6zi" role="Supplier"/>
+        </link>
+        <link uin="L-4dc66eg6v330zz2biw1">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <participant referencedUin="design:node:::Nba089neg6v330z5du3yt" role="Client"/>
+            <participant referencedUin="design:node:::Nba089neg53z721-4gx8yw:ba089neg2mxx35gbi6zi" role="Supplier"/>
+        </link>
+        <link uin="L-4dc66eg6v330z-dmaash">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <participant referencedUin="design:node:::Nba089neg6v330z5du3yt" role="Client"/>
+            <participant referencedUin="design:node:::Nba089neg51i697-mpagx5:ba089neg2mxx35gbi6zi" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="ba089neg9uwu60-pqfnj0">
+        <property name="$metaclass" value="Component20"/>
+        <property name="$name" value="Spendenaktion"/>
     </node>
 </nodeSet>
