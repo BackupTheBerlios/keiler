@@ -23,5 +23,18 @@
             <participant referencedUin="design:node:::N-tdsqjueg2f8x9j2augsx" role="Client"/>
             <participant referencedUin="design:node:::N-tdsqjueg2d9ong-mchulk" role="Supplier"/>
         </link>
+        <node uin="Nhnimszegcbhyg2gcqrax">
+            <property name="$name" value="datum"/>
+            <property name="$metaclass" value="Property20"/>
+            <property name="$language" value="design"/>
+            <property name="mod_Visibility" value="$private"/>
+            <property name="mod__type" value="Date"/>
+        </node>
+        <node uin="Lhnimszegcbhlo8n52b0h">
+            <property name="$name" value="betrag"/>
+            <property name="$metaclass" value="Property20"/>
+            <property name="$language" value="design"/>
+            <property name="mod__type" value="float"/>
+        </node>
     </node>
 </nodeSet>
