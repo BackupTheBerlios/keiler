@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpenderListe>
+	<Spender>
+		<Name/>
+		<Telefon/>
+		<Adresse/>
+		<GebDatum/>
+		<SpenderProfil>
+		<SpenderprofilProperty1></SpenderprofilProperty1>
+		<SpenderprofilProperty2></SpenderprofilProperty2>
+		</SpenderProfil>
+	</Spender>
+</SpenderListe>
