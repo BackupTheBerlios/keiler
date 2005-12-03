@@ -14,6 +14,7 @@
             <property name="@location_set_by_user" value="true"/>
             <property name="bounds" value="56,127,175,136"/>
         </reference>
+        <reference referencedUin="design:view:::V1hexuhegrsoz2c-olvex1"/>
         <reference referencedUin="design:view:::V1hexuhefqrjwgtkixss">
             <property name="@location_set_by_user" value="true"/>
             <property name="bounds" value="235,110,122,60"/>

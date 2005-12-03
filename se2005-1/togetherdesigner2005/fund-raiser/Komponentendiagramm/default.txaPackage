@@ -97,10 +97,10 @@
             <node uin="Nt5jmdoeg9v56fp-454ydg">
                 <property name="$name" value="Npo"/>
                 <property name="$metaclass" value="InstanceSpecification20"/>
-                <property name="classifier" value="com.fundraiser.spenden.npo.Spendenorganistion"/>
+                <property name="classifier" value="com.fundraiser.spenden.npo.NPO"/>
                 <link uin="Lsu8x6peg9v56fpyazr9h">
                     <property name="$metaclass" value="InstantiatesLink20"/>
-                    <property name="classifier" value="com.fundraiser.spenden.npo.Spendenorganistion"/>
+                    <property name="classifier" value="com.fundraiser.spenden.npo.NPO"/>
                     <participant referencedUin="design:node:::Nt5jmdoeg9v56fp-454ydg:Nba089neg2mymyr9gxeko:ba089neg2mxx35gbi6zi" role="Client"/>
                     <participant referencedUin="design:node:::N-tdsqjueg2djmjt-53xm5r" role="Supplier"/>
                 </link>
