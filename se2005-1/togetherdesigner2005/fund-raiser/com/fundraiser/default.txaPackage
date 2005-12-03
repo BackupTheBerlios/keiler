@@ -114,7 +114,7 @@
         <property name="$language" value="design"/>
         <property name="$name" value="Person"/>
         <property name="mod__extends" value="LoginAccount"/>
-        <property name="mod__extends" value="com.fundraiser.spenden.npo.SpendenOrgMitarbeiter"/>
+        <property name="mod__extends" value="com.fundraiser.spenden.npo.NPOMitarbeiter"/>
         <node uin="Nhnimszeg2adbiq-8vbtu6">
             <property name="$name" value="name"/>
             <property name="$metaclass" value="Property20"/>
@@ -146,7 +146,7 @@
         </link>
         <link uin="Lfwefh6eg2agchb4dcda0">
             <property name="$metaclass" value="Generalization20"/>
-            <property name="mod__cachedBaseName" value="com.fundraiser.spenden.npo.SpendenOrgMitarbeiter"/>
+            <property name="mod__cachedBaseName" value="com.fundraiser.spenden.npo.NPOMitarbeiter"/>
             <participant referencedUin="design:node:::-tdsqjueg2a7nqmm1bsfd" role="Client"/>
             <participant referencedUin="design:node:::N-tdsqjueg2djmk3-aln0u0" role="Supplier"/>
         </link>

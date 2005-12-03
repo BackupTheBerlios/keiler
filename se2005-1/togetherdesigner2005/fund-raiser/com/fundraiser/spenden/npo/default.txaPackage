@@ -3,7 +3,7 @@
     <node uin="N-tdsqjueg2djmjt-53xm5r">
         <property name="$metaclass" value="Class20"/>
         <property name="$language" value="design"/>
-        <property name="$name" value="Spendenorganistion"/>
+        <property name="$name" value="NPO"/>
         <property name="mod__extends" value="Unternehmen"/>
         <link uin="L-4dc66eg2djmk3-2m5rf1">
             <property name="$metaclass" value="KernelAssociation20"/>
@@ -70,7 +70,7 @@
     <node uin="N-tdsqjueg2djmk3-aln0u0">
         <property name="$metaclass" value="Class20"/>
         <property name="$language" value="design"/>
-        <property name="$name" value="SpendenOrgMitarbeiter"/>
+        <property name="$name" value="NPOMitarbeiter"/>
     </node>
     <node uin="N-tdsqjueg2eypt2inffsw">
         <property name="$metaclass" value="Class20"/>
@@ -159,6 +159,14 @@
             <property name="$metaclass" value="Property20"/>
             <property name="$language" value="design"/>
             <property name="mod__type" value="Date"/>
+        </node>
+        <node uin="Ntq87glegru7htfbqajq5">
+            <property name="$name" value="sperren"/>
+            <property name="$metaclass" value="Operation20"/>
+        </node>
+        <node uin="Ntq87glegru0pfi-iqeoh8">
+            <property name="$name" value="ablehnen"/>
+            <property name="$metaclass" value="Operation20"/>
         </node>
         <node uin="Ntq87gleg6xolbh-hqfibr">
             <property name="$name" value="verwerfen"/>

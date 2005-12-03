@@ -7,5 +7,8 @@
         <reference referencedUin="design:view:::V-d9nhuoegrsq7znxcn181">
             <property name="$shortcutReference" value=""/>
         </reference>
+        <reference referencedUin="design:view:::V-d9nhuoegrz1m1up1677w">
+            <property name="$shortcutReference" value=""/>
+        </reference>
     </view>
 </nodeSet>

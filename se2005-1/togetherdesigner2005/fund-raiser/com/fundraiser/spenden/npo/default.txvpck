@@ -23,7 +23,7 @@
         </reference>
         <reference referencedUin="design:node:::N-tdsqjueg2djmk3-aln0u0">
             <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="261,10,142,77"/>
+            <property name="bounds" value="261,10,96,77"/>
         </reference>
         <reference referencedUin="design:node:::N-tdsqjueg2n6ck0-sq8pws">
             <property name="@location_set_by_user" value="true"/>
@@ -31,7 +31,7 @@
         </reference>
         <reference referencedUin="design:node:::N-tdsqjueg2eypt2inffsw">
             <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="20,200,157,253"/>
+            <property name="bounds" value="20,200,166,285"/>
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkClientMultiplicity:design:link:::L-4dc66eg2djmk3-2m5rf1:N-tdsqjueg2djmjt-53xm5r">
             <property name="@location_set_by_user" value="false"/>
