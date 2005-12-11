@@ -33,16 +33,6 @@
                 <property name="$metaclass" value="Node20"/>
                 <property name="$name" value="Datenbankserver"/>
             </node>
-            <node uin="N1g64yeeo6bnwi-fjwdi1">
-                <property name="$metaclass" value="Note"/>
-                <property name="$name" value="Note1"/>
-                <property name="$note_text" value="Evt. eigener Server für Datenbank"/>
-                <link uin="Lr7pm3weeo6bnwi-4gxxzf">
-                    <property name="$metaclass" value="Note Link"/>
-                    <participant referencedUin="design:node:::N1g64yeeo6bnwi-fjwdi1:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Client"/>
-                    <participant referencedUin="design:node:::N-wcqejkeeo51oc2a564bz:Njevcj8eeo51kfb-13wqru:-2452mfeeo4ni36-wmevkk" role="Supplier"/>
-                </link>
-            </node>
         </node>
         <node uin="Njevcj8eeo56uffiio6s4">
             <property name="$metaclass" value="Device20"/>
@@ -76,7 +66,7 @@
     </node>
     <node uin="-2452mfeeo5ajelj7zrj4">
         <property name="$metaclass" value="ExecutionEnvironment20"/>
-        <property name="$name" value="Spenden- Organisation"/>
+        <property name="$name" value="NPO"/>
         <node uin="Njevcj8eeo5azvo5t3sbz">
             <property name="$metaclass" value="Device20"/>
             <property name="$name" value="PC-Client"/>

@@ -4,9 +4,8 @@
         <property name="$metaclass" value="PseudoState20"/>
         <property name="$kind" value="initial"/>
         <property name="$name" value="Initial"/>
-        <link uin="Lujnvd9egrublw5-liejfk">
+        <link uin="Lujnvd9eh3672hi-rekfp">
             <property name="$metaclass" value="TransitionLink20"/>
-            <property name="__trigger" value="NPO.neueSpendenaktion()"/>
             <participant referencedUin="design:node:::k9ofrlegrt0yera6kgge" role="Client"/>
             <participant referencedUin="design:node:::N-3uf15degrv17tj-wtk1hg" role="Supplier"/>
         </link>
@@ -20,6 +19,15 @@
         </node>
         <link uin="Lujnvd9egrupe9gmuc7l6">
             <property name="$metaclass" value="TransitionLink20"/>
+            <node uin="Nttifwdeh36aulw-bmrdx">
+                <property name="$name" value="guard"/>
+                <property name="$metaclass" value="Constraint"/>
+                <node uin="Nul14qaeh36aum63ydtuc">
+                    <property name="$name" value="ValueSpecification1"/>
+                    <property name="$metaclass" value="ValueSpecification"/>
+                    <property name="body" value="abglehntAm + x Monate &lt; aktuelles Datum"/>
+                </node>
+            </node>
             <participant referencedUin="design:node:::-3uf15degrt537xu9raeg" role="Client"/>
             <participant referencedUin="design:node:::6drk9legruos3d-6c6t9r" role="Supplier"/>
         </link>
@@ -39,7 +47,7 @@
                 <node uin="Nul14qaegruw0ladop6ss">
                     <property name="$name" value="ValueSpecification1"/>
                     <property name="$metaclass" value="ValueSpecification"/>
-                    <property name="body" value="läuftBis + n Jahre &lt; aktuelles Datum"/>
+                    <property name="body" value="läuftBis + n Monate &lt; aktuelles Datum"/>
                 </node>
             </node>
             <participant referencedUin="design:node:::N-3uf15degruda5xo01ew4" role="Client"/>
@@ -54,7 +62,7 @@
         <property name="$metaclass" value="Note"/>
         <property name="$name" value="Note1"/>
         <property name="$note_text" value="Spendenaktion gelöscht"/>
-        <link uin="Lr7pm3wegruxs5v-ift13l">
+        <link uin="Lr7pm3wegzjvx5i-yf2zvn">
             <property name="$metaclass" value="Note Link"/>
             <participant referencedUin="design:node:::1g64yegruxg5a-vc2kmo" role="Client"/>
             <participant referencedUin="design:node:::6drk9legruos3d-6c6t9r" role="Supplier"/>
@@ -108,6 +116,15 @@
         </node>
         <link uin="Lujnvd9egrv1c4r-4o2hzw">
             <property name="$metaclass" value="TransitionLink20"/>
+            <node uin="Nttifwdeh36baqgtc0lpm">
+                <property name="$name" value="guard"/>
+                <property name="$metaclass" value="Constraint"/>
+                <node uin="Nul14qaeh36baqgf3v709">
+                    <property name="$name" value="ValueSpecification1"/>
+                    <property name="$metaclass" value="ValueSpecification"/>
+                    <property name="body" value="gesperrtAm + x Monate &lt; aktuelles Datum"/>
+                </node>
+            </node>
             <participant referencedUin="design:node:::N-3uf15degrv1c4r-ejq4aq" role="Client"/>
             <participant referencedUin="design:node:::6drk9legruos3d-6c6t9r" role="Supplier"/>
         </link>
@@ -146,45 +163,85 @@
         <property name="$name" value="Initial"/>
         <link uin="Lujnvd9egrz6t1h-7x67so">
             <property name="$metaclass" value="TransitionLink20"/>
-            <property name="__trigger" value="neuerDauerauftrag()"/>
+            <node uin="Nttifwdegyvte0i-nfg9xu">
+                <property name="$name" value="guard"/>
+                <property name="$metaclass" value="Constraint"/>
+                <node uin="Nul14qaegyvte0scvn9ai">
+                    <property name="$name" value="ValueSpecification1"/>
+                    <property name="$metaclass" value="ValueSpecification"/>
+                    <property name="body" value="kein gültiger Dauerauftrag"/>
+                </node>
+            </node>
             <participant referencedUin="design:node:::k9ofrlegrz29x5-zcxc12" role="Client"/>
             <participant referencedUin="design:node:::-3uf15degrz63uw-uih4ws" role="Supplier"/>
         </link>
     </node>
     <node uin="-3uf15degrz63uw-uih4ws">
         <property name="$metaclass" value="State20"/>
-        <property name="$name" value="aktiv"/>
+        <property name="$name" value="inaktiv"/>
         <node uin="-acitv2egrz63v6-wfbt2f">
             <property name="$metaclass" value="Region20"/>
             <property name="$name" value="Region20"/>
         </node>
-        <link uin="Lujnvd9egrzbt9ps9zmsp">
+        <link uin="Lujnvd9egyvukdhj7lsk8">
             <property name="$metaclass" value="TransitionLink20"/>
-            <node uin="Nttifwdegrzd3dlireuej">
+            <property name="__trigger" value="Dauerauftrag wird erfasst "/>
+            <node uin="Nttifwdeh36iut3-97j9fs">
                 <property name="$name" value="guard"/>
                 <property name="$metaclass" value="Constraint"/>
-                <node uin="Nul14qaegrzd3dl7notuv">
+                <node uin="Nul14qaeh36iutd-j8b6wd">
                     <property name="$name" value="ValueSpecification1"/>
                     <property name="$metaclass" value="ValueSpecification"/>
-                    <property name="body" value="kein aktiver Dauerauftrag."/>
+                    <property name="body" value="läuftVon &lt;= aktuelles Datum"/>
                 </node>
             </node>
             <participant referencedUin="design:node:::-3uf15degrz63uw-uih4ws" role="Client"/>
             <participant referencedUin="design:node:::-3uf15degrz7ukl-vo3ran" role="Supplier"/>
         </link>
-        <link uin="Lujnvd9egrzdmkaps1wn1">
+        <link uin="Lujnvd9egyvy4wy-h1my42">
             <property name="$metaclass" value="TransitionLink20"/>
+            <property name="__trigger" value="löschen "/>
+            <node uin="Nttifwdeh36m20g-l4umuk">
+                <property name="$name" value="guard"/>
+                <property name="$metaclass" value="Constraint"/>
+                <node uin="Nul14qaeh36m20gtvb1a4">
+                    <property name="$name" value="ValueSpecification1"/>
+                    <property name="$metaclass" value="ValueSpecification"/>
+                    <property name="body" value="letzteSpende + n Monate &lt; aktuelles Datum"/>
+                </node>
+            </node>
             <participant referencedUin="design:node:::-3uf15degrz63uw-uih4ws" role="Client"/>
-            <participant referencedUin="design:node:::-3uf15degrzdadc-ae1w4d" role="Supplier"/>
+            <participant referencedUin="design:node:::6drk9legyvxzydcbp662" role="Supplier"/>
         </link>
     </node>
     <node uin="-3uf15degrz7ukl-vo3ran">
         <property name="$metaclass" value="State20"/>
-        <property name="$name" value="inaktiv"/>
+        <property name="$name" value="aktiv"/>
         <node uin="-acitv2egrz7ukv-dhemuz">
             <property name="$metaclass" value="Region20"/>
             <property name="$name" value="Region20"/>
         </node>
+        <link uin="Lujnvd9egyvvteeb4i9do">
+            <property name="$metaclass" value="TransitionLink20"/>
+            <property name="__trigger" value="Spender wird gesperrt "/>
+            <participant referencedUin="design:node:::-3uf15degrz7ukl-vo3ran" role="Client"/>
+            <participant referencedUin="design:node:::-3uf15degrzdadc-ae1w4d" role="Supplier"/>
+        </link>
+        <link uin="Lujnvd9egyvwrmqmgfzva">
+            <property name="$metaclass" value="TransitionLink20"/>
+            <property name="__trigger" value="Dauerauftrag läuft ab "/>
+            <node uin="Nttifwdeh36iabd-9m8lw4">
+                <property name="$name" value="guard"/>
+                <property name="$metaclass" value="Constraint"/>
+                <node uin="Nul14qaeh36iabd-57rpv3">
+                    <property name="$name" value="ValueSpecification1"/>
+                    <property name="$metaclass" value="ValueSpecification"/>
+                    <property name="body" value="läuftBis &lt; aktuelles Datum"/>
+                </node>
+            </node>
+            <participant referencedUin="design:node:::-3uf15degrz7ukl-vo3ran" role="Client"/>
+            <participant referencedUin="design:node:::-3uf15degrz63uw-uih4ws" role="Supplier"/>
+        </link>
     </node>
     <node uin="-3uf15degrzdadc-ae1w4d">
         <property name="$metaclass" value="State20"/>
@@ -193,5 +250,45 @@
             <property name="$metaclass" value="Region20"/>
             <property name="$name" value="Region20"/>
         </node>
+        <link uin="Lujnvd9egyvwflc-12skck">
+            <property name="$metaclass" value="TransitionLink20"/>
+            <property name="__trigger" value="stornieren aller Daueraufträge "/>
+            <participant referencedUin="design:node:::-3uf15degrzdadc-ae1w4d" role="Client"/>
+            <participant referencedUin="design:node:::-3uf15degrz63uw-uih4ws" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="1g64yegyv3ts132347n">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note2"/>
+        <property name="$note_text" value="Neue Spendenaktion &#10;wird erfasst"/>
+        <link uin="Lr7pm3wegyvay8homxfad">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::1g64yegyv3ts132347n" role="Client"/>
+            <participant referencedUin="design:node:::k9ofrlegrt0yera6kgge" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="1g64yegyvry5n-wa7qhd">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note3"/>
+        <property name="$note_text" value="Spender &#10;wird erfasst"/>
+        <link uin="Lr7pm3wegyvsjo368mc7c">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::1g64yegyvry5n-wa7qhd" role="Client"/>
+            <participant referencedUin="design:node:::k9ofrlegrz29x5-zcxc12" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="6drk9legyvxzydcbp662">
+        <property name="$metaclass" value="FinalState20"/>
+        <property name="$name" value="Final2"/>
+    </node>
+    <node uin="1g64yegzjpab1hj2xdg">
+        <property name="$metaclass" value="Note"/>
+        <property name="$name" value="Note4"/>
+        <property name="$note_text" value="Spender &#10;ist gelöscht"/>
+        <link uin="Lr7pm3wegzjpt81-icqfde">
+            <property name="$metaclass" value="Note Link"/>
+            <participant referencedUin="design:node:::1g64yegzjpab1hj2xdg" role="Client"/>
+            <participant referencedUin="design:node:::6drk9legyvxzydcbp662" role="Supplier"/>
+        </link>
     </node>
 </nodeSet>
