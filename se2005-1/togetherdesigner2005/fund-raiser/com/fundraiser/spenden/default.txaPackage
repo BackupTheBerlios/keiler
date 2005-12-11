@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <nodeSet version="1.0">
     <node uin="N-tdsqjueg2d9ong-mchulk">
         <property name="$metaclass" value="Class20"/>
@@ -120,12 +120,24 @@
         <node uin="Ntq87glegzf3140vi1yum">
             <property name="$name" value="getAlleDaueraufträge"/>
             <property name="$metaclass" value="Operation20"/>
+            <property name="mod__returnType" value="Dauerauftrag[]"/>
         </node>
     </node>
     <node uin="N-tdsqjueg2d9w0j-pldpk1">
         <property name="$metaclass" value="Class20"/>
         <property name="$language" value="design"/>
         <property name="$name" value="SpenderProfil"/>
+        <node uin="Nhnimszeh35l25g-f5k142">
+            <property name="$name" value="letzteSpenden"/>
+            <property name="$metaclass" value="Property20"/>
+            <property name="mod__type" value="String"/>
+        </node>
+        <node uin="Lhnimszeh35kh67-mez9i3">
+            <property name="$name" value="spendenVerhalten"/>
+            <property name="$metaclass" value="Property20"/>
+            <property name="$language" value="design"/>
+            <property name="mod__type" value="Integer"/>
+        </node>
     </node>
     <node uin="N-tdsqjueg2dadt6-lhohp">
         <property name="$metaclass" value="Class20"/>
@@ -275,14 +287,14 @@
             <property name="$metaclass" value="Property20"/>
             <property name="mod__type" value="String"/>
         </node>
-        <node uin="Nhnimszeg2e8b9l-bt7e9s">
-            <property name="$name" value="austrittAm"/>
+        <node uin="Nhnimszeh35b7qt-79ej5t">
+            <property name="$name" value="eintrittAm"/>
             <property name="$metaclass" value="Property20"/>
             <property name="$language" value="design"/>
             <property name="mod__type" value="Date"/>
         </node>
-        <node uin="Nhnimszeg2e8b9lesj7rp">
-            <property name="$name" value="eintrittAm"/>
+        <node uin="Nhnimszeg2e8b9l-bt7e9s">
+            <property name="$name" value="austrittAm"/>
             <property name="$metaclass" value="Property20"/>
             <property name="$language" value="design"/>
             <property name="mod__type" value="Date"/>
