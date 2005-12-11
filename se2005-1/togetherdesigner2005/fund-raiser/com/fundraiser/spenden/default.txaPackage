@@ -111,40 +111,16 @@
             <participant referencedUin="design:node:::N-tdsqjueg2d9rxy-knziwg" role="Client"/>
             <participant referencedUin="design:node:::-tdsqjueg2a7nqmm1bsfd" role="Supplier"/>
         </link>
-        <node uin="Ntq87gleg2d9rxygtgqs1">
-            <property name="$name" value="neuerDauerauftrag"/>
+        <node uin="Ntq87glegyvzv5efzf3ei">
+            <property name="$name" value="sperren"/>
             <property name="$metaclass" value="Operation20"/>
             <property name="mod_Visibility" value="$public"/>
             <property name="mod__returnType" value="boolean"/>
         </node>
-        <node uin="Ntq87gleg7zotie-wtu9ud">
-            <property name="$name" value="sucheSpende"/>
-            <property name="$metaclass" value="Operation20"/>
-            <property name="mod_Visibility" value="$public"/>
-        </node>
-        <node uin="Ntq87glegrzg8zm-piyrur">
-            <property name="$name" value="löscheDauerauftrag"/>
+        <node uin="Ntq87glegzf3140vi1yum">
+            <property name="$name" value="getAlleDaueraufträge"/>
             <property name="$metaclass" value="Operation20"/>
         </node>
-        <node uin="Ntq87gleg2d9rxyqj6ko1">
-            <property name="$name" value="storniereDauerauftrag"/>
-            <property name="$metaclass" value="Operation20"/>
-            <property name="$language" value="design"/>
-            <property name="mod_Visibility" value="$public"/>
-            <node uin="L-5kd6yfeg6xzfy7-bkh5l">
-                <property name="$name" value="spende"/>
-                <property name="$metaclass" value="Parameter"/>
-                <property name="mod__typeReferencedElement" value="design:node:::N-tdsqjueg2d9ong-mchulk"/>
-                <property name="mod__type" value="Spende"/>
-            </node>
-        </node>
-        <link uin="L-4dc66egrzng88dbudh1">
-            <property name="$metaclass" value="KernelAssociation20"/>
-            <property name="supplierCardinality" value="0..*"/>
-            <property name="clientCardinality" value="0..*"/>
-            <participant referencedUin="design:node:::N-tdsqjueg2d9rxy-knziwg" role="Client"/>
-            <participant referencedUin="design:node:::N-tdsqjueg2e8b9lkt4xhe" role="Supplier"/>
-        </link>
     </node>
     <node uin="N-tdsqjueg2d9w0j-pldpk1">
         <property name="$metaclass" value="Class20"/>
@@ -176,6 +152,11 @@
             <property name="$metaclass" value="Property20"/>
             <property name="$language" value="design"/>
             <property name="mod__type" value="String"/>
+        </node>
+        <node uin="Nhnimszegzgxitc4f09ao">
+            <property name="$name" value="anteil"/>
+            <property name="$metaclass" value="Property20"/>
+            <property name="mod__type" value="Integer"/>
         </node>
         <node uin="Nhnimszeg2dadt6-w8shhu">
             <property name="$name" value="kategorie"/>
@@ -260,18 +241,16 @@
             <property name="mod__returnTypeReferencedElement" value="design:node:::N-tdsqjueg2d9ong-mchulk"/>
             <property name="mod__returnType" value="Spende"/>
         </node>
+        <node uin="Ntq87glegzjeppex8jia9">
+            <property name="$name" value="löschen"/>
+            <property name="$metaclass" value="Operation20"/>
+        </node>
         <node uin="Ntq87gleg2damze2hjrbw">
             <property name="$name" value="stornieren"/>
             <property name="$metaclass" value="Operation20"/>
             <property name="$language" value="design"/>
             <property name="mod_Visibility" value="$public"/>
             <property name="mod__returnType" value="boolean"/>
-        </node>
-        <node uin="Ntq87gleg7zokog-ykc0h9">
-            <property name="$name" value="alleSpenden"/>
-            <property name="$metaclass" value="Operation20"/>
-            <property name="$language" value="design"/>
-            <property name="mod_Visibility" value="$public"/>
         </node>
     </node>
     <node uin="N-tdsqjueg2e8b9lkt4xhe">
@@ -320,10 +299,12 @@
             <property name="$language" value="design"/>
             <property name="mod__type" value="String"/>
         </node>
-        <node uin="Ltq87glegrztbm1bdjeux">
-            <property name="$name" value="neuerSpender"/>
-            <property name="$metaclass" value="Operation20"/>
-            <property name="$language" value="design"/>
-        </node>
+        <link uin="L-4dc66egyuy583esnu0b">
+            <property name="$metaclass" value="KernelAssociation20"/>
+            <property name="clientCardinality" value="0..*"/>
+            <property name="supplierCardinality" value="1"/>
+            <participant referencedUin="design:node:::N-tdsqjueg2e8b9lkt4xhe" role="Client"/>
+            <participant referencedUin="design:node:::N-tdsqjueg2damze-9yw4lk" role="Supplier"/>
+        </link>
     </node>
 </nodeSet>

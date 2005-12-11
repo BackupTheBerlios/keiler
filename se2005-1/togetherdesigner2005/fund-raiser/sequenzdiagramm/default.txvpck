@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="V1hexuhefqrjwgtkixss">
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$metaclass" value="ClassDiagram20"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.pattern.expanded = true &#xA;toolbar.group.ocl.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;option.layout.recursive = false &#xA;"/>
+        <reference referencedUin="design:view:::Vam8ynkefqrx1lm-9hxeey">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="230,136,200,48"/>
+        </reference>
+        <reference referencedUin="design:view:::Vam8ynkeg0tm6s6dhv35m">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="212,194,155,48"/>
+        </reference>
+        <reference referencedUin="design:view:::Vam8ynkeg0v2ptq3b5sd8">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="20,136,158,48"/>
+        </reference>
+        <reference referencedUin="design:view:::Vam8ynkeg6yjoxrg66g3a">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="395,20,197,48"/>
+        </reference>
+        <reference referencedUin="design:view:::Vam8ynkeg0vw8pn-wlx12p">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="148,20,200,48"/>
+        </reference>
+        <reference referencedUin="design:view:::Vam8ynkeg1ceux39fsjt5">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="270,20,157,48"/>
+        </reference>
+        <reference referencedUin="design:view:::Vam8ynkeg0schof-7peir6">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="230,78,200,48"/>
+        </reference>
+        <reference referencedUin="design:view:::Vam8ynkeg6xux4flq51r8">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="20,78,200,48"/>
+        </reference>
+        <reference referencedUin="design:view:::Vam8ynkefqry442vesyb1">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="20,20,160,48"/>
+        </reference>
+        <reference referencedUin="design:view:::Vam8ynkeg1ayn7k7l8u1q">
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="351,78,155,38"/>
+        </reference>
+        <reference referencedUin="design:view:::Vam8ynkeg6wdkuht74olh">
+            <property name="$shortcutReference" value=""/>
+            <property name="@location_set_by_user" value="true"/>
+            <property name="bounds" value="20,194,182,48"/>
+        </reference>
+    </view>
+</nodeSet>

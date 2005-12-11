@@ -3,9 +3,14 @@
 <project>
   <property category="config" name="genHTML.launchBrowser" value="true"/>
   <property category="config" name="model_navigator.Navigator_Model_Root.Model.&lt;default&gt;.sequenzdiagramm.SequenceDiagram20" value="expanded"/>
-  <property category="config" name="option.confirmation.shortcut.delete.choice" value="shortcut"/>
+  <property category="config" name="option.confirmation.shortcut.delete.choice" value="element"/>
+  <property category="config" name="option.curve" value="false"/>
+  <property category="config" name="option.links.bannedDestination.1" value=""/>
   <property category="config" name="option.model.createStandaloneDesignElements" value="false"/>
   <property category="config" name="options.umlVersion" value="20"/>
+  <property category="config" name="print.preview.scale" value="50"/>
+  <property category="config" name="profilesettings.profile.umlincolor.enabled" value="false"/>
+  <property category="config" name="project_browser.groupingMinimum" value="10"/>
   <property category="path" name="DocPath" value="doc"/>
   <property category="personality" name="personality" value="com.togethersoft.modules.primetimebridge.personality.UML14Personality "/>
   <property category="sys" name="DefaultDiagram" value="."/>

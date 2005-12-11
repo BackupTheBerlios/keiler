@@ -68,11 +68,11 @@
             </reference>
             <reference referencedUin="design:node:::N-y8nsoweg1cfcbk-5m6yvu:-yrgd8eeg1bbbsj-syoxmj">
                 <property name="@location_set_by_user" value="true"/>
-                <property name="bounds" value="482,10,178,354"/>
+                <property name="bounds" value="482,10,92,354"/>
                 <property name="bounds_setted_by_user" value="true"/>
                 <reference referencedUin="design:node:::Nc87hzveg1cibfxupgxfu:N-y8nsoweg1cfcbk-5m6yvu:-yrgd8eeg1bbbsj-syoxmj">
                     <property name="@location_set_by_user" value="true"/>
-                    <property name="bounds" value="79,116,20,66"/>
+                    <property name="bounds" value="36,116,20,66"/>
                     <property name="bounds_setted_by_user" value="true"/>
                     <reference referencedUin="design:node:::Nl2gqtveg1cj7oh7j5dhm:Nc87hzveg1cibfxupgxfu:N-y8nsoweg1cfcbk-5m6yvu:-yrgd8eeg1bbbsj-syoxmj">
                         <property name="@location_set_by_user" value="true"/>
@@ -92,11 +92,11 @@
             <property name="@location_set_by_user" value="false"/>
             <property name="sourceAnchor" value="116,126"/>
             <property name="bendpoints" value=""/>
-            <property name="targetAnchor" value="561,126"/>
+            <property name="targetAnchor" value="518,126"/>
         </reference>
         <reference referencedUin="sd20_message|1|call|106(design:node:::Nl2gqtveg1cj7oh7j5dhm:Nc87hzveg1cibfxupgxfu:N-y8nsoweg1cfcbk-5m6yvu:-yrgd8eeg1bbbsj-syoxmj)">
             <property name="@location_set_by_user" value="false"/>
-            <property name="sourceAnchor" value="581,152"/>
+            <property name="sourceAnchor" value="538,152"/>
             <property name="bendpoints" value=""/>
             <property name="targetAnchor" value="813,152"/>
         </reference>
@@ -126,7 +126,7 @@
         </reference>
         <reference referencedUin="sd20_message|1|reply|106(design:node:::Nl2gqtveg1cj7oh7j5dhm:Nc87hzveg1cibfxupgxfu:N-y8nsoweg1cfcbk-5m6yvu:-yrgd8eeg1bbbsj-syoxmj)">
             <property name="@location_set_by_user" value="false"/>
-            <property name="sourceAnchor" value="581,176"/>
+            <property name="sourceAnchor" value="538,176"/>
             <property name="bendpoints" value=""/>
             <property name="targetAnchor" value="813,176"/>
         </reference>
@@ -134,7 +134,7 @@
             <property name="@location_set_by_user" value="false"/>
             <property name="sourceAnchor" value="116,192"/>
             <property name="bendpoints" value=""/>
-            <property name="targetAnchor" value="561,192"/>
+            <property name="targetAnchor" value="518,192"/>
         </reference>
         <reference referencedUin="sd20_message|1|reply|108(design:node:::Nl2gqtveg1ciyo4-eoc4k9:Nc87hzveg1citz0-3y92gi:N-y8nsoweg1bclxj-s9yzl7:-yrgd8eeg1bbbsj-syoxmj)">
             <property name="@location_set_by_user" value="false"/>

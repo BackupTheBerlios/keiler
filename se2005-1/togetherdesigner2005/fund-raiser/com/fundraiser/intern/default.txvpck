@@ -33,12 +33,12 @@
         </reference>
         <reference referencedUin="design:node:::N-tdsqjueg2euiul31xktm">
             <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="271,205,116,125"/>
+            <property name="bounds" value="271,205,116,77"/>
             <reference referencedUin="design:link:::Lfwefh6eg2euiul-a3y6xi:N-tdsqjueg2euiul31xktm">
                 <property name="@location_set_by_user" value="false"/>
-                <property name="sourceAnchor" value="329,205"/>
+                <property name="sourceAnchor" value="328,205"/>
                 <property name="bendpoints" value=""/>
-                <property name="targetAnchor" value="329,145"/>
+                <property name="targetAnchor" value="328,145"/>
             </reference>
         </reference>
         <reference referencedUin="design:node:::-tdsqjuefco5j92-dpw1s0">

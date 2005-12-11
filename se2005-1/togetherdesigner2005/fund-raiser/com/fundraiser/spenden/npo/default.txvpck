@@ -7,12 +7,12 @@
         <property name="@__options" value="option.layout.recursive = false &#xA;toolbar.group.#DEFAULT.expanded = true &#xA;toolbar.buttonRunCount = 2 &#xA;toolbar.group.pattern.expanded = true &#xA;toolbar.group.ocl.expanded = true &#xA;toolbar.group.note.expanded = true &#xA;scrollX = 0 &#xA;scrollY = 0 &#xA;zoomFactor = 1.0 &#xA;"/>
         <reference referencedUin="design:node:::N-tdsqjueg2djmjt-53xm5r">
             <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="10,10,171,109"/>
+            <property name="bounds" value="10,10,171,141"/>
             <reference referencedUin="design:link:::L-4dc66eg2djmk3-2m5rf1:N-tdsqjueg2djmjt-53xm5r">
                 <property name="@location_set_by_user" value="false"/>
-                <property name="sourceAnchor" value="98,119"/>
+                <property name="sourceAnchor" value="100,151"/>
                 <property name="bendpoints" value=""/>
-                <property name="targetAnchor" value="98,200"/>
+                <property name="targetAnchor" value="100,200"/>
             </reference>
             <reference referencedUin="design:link:::L-4dc66eg2djmk3sjnry1:N-tdsqjueg2djmjt-53xm5r">
                 <property name="@location_set_by_user" value="false"/>
@@ -23,7 +23,7 @@
         </reference>
         <reference referencedUin="design:node:::N-tdsqjueg2djmk3-aln0u0">
             <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="261,10,96,77"/>
+            <property name="bounds" value="261,10,99,77"/>
         </reference>
         <reference referencedUin="design:node:::N-tdsqjueg2n6ck0-sq8pws">
             <property name="@location_set_by_user" value="true"/>
@@ -31,15 +31,15 @@
         </reference>
         <reference referencedUin="design:node:::N-tdsqjueg2eypt2inffsw">
             <property name="@location_set_by_user" value="true"/>
-            <property name="bounds" value="20,200,166,285"/>
+            <property name="bounds" value="20,200,134,237"/>
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkClientMultiplicity:design:link:::L-4dc66eg2djmk3-2m5rf1:N-tdsqjueg2djmjt-53xm5r">
             <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="101,123,26,16"/>
+            <property name="bounds" value="183,86,26,16"/>
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkSupplierMultiplicity:design:link:::L-4dc66eg2djmk3-2m5rf1:N-tdsqjueg2djmjt-53xm5r">
             <property name="@location_set_by_user" value="false"/>
-            <property name="bounds" value="101,174,15,16"/>
+            <property name="bounds" value="103,174,15,16"/>
         </reference>
         <reference referencedUin="label:$inplace_AssociatesLinkSupplierMultiplicity:design:link:::L-4dc66eg2djmk3sjnry1:N-tdsqjueg2djmjt-53xm5r">
             <property name="@location_set_by_user" value="false"/>
